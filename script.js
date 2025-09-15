@@ -2,7 +2,6 @@
 const CONFIG = {
   ORCID: "0000-0001-5375-2335",
   GITHUB_USERNAME: "matheusglls",
-  WOS_PEER_REVIEWS_OVERRIDE: null,  // set a number if you want it shown
   OSF_NODES: ["5k9yv"]
 };
 // ==================
@@ -10,19 +9,17 @@ const CONFIG = {
 document.addEventListener("DOMContentLoaded", () => {
   const els = {
     tabs: document.querySelectorAll(".tab"),
-    underline: document.querySelector(".tab-underline"),
     panels: document.querySelectorAll(".panel"),
     pubList: document.getElementById("pub-list"),
     preList: document.getElementById("preprint-list"),
+    protocolList: document.getElementById("protocol-list"),
     yearFilter: document.getElementById("pub-year-filter"),
     sortSel: document.getElementById("pub-sort"),
     latestHighlight: document.getElementById("latest-highlight"),
     countPubs: document.getElementById("count-pubs"),
     countPreprints: document.getElementById("count-preprints"),
-    countBiorxiv: document.getElementById("count-biorxiv"),
+    countProtocols: document.getElementById("count-protocols"),
     totalCitations: document.getElementById("total-citations"),
-    hIndex: document.getElementById("h-index"),
-    wosPeerReviews: document.getElementById("wos-peer-reviews"),
     ghAvatar: document.getElementById("gh-avatar"),
     orcidLink: document.getElementById("orcidLink"),
     orcidLink2: document.getElementById("orcidLink2"),
@@ -30,10 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     projectList: document.getElementById("project-list")
   };
 
-  // footer year
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  // header links (this is why your chips were blank before)
   els.orcidLink.href = `https://orcid.org/${CONFIG.ORCID}`;
   els.orcidLink.textContent = `ORCID ${CONFIG.ORCID}`;
   els.orcidLink2.href = `https://orcid.org/${CONFIG.ORCID}`;
@@ -41,203 +35,172 @@ document.addEventListener("DOMContentLoaded", () => {
   els.githubLink.href = `https://github.com/${CONFIG.GITHUB_USERNAME}`;
   els.githubLink.textContent = CONFIG.GITHUB_USERNAME;
 
-  // tabs (this didn't work before because JS crashed on top-level await)
-  let activeTabBtn = document.querySelector(".tab.active");
-  function moveUnderline() {
-    const r = activeTabBtn.getBoundingClientRect();
-    const pr = activeTabBtn.parentElement.getBoundingClientRect();
-    const left = r.left - pr.left + 8;
-    const width = r.width - 16;
-    els.underline.style.transform = `translateX(${left}px)`;
-    els.underline.style.width = `${width}px`;
-  }
+  // Tabs (CSS handles underline now)
   document.querySelectorAll(".tabs .tab").forEach(btn=>{
     btn.addEventListener("click", ()=>{
-      if(btn===activeTabBtn) return;
-      activeTabBtn.classList.remove("active");
+      const active = document.querySelector(".tabs .tab.active");
+      if(btn===active) return;
+      active.classList.remove("active");
       btn.classList.add("active");
-      activeTabBtn = btn; moveUnderline();
       const tab = btn.dataset.tab;
       document.querySelectorAll(".panel").forEach(p=>p.classList.remove("active"));
       document.getElementById(tab).classList.add("active");
     });
   });
-  setTimeout(moveUnderline, 60);
 
-  // GitHub avatar
+  // Avatar (GitHub)
   fetch(`https://api.github.com/users/${CONFIG.GITHUB_USERNAME}`)
-    .then(r=>r.json())
-    .then(j=>{ if(j.avatar_url) els.ghAvatar.src = j.avatar_url; })
-    .catch(()=>{});
+    .then(r=>r.json()).then(j=>{ if(j.avatar_url) els.ghAvatar.src = j.avatar_url; }).catch(()=>{});
 
-  // ---------- Data pipeline ----------
-  let PUBS = [], PREPRINTS = [];
+  // ---- Data helpers ----
+  let PUBS = [], PREPRINTS = [], PROTOCOLS = [];
+  const isBioOrMed = v => /bioRxiv|medRxiv/i.test(v || "");
+  const isProtocolsDoi = doi => typeof doi === "string" && doi.toLowerCase().includes("10.17504/protocols.io");
+  const yearOf = y => Number.isFinite(y) ? y : null;
 
-  const extId = (externalIds, type) => {
-    const ids = externalIds?.["external-id"] || [];
-    const found = ids.find(x => (x["external-id-type"]||"").toLowerCase()===type);
-    return found?.["external-id-value"] || null;
-  };
-  const workType = w => (w?.type || "").toLowerCase();
-  const pubYear = w => w?.["publication-date"]?.year?.value || null;
-  const isBio = doi => typeof doi==="string" && doi.startsWith("10.1101/");
-
-  const makeCardHTML = it => {
-    const venue = it.journal ? ` · <span class="meta">${it.journal}</span>` : "";
+  const makeCard = it => {
+    const venue = it.venue ? ` · <span class="meta">${it.venue}</span>` : "";
     const cites = Number.isFinite(it.citations) ? `<span class="badge">Citations: ${it.citations}</span>` : "";
-    const year = it.published ? `<span class="badge">Year: ${it.published}</span>` : "";
-    const doi = it.doi ? `<a href="https://doi.org/${it.doi}" target="_blank" rel="noopener">DOI</a>` : "";
-    const badges = [ it.type==="preprint" ? (it.is_bio ? "bioRxiv/medRxiv" : "Preprint") : "Journal article" ];
-    return `
-      <article class="item">
-        <h4><a href="${it.url || (it.doi ? `https://doi.org/${it.doi}` : "#")}" target="_blank" rel="noopener">${it.title || "Untitled"}</a></h4>
-        <div class="meta">${[it.authors || "", it.published || "", venue].filter(Boolean).join(" ")}</div>
-        <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${year}${cites}</div>
-        <div>${doi}</div>
-      </article>`;
+    const year = it.year ? `<span class="badge">Year: ${it.year}</span>` : "";
+    const badges = it.badges?.length ? it.badges.map(b=>`<span class="badge">${b}</span>`).join("") : "";
+    return `<article class="item">
+      <h4><a href="${it.url}" target="_blank" rel="noopener">${it.title || "Untitled"}</a></h4>
+      <div class="meta">${[it.authors || "", it.year || "", venue].filter(Boolean).join(" ")}</div>
+      <div class="badges">${badges}${year}${cites}</div>
+    </article>`;
   };
-  const renderList = (el, items)=>{ el.classList.remove("skeleton"); el.innerHTML = items.map(makeCardHTML).join(""); };
-  const uniqueYears = items => [...new Set(items.map(x=>x.published).filter(Boolean))].sort((a,b)=>b-a);
+  const render = (el, arr)=>{ el.classList.remove("skeleton"); el.innerHTML = arr.map(makeCard).join(""); };
+  const uniqueYears = arr => [...new Set(arr.map(x=>x.year).filter(Boolean))].sort((a,b)=>b-a);
 
-  async function getORCIDWorks(orcid){
-    const r = await fetch(`https://pub.orcid.org/v3.0/${orcid}/works`, {headers:{Accept:"application/json"}});
-    if(!r.ok) throw new Error("ORCID fetch failed");
-    return r.json();
+  // OpenAlex works for an ORCID (cursor pagination)
+  async function getOpenAlexWorks(orcid){
+    const out = [];
+    let cursor = "*";
+    const base = `https://api.openalex.org/works?filter=author.orcid:${orcid}&per-page=200&select=title,publication_year,type,display_name,authorships,host_venue,best_oa_location,primary_location,doi,cited_by_count`;
+    for(let i=0;i<5;i++){
+      const r = await fetch(`${base}&cursor=${encodeURIComponent(cursor)}`);
+      if(!r.ok) break;
+      const j = await r.json();
+      (j.results||[]).forEach(w=> out.push(w));
+      if(!j.meta?.next_cursor) break;
+      cursor = j.meta.next_cursor;
+    }
+    return out;
   }
-  async function enrichWithCrossref(item){
-    if(!item.doi) return item;
-    const doiEnc = encodeURIComponent(item.doi);
-    try{
-      const r = await fetch(`https://api.crossref.org/works/${doiEnc}`);
-      if(!r.ok) return item;
-      const m = (await r.json()).message;
-      item.journal = (m["container-title"]||[])[0] || item.journal;
-      item.title = (Array.isArray(m.title) ? m.title[0] : m.title) || item.title;
-      item.published = (m["issued"]?.["date-parts"]?.[0]||[])[0] || item.published;
-      item.citations = m["is-referenced-by-count"] ?? item.citations;
-      item.url = m.URL || item.url;
-      const authorNames = (m.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(" ")).filter(Boolean);
-      if(authorNames.length) item.authors = authorNames.join(", ");
-    }catch(_){}
-    return item;
+  function normFromOpenAlex(w){
+    const url = w.best_oa_location?.url || w.primary_location?.landing_page_url || (w.doi ? `https://doi.org/${w.doi}` : "#");
+    const venue = w.host_venue?.display_name || null;
+    const authors = (w.authorships||[]).map(a=>a.author?.display_name).filter(Boolean).join(", ");
+    const title = w.title || w.display_name;
+    const year = yearOf(w.publication_year);
+    const doi = (w.doi || "").toLowerCase();
+    const isProtocol = isProtocolsDoi(doi);
+    const isPreprint = w.type === "posted-content" || isBioOrMed(venue) || /^10\.1101\//.test(doi);
+    const type = isProtocol ? "protocol" : (isPreprint ? "preprint" : "journal");
+    const badges = [];
+    if(isProtocol) badges.push("Protocol");
+    else if(isPreprint) badges.push(isBioOrMed(venue) || /^10\.1101\//.test(doi) ? "bioRxiv/medRxiv" : "Preprint");
+    else badges.push("Journal article");
+    return {type, title, year, doi, url, venue, authors, citations: w.cited_by_count ?? null, badges};
   }
-  async function getOpenAlexAuthorByORCID(orcid){
-    try{
-      const r = await fetch(`https://api.openalex.org/authors/https://orcid.org/${orcid}`);
-      if(!r.ok) return null;
-      return r.json();
-    }catch(_){ return null; }
-  }
-  async function getBioRxivDoisByORCID(orcid){
-    const dois = new Set();
+
+  // bioRxiv by ORCID ⇒ include missing preprints
+  async function getBiorxivPreprints(orcid){
+    const items = [];
     try{
       const r = await fetch(`https://api.biorxiv.org/details/orcid/${orcid}/0`);
-      if(!r.ok) return dois;
+      if(!r.ok) return items;
       const j = await r.json();
-      (j.collection||[]).forEach(x=>{ if(x.doi) dois.add(x.doi.toLowerCase()); });
+      (j.collection||[]).forEach(x=>{
+        const doi = (x.doi||"").toLowerCase();
+        items.push({
+          type:"preprint",
+          title:x.title,
+          year:yearOf(Number(x.date?.slice(0,4))),
+          doi,
+          url:`https://doi.org/${x.doi}`,
+          venue:"bioRxiv",
+          authors:x.authors,
+          citations:null,
+          badges:["bioRxiv/medRxiv"]
+        });
+      });
     }catch(_){}
-    return dois;
+    return items;
   }
-  async function getOSFNodeSummary(nodeId){
-    try{
-      const r = await fetch(`https://api.osf.io/v2/nodes/${nodeId}/`);
-      if(!r.ok) return null;
-      const j = await r.json();
-      return j.data;
-    }catch(_){ return null; }
+
+  // OSF nodes
+  async function osfNode(nodeId){
+    try{ const r = await fetch(`https://api.osf.io/v2/nodes/${nodeId}/`); if(!r.ok) return null; return (await r.json()).data; }
+    catch(_){ return null; }
   }
-  async function getOSFChildren(nodeId){
-    try{
-      const r = await fetch(`https://api.osf.io/v2/nodes/${nodeId}/children/`);
-      if(!r.ok) return [];
-      const j = await r.json();
-      return j.data || [];
-    }catch(_){ return []; }
+  async function osfChildren(nodeId){
+    try{ const r = await fetch(`https://api.osf.io/v2/nodes/${nodeId}/children/`); if(!r.ok) return []; return (await r.json()).data || []; }
+    catch(_){ return []; }
   }
 
   function applyPubFilters(){
     let arr = [...PUBS];
     const y = els.yearFilter.value;
-    if(y) arr = arr.filter(x=>String(x.published)===y);
-    const sort = els.sortSel.value;
-    if(sort==="year-desc") arr.sort((a,b)=> (b.published||0)-(a.published||0));
-    if(sort==="year-asc") arr.sort((a,b)=> (a.published||0)-(b.published||0));
-    if(sort==="cites-desc") arr.sort((a,b)=> (b.citations||0)-(a.citations||0));
-    if(sort==="cites-asc") arr.sort((a,b)=> (a.citations||0)-(b.citations||0));
-    renderList(els.pubList, arr);
+    if(y) arr = arr.filter(x=>String(x.year)===y);
+    const s = els.sortSel.value;
+    if(s==="year-desc") arr.sort((a,b)=> (b.year||0)-(a.year||0));
+    if(s==="year-asc")  arr.sort((a,b)=> (a.year||0)-(b.year||0));
+    if(s==="cites-desc")arr.sort((a,b)=> (b.citations||0)-(a.citations||0));
+    if(s==="cites-asc") arr.sort((a,b)=> (a.citations||0)-(b.citations||0));
+    render(els.pubList, arr);
   }
 
-  // run everything
   (async function init(){
     try{
-      const data = await getORCIDWorks(CONFIG.ORCID);
-      const groups = data.group || [];
-      const works = groups.map(g => g["work-summary"]?.[0]).filter(Boolean);
+      // OpenAlex-first dataset
+      const works = (await getOpenAlexWorks(CONFIG.ORCID)).map(normFromOpenAlex);
 
-      const jArticles = works.filter(w => workType(w)==="journal-article");
-      const preprints = works.filter(w => workType(w)==="preprint");
+      // Split
+      PROTOCOLS = works.filter(w=>w.type==="protocol");
+      PREPRINTS  = works.filter(w=>w.type==="preprint");
+      PUBS       = works.filter(w=>w.type==="journal");
 
-      const norm = (w, type)=>({
-        type,
-        title: w.title?.title?.value || "",
-        published: pubYear(w),
-        doi: (()=>{ let d = extId(w["external-ids"],"doi"); return d ? d.replace(/^doi:/i,"").trim() : null; })(),
-        url: w.url || null,
-        journal: w["journal-title"]?.value || null,
-        authors: "",
-        citations: null,
-        is_bio: false
-      });
+      // Add any bioRxiv items missing from OpenAlex
+      const bx = await getBiorxivPreprints(CONFIG.ORCID);
+      const existingDois = new Set(PREPRINTS.map(p=>p.doi));
+      bx.forEach(p=>{ if(p.doi && !existingDois.has(p.doi)) PREPRINTS.push(p); });
 
-      PUBS = jArticles.map(w => norm(w,"journal"));
-      PREPRINTS = preprints.map(w => norm(w,"preprint"));
-
-      const bioDois = await getBioRxivDoisByORCID(CONFIG.ORCID);
-      PREPRINTS.forEach(p=>{
-        p.is_bio = isBio(p.doi) || (p.doi && bioDois.has(p.doi.toLowerCase()));
-      });
-
-      await Promise.all(PUBS.map(enrichWithCrossref));
-      await Promise.all(PREPRINTS.map(enrichWithCrossref));
-
+      // Metrics
       els.countPubs.textContent = PUBS.length;
       els.countPreprints.textContent = PREPRINTS.length;
-      els.countBiorxiv.textContent = PREPRINTS.filter(p=>p.is_bio).length;
+      els.countProtocols.textContent = PROTOCOLS.length;
+      els.totalCitations.textContent = works.reduce((s,x)=> s + (x.citations||0), 0);
 
-      const totalCites = [...PUBS, ...PREPRINTS].reduce((s,x)=> s + (x.citations||0), 0);
-      els.totalCitations.textContent = totalCites;
+      // h-index
+      try{
+        const a = await fetch(`https://api.openalex.org/authors/https://orcid.org/${CONFIG.ORCID}`).then(r=>r.json());
+        if(a?.summary_stats?.h_index != null) els.hIndex.textContent = a.summary_stats.h_index;
+      }catch(_){}
 
-      const openalex = await getOpenAlexAuthorByORCID(CONFIG.ORCID);
-      if(openalex?.summary_stats?.h_index != null){
-        els.hIndex.textContent = openalex.summary_stats.h_index;
-      }
-
-      if(CONFIG.WOS_PEER_REVIEWS_OVERRIDE != null){
-        els.wosPeerReviews.textContent = CONFIG.WOS_PEER_REVIEWS_OVERRIDE;
-      } else {
-        els.wosPeerReviews.textContent = "—";
-      }
-
+      // Render lists
       const years = uniqueYears(PUBS);
       els.yearFilter.innerHTML = `<option value="">All</option>` + years.map(y=>`<option>${y}</option>`).join("");
       els.yearFilter.addEventListener("change", applyPubFilters);
       els.sortSel.addEventListener("change", applyPubFilters);
       applyPubFilters();
 
-      renderList(els.preList, PREPRINTS);
+      render(els.preList, PREPRINTS.sort((a,b)=> (b.year||0)-(a.year||0)));
+      render(els.protocolList, PROTOCOLS.sort((a,b)=> (b.year||0)-(a.year||0)));
 
-      const latest = [...PUBS, ...PREPRINTS].sort((a,b)=> (b.published||0)-(a.published||0))[0];
+      // Latest highlight
+      const latest = [...PUBS, ...PREPRINTS, ...PROTOCOLS].sort((a,b)=> (b.year||0)-(a.year||0))[0];
       if(latest){
-        els.latestHighlight.innerHTML = `<li><a href="${latest.url || (latest.doi?`https://doi.org/${latest.doi}`:'#')}" target="_blank" rel="noopener">${latest.title}</a> (${latest.published||'—'})</li>`;
+        els.latestHighlight.innerHTML = `<li><a href="${latest.url}" target="_blank" rel="noopener">${latest.title}</a> (${latest.year||"—"})</li>`;
       }
 
       // OSF project(s)
       const osfItems = [];
       for(const node of CONFIG.OSF_NODES){
-        const main = await getOSFNodeSummary(node);
+        const main = await osfNode(node);
         if(main){
           osfItems.push({ title: main.attributes.title || "OSF Project", url: `https://osf.io/${node}`, desc: main.attributes.description || "", badge: "OSF Project" });
-          const kids = await getOSFChildren(node);
+          const kids = await osfChildren(node);
           kids.forEach(k=> osfItems.push({ title: k.attributes.title, url: `https://osf.io/${k.id}`, desc: k.attributes.description || "", badge: "Component" }));
         }
       }
@@ -251,12 +214,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }catch(err){
       console.error(err);
-      els.pubList.classList.remove("skeleton");
-      els.preList.classList.remove("skeleton");
-      els.projectList.classList.remove("skeleton");
-      els.pubList.innerHTML = `<p>Could not load publications from ORCID. Check your ORCID in <code>script.js</code>.</p>`;
-      els.preList.innerHTML = `<p>Could not load preprints.</p>`;
-      els.projectList.innerHTML = `<p>Could not load OSF projects.</p>`;
+      [els.pubList,els.preList,els.protocolList,els.projectList].forEach(el=>{el.classList.remove("skeleton");});
+      els.pubList.innerHTML = `<p>Could not load items. Check your network and try again.</p>`;
     }
   })();
 });
