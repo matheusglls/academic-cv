@@ -1,19 +1,16 @@
 :root{
-  /* Palette — you said you like the background, not the header.
-     So header is now light by default; greens as accents. Tweak freely. */
-  --bg: #e7f3e1;         /* soft tint you liked */
-  --card: rgba(255,255,255,0.82);
-  --text: #1c2418;
-  --muted: #4e5a49;
+  /* You liked the background but not the header. Header is neutral; green is accent only. */
+  --bg: #e7f3e1;         /* soft tint background */
+  --card: rgba(255,255,255,0.86);
+  --text: #1b2416;
+  --muted: #51604b;
   --accent: #6f8f4f;     /* buttons/links accent */
-  --accent-2: #365b2c;   /* deeper accent for hover/badges */
+  --accent-2: #2f4d24;   /* deeper accent for hovers/badges */
   --chip: #a8c48a;
 
-  /* Header (now neutral, not dark green) */
-  --header-bg: #ffffffcc;
-  --header-border: #b7c7ad;
+  --header-bg: #ffffffd6;
+  --header-border: #c9d7c0;
 
-  /* Shadows & blur */
   --shadow: 0 10px 30px rgba(0,0,0,0.08);
   --blur: saturate(1.1) blur(4px);
 }
@@ -43,14 +40,26 @@ body{
   background:var(--bg);
 }
 
-/* Decorative background */
+/* Background styles (pick in footer) */
 .bg-pattern{
-  position:fixed; inset:0;
+  position:fixed; inset:0; z-index:-2; transition:background 300ms ease;
+}
+body[data-bg="blobs"] .bg-pattern{
   background:
-   radial-gradient(1000px 600px at 10% -20%, #b9d3a7 0%, transparent 55%),
+   radial-gradient(900px 600px at 10% -20%, #b9d3a7 0%, transparent 55%),
    radial-gradient(900px 600px at 120% 10%, #cfe3c2 0%, transparent 50%),
    radial-gradient(600px 500px at -10% 100%, #dbeed0 0%, transparent 50%);
-  z-index:-2;
+}
+body[data-bg="waves"] .bg-pattern{
+  background:
+    linear-gradient(135deg, #d8e9ce 0%, #f1f7ec 40%, #e1efd7 100%),
+    repeating-linear-gradient(135deg, rgba(0,0,0,0.02) 0 8px, transparent 8px 16px);
+}
+body[data-bg="grid"] .bg-pattern{
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,.03) 1px, transparent 1px);
+  background-size: 26px 26px, 26px 26px;
 }
 .noise{
   position:fixed; inset:0; z-index:-1;
@@ -131,9 +140,10 @@ select{padding:6px 8px; border-radius:10px; border:1px solid #c7d4be; background
   display:flex; justify-content:space-between; align-items:center; padding:16px;
   color:var(--muted)
 }
-.theme-picker button{
+.picker-wrap button{
   margin-left:6px; border:1px solid #cbd7c2; background:white; border-radius:999px; padding:6px 10px; cursor:pointer
 }
+.picker-wrap .spacer{display:inline-block; width:10px}
 
 /* skeleton */
 .skeleton::after{
