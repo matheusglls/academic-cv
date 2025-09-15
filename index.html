@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matheus Gallas Lopes – Academic CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Matheus Gallas Lopes</h1>
+    <p>PhD Candidate in Pharmacology – UFRGS</p>
+    <nav>
+      <button class="tablink" onclick="openTab('home')">Home</button>
+      <button class="tablink" onclick="openTab('publications')">Publications</button>
+      <button class="tablink" onclick="openTab('preprints')">Preprints</button>
+      <button class="tablink" onclick="openTab('primers')">Primers</button>
+      <button class="tablink" onclick="openTab('projects')">Projects</button>
+      <button class="tablink" onclick="openTab('contact')">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="tabcontent" style="display:block;">
+      <h2>About Me</h2>
+      <p>Pharmacist (UFRGS) and PhD candidate in Biological Sciences: Pharmacology and Therapeutics. 
+         Researcher in neuropharmacology, zebrafish behavior, reproducibility, and systematic reviews.</p>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="tabcontent">
+      <h2>Publications</h2>
+      <ul id="pub-list"></ul>
+    </section>
+
+    <!-- PREPRINTS -->
+    <section id="preprints" class="tabcontent">
+      <h2>Preprints</h2>
+      <ul id="preprint-list"></ul>
+    </section>
+
+    <!-- PRIMERS -->
+    <section id="primers" class="tabcontent">
+      <h2>Primers & Methods</h2>
+      <p>Examples: systematic reviews, protocols, tutorials.</p>
+      <ul id="primer-list"></ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="tabcontent">
+      <h2>Projects</h2>
+      <ul id="project-list"></ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="tabcontent">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:matheus_gl@hotmail.com">matheus_gl@hotmail.com</a></p>
+      <p>ORCID: <a href="https://orcid.org/0000-0001-5375-2335" target="_blank">0000-0001-5375-2335</a></p>
+      <p>Google Scholar: <a href="https://scholar.google.com/citations?user=-bnP544AAAAJ" target="_blank">Profile</a></p>
+      <p>Lattes: <a href="https://lattes.cnpq.br/4154743414245084" target="_blank">CV</a></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
