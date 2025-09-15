@@ -1,66 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Matheus Gallas Lopes – Academic CV</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <title>Matheus Gallas Lopes — Academic CV</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://api.github.com">
+  <link rel="preconnect" href="https://pub.orcid.org">
+  <link rel="preconnect" href="https://api.openalex.org">
+  <link rel="preconnect" href="https://api.crossref.org">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Matheus Gallas Lopes</h1>
-    <p>PhD Candidate in Pharmacology – UFRGS</p>
-    <nav>
-      <button class="tablink" onclick="openTab('home')">Home</button>
-      <button class="tablink" onclick="openTab('publications')">Publications</button>
-      <button class="tablink" onclick="openTab('preprints')">Preprints</button>
-      <button class="tablink" onclick="openTab('primers')">Primers</button>
-      <button class="tablink" onclick="openTab('projects')">Projects</button>
-      <button class="tablink" onclick="openTab('contact')">Contact</button>
-    </nav>
+  <!-- Decorative background -->
+  <div class="bg-pattern" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="avatar-wrap">
+      <img id="gh-avatar" class="avatar" alt="Profile picture" />
+    </div>
+    <div>
+      <h1 class="title">Matheus Gallas Lopes</h1>
+      <p class="subtitle">Neuropharmacology · Zebrafish Behavior · Reproducibility</p>
+    </div>
+    <div class="links">
+      <a id="orcidLink" class="chip" target="_blank" rel="noopener">ORCID</a>
+      <a class="chip" href="https://scholar.google.com/citations?user=-bnP544AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="chip" href="https://lattes.cnpq.br/4154743414245084" target="_blank" rel="noopener">Lattes</a>
+      <a id="githubLink" class="chip" target="_blank" rel="noopener">GitHub</a>
+    </div>
   </header>
 
+  <nav class="tabs">
+    <button class="tab active" data-tab="home">Home</button>
+    <button class="tab" data-tab="publications">Publications</button>
+    <button class="tab" data-tab="preprints">Preprints</button>
+    <button class="tab" data-tab="primers">Primers</button>
+    <button class="tab" data-tab="projects">Projects</button>
+    <button class="tab" data-tab="metrics">Metrics</button>
+    <button class="tab" data-tab="contact">Contact</button>
+    <span class="tab-underline"></span>
+  </nav>
+
   <main>
-    <!-- HOME -->
-    <section id="home" class="tabcontent" style="display:block;">
-      <h2>About Me</h2>
-      <p>Pharmacist (UFRGS) and PhD candidate in Biological Sciences: Pharmacology and Therapeutics. 
-         Researcher in neuropharmacology, zebrafish behavior, reproducibility, and systematic reviews.</p>
+    <section id="home" class="panel active">
+      <div class="card">
+        <h2>About</h2>
+        <p>
+          Pharmacist (UFRGS) and PhD candidate in Pharmacology and Therapeutics.
+          My work spans neuropharmacology, zebrafish behavior, reproducibility, and evidence synthesis
+          (systematic reviews/meta-analyses).
+        </p>
+      </div>
+      <div class="grid two">
+        <div class="card">
+          <h3>Latest highlight</h3>
+          <ul id="latest-highlight" class="list"></ul>
+        </div>
+        <div class="card">
+          <h3>News</h3>
+          <ul id="news" class="list">
+            <li>Early Career Award — SIRS (2024)</li>
+            <li>IBRO Travel Award (2024)</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <!-- PUBLICATIONS -->
-    <section id="publications" class="tabcontent">
-      <h2>Publications</h2>
-      <ul id="pub-list"></ul>
+    <section id="publications" class="panel">
+      <div class="card">
+        <div class="row">
+          <h2>Publications (Journal Articles)</h2>
+          <div class="filters">
+            <label>
+              Year
+              <select id="pub-year-filter"></select>
+            </label>
+            <label>
+              Sort
+              <select id="pub-sort">
+                <option value="year-desc">Year ↓</option>
+                <option value="year-asc">Year ↑</option>
+                <option value="cites-desc">Citations ↓</option>
+                <option value="cites-asc">Citations ↑</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div id="pub-list" class="cards-list skeleton"></div>
+      </div>
     </section>
 
-    <!-- PREPRINTS -->
-    <section id="preprints" class="tabcontent">
-      <h2>Preprints</h2>
-      <ul id="preprint-list"></ul>
+    <section id="preprints" class="panel">
+      <div class="card">
+        <h2>Preprints</h2>
+        <p class="muted">Auto-detected from ORCID; bioRxiv/medRxiv flagged and enriched.</p>
+        <div id="preprint-list" class="cards-list skeleton"></div>
+      </div>
     </section>
 
-    <!-- PRIMERS -->
-    <section id="primers" class="tabcontent">
-      <h2>Primers & Methods</h2>
-      <p>Examples: systematic reviews, protocols, tutorials.</p>
-      <ul id="primer-list"></ul>
+    <section id="primers" class="panel">
+      <div class="card">
+        <h2>Primers & How-tos</h2>
+        <ul id="primer-list" class="cards-list">
+          <!-- You can add Zenodo/OSF primers here later -->
+        </ul>
+      </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="tabcontent">
-      <h2>Projects</h2>
-      <ul id="project-list"></ul>
+    <section id="projects" class="panel">
+      <div class="card">
+        <h2>Projects & Data</h2>
+        <ul id="project-list" class="cards-list">
+          <!-- Optional: fill via OSF once username is provided -->
+        </ul>
+      </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="tabcontent">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:matheus_gl@hotmail.com">matheus_gl@hotmail.com</a></p>
-      <p>ORCID: <a href="https://orcid.org/0000-0001-5375-2335" target="_blank">0000-0001-5375-2335</a></p>
-      <p>Google Scholar: <a href="https://scholar.google.com/citations?user=-bnP544AAAAJ" target="_blank">Profile</a></p>
-      <p>Lattes: <a href="https://lattes.cnpq.br/4154743414245084" target="_blank">CV</a></p>
+    <section id="metrics" class="panel">
+      <div class="card">
+        <h2>Metrics</h2>
+        <div class="grid three">
+          <div class="metric">
+            <div class="metric-number" id="count-pubs">—</div>
+            <div class="metric-label">Journal articles (ORCID)</div>
+          </div>
+          <div class="metric">
+            <div class="metric-number" id="count-preprints">—</div>
+            <div class="metric-label">Preprints (ORCID)</div>
+          </div>
+          <div class="metric">
+            <div class="metric-number" id="h-index">—</div>
+            <div class="metric-label">h-index (OpenAlex)</div>
+          </div>
+          <div class="metric">
+            <div class="metric-number" id="total-citations">—</div>
+            <div class="metric-label">Total citations (Crossref)</div>
+          </div>
+          <div class="metric">
+            <div class="metric-number" id="wos-peer-reviews">—</div>
+            <div class="metric-label">Peer reviews (Web of Science)</div>
+          </div>
+        </div>
+        <p class="muted small">
+          Notes: h-index and global counts use public open APIs (OpenAlex/Crossref). Web of Science peer-review counts require a Publons/WoS profile or API key; see comments in <code>script.js</code>.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:matheus_gl@hotmail.com">matheus_gl@hotmail.com</a></p>
+        <p>ORCID: <a id="orcidLink2" target="_blank" rel="noopener"></a></p>
+        <p>Google Scholar: <a href="https://scholar.google.com/citations?user=-bnP544AAAAJ" target="_blank" rel="noopener">Profile</a></p>
+        <p>Lattes: <a href="https://lattes.cnpq.br/4154743414245084" target="_blank" rel="noopener">CV</a></p>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year"></span> Matheus Gallas Lopes</div>
+    <div class="theme-picker">
+      Theme:
+      <button data-theme="light">Light</button>
+      <button data-theme="forest">Forest</button>
+      <button data-theme="sand">Sand</button>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
