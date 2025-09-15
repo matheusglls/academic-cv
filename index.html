@@ -5,14 +5,12 @@
   <title>Matheus Gallas Lopes — Academic CV</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="preconnect" href="https://api.github.com">
-  <link rel="preconnect" href="https://pub.orcid.org">
   <link rel="preconnect" href="https://api.openalex.org">
   <link rel="preconnect" href="https://api.crossref.org">
   <link rel="preconnect" href="https://api.biorxiv.org">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Decorative background (kept as-is) -->
   <div class="bg-pattern" aria-hidden="true"></div>
   <div class="noise" aria-hidden="true"></div>
 
@@ -24,8 +22,6 @@
       <h1 class="title">Matheus Gallas Lopes</h1>
       <p class="subtitle">Neuropharmacology · Zebrafish Behavior · Reproducibility</p>
     </div>
-
-    <!-- working chips -->
     <div class="links">
       <a id="orcidLink" class="chip" target="_blank" rel="noopener">ORCID</a>
       <a id="githubLink" class="chip" target="_blank" rel="noopener">GitHub</a>
@@ -41,21 +37,19 @@
     <button class="tab active" data-tab="home">Home</button>
     <button class="tab" data-tab="publications">Publications</button>
     <button class="tab" data-tab="preprints">Preprints</button>
-    <button class="tab" data-tab="primers">Primers</button>
+    <button class="tab" data-tab="protocols">Protocols</button>
     <button class="tab" data-tab="projects">Projects</button>
     <button class="tab" data-tab="metrics">Metrics</button>
     <button class="tab" data-tab="contact">Contact</button>
-    <span class="tab-underline"></span>
   </nav>
 
   <main>
     <section id="home" class="panel active">
       <div class="card">
         <h2>About</h2>
-        <p>
-          Pharmacist (UFRGS) and PhD candidate in Pharmacology and Therapeutics.
-          I work on neuropharmacology, zebrafish behavior, reproducibility, and evidence synthesis
-          (systematic reviews/meta-analyses).
+        <p>Pharmacist (UFRGS) and PhD candidate in Pharmacology and Therapeutics.
+           I work on neuropharmacology, zebrafish behavior, reproducibility, and evidence synthesis
+           (systematic reviews/meta-analyses).
         </p>
       </div>
       <div class="grid two">
@@ -65,7 +59,7 @@
         </div>
         <div class="card">
           <h3>News</h3>
-          <ul id="news" class="list">
+          <ul class="list">
             <li>Early Career Award — SIRS (2024)</li>
             <li>IBRO Travel Award (2024)</li>
           </ul>
@@ -100,21 +94,15 @@
     <section id="preprints" class="panel">
       <div class="card">
         <h2>Preprints</h2>
-        <p class="muted">Pulled from ORCID and cross-checked with bioRxiv/medRxiv.</p>
+        <p class="muted">From OpenAlex + bioRxiv/medRxiv (by ORCID) to avoid ORCID “merges”.</p>
         <div id="preprint-list" class="cards-list skeleton"></div>
       </div>
     </section>
 
-    <section id="primers" class="panel">
+    <section id="protocols" class="panel">
       <div class="card">
-        <h2>Primers & Protocols</h2>
-        <ul id="primer-list" class="cards-list">
-          <li class="item">
-            <h4><a href="https://www.protocols.io/researchers/m4ule1y1s1v4yle1" target="_blank" rel="noopener">Protocols.io — Matheus Gallas Lopes</a></h4>
-            <div class="meta">Methods & protocols collection</div>
-            <div class="badges"><span class="badge">Protocols.io</span></div>
-          </li>
-        </ul>
+        <h2>Protocols</h2>
+        <ul id="protocol-list" class="cards-list skeleton"></ul>
       </div>
     </section>
 
@@ -129,14 +117,12 @@
       <div class="card">
         <h2>Metrics</h2>
         <div class="grid three">
-          <div class="metric"><div class="metric-number" id="count-pubs">—</div><div class="metric-label">Journal articles (ORCID)</div></div>
-          <div class="metric"><div class="metric-number" id="count-preprints">—</div><div class="metric-label">Preprints (ORCID)</div></div>
-          <div class="metric"><div class="metric-number" id="count-biorxiv">—</div><div class="metric-label">bioRxiv/medRxiv matched</div></div>
+          <div class="metric"><div class="metric-number" id="count-pubs">—</div><div class="metric-label">Journal articles</div></div>
+          <div class="metric"><div class="metric-number" id="count-preprints">—</div><div class="metric-label">Preprints</div></div>
+          <div class="metric"><div class="metric-number" id="count-protocols">—</div><div class="metric-label">Protocols</div></div>
           <div class="metric"><div class="metric-number" id="h-index">—</div><div class="metric-label">h-index (OpenAlex)</div></div>
-          <div class="metric"><div class="metric-number" id="total-citations">—</div><div class="metric-label">Total citations (Crossref)</div></div>
-          <div class="metric"><div class="metric-number" id="wos-peer-reviews">—</div><div class="metric-label">Peer reviews (Web of Science)</div></div>
+          <div class="metric"><div class="metric-number" id="total-citations">—</div><div class="metric-label">Total citations (OpenAlex)</div></div>
         </div>
-        <p class="muted small">WoS peer-review counts require an API route or manual override (see <code>script.js</code>).</p>
       </div>
     </section>
 
