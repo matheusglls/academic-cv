@@ -11,8 +11,8 @@
   <link rel="preconnect" href="https://api.biorxiv.org">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-theme="light" data-bg="blobs">
-  <!-- Decorative background layers -->
+<body>
+  <!-- Decorative background (kept as-is) -->
   <div class="bg-pattern" aria-hidden="true"></div>
   <div class="noise" aria-hidden="true"></div>
 
@@ -24,11 +24,16 @@
       <h1 class="title">Matheus Gallas Lopes</h1>
       <p class="subtitle">Neuropharmacology · Zebrafish Behavior · Reproducibility</p>
     </div>
+
+    <!-- working chips -->
     <div class="links">
       <a id="orcidLink" class="chip" target="_blank" rel="noopener">ORCID</a>
+      <a id="githubLink" class="chip" target="_blank" rel="noopener">GitHub</a>
+      <a class="chip" href="https://researchgate.net/profile/Matheus-Gallas-Lopes" target="_blank" rel="noopener">ResearchGate</a>
+      <a class="chip" href="https://osf.io/5k9yv" target="_blank" rel="noopener">OSF</a>
+      <a class="chip" href="https://www.protocols.io/researchers/m4ule1y1s1v4yle1" target="_blank" rel="noopener">protocols.io</a>
       <a class="chip" href="https://scholar.google.com/citations?user=-bnP544AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
       <a class="chip" href="https://lattes.cnpq.br/4154743414245084" target="_blank" rel="noopener">Lattes</a>
-      <a id="githubLink" class="chip" target="_blank" rel="noopener">GitHub</a>
     </div>
   </header>
 
@@ -95,7 +100,7 @@
     <section id="preprints" class="panel">
       <div class="card">
         <h2>Preprints</h2>
-        <p class="muted">Pulled from ORCID and cross-checked against bioRxiv/medRxiv.</p>
+        <p class="muted">Pulled from ORCID and cross-checked with bioRxiv/medRxiv.</p>
         <div id="preprint-list" class="cards-list skeleton"></div>
       </div>
     </section>
@@ -124,35 +129,14 @@
       <div class="card">
         <h2>Metrics</h2>
         <div class="grid three">
-          <div class="metric">
-            <div class="metric-number" id="count-pubs">—</div>
-            <div class="metric-label">Journal articles (ORCID)</div>
-          </div>
-          <div class="metric">
-            <div class="metric-number" id="count-preprints">—</div>
-            <div class="metric-label">Preprints (ORCID)</div>
-          </div>
-          <div class="metric">
-            <div class="metric-number" id="count-biorxiv">—</div>
-            <div class="metric-label">bioRxiv/medRxiv matched</div>
-          </div>
-          <div class="metric">
-            <div class="metric-number" id="h-index">—</div>
-            <div class="metric-label">h-index (OpenAlex)</div>
-          </div>
-          <div class="metric">
-            <div class="metric-number" id="total-citations">—</div>
-            <div class="metric-label">Total citations (Crossref)</div>
-          </div>
-          <div class="metric">
-            <div class="metric-number" id="wos-peer-reviews">—</div>
-            <div class="metric-label">Peer reviews (Web of Science)</div>
-          </div>
+          <div class="metric"><div class="metric-number" id="count-pubs">—</div><div class="metric-label">Journal articles (ORCID)</div></div>
+          <div class="metric"><div class="metric-number" id="count-preprints">—</div><div class="metric-label">Preprints (ORCID)</div></div>
+          <div class="metric"><div class="metric-number" id="count-biorxiv">—</div><div class="metric-label">bioRxiv/medRxiv matched</div></div>
+          <div class="metric"><div class="metric-number" id="h-index">—</div><div class="metric-label">h-index (OpenAlex)</div></div>
+          <div class="metric"><div class="metric-number" id="total-citations">—</div><div class="metric-label">Total citations (Crossref)</div></div>
+          <div class="metric"><div class="metric-number" id="wos-peer-reviews">—</div><div class="metric-label">Peer reviews (Web of Science)</div></div>
         </div>
-        <p class="muted small">
-          Notes: h-index & citation counts use public open APIs (OpenAlex/Crossref). Web of Science peer-review counts
-          need an API route or manual override (see <code>script.js</code>).
-        </p>
+        <p class="muted small">WoS peer-review counts require an API route or manual override (see <code>script.js</code>).</p>
       </div>
     </section>
 
@@ -169,18 +153,7 @@
   </main>
 
   <footer class="site-footer">
-    <div>© <span id="year"></span> Matheus Gallas Lopes</div>
-    <div class="picker-wrap">
-      Theme:
-      <button data-theme="light">Light</button>
-      <button data-theme="forest">Forest</button>
-      <button data-theme="sand">Sand</button>
-      <span class="spacer"></span>
-      Background:
-      <button data-bg="blobs">Blobs</button>
-      <button data-bg="waves">Waves</button>
-      <button data-bg="grid">Grid</button>
-    </div>
+    <div>© <span id="year"></span> Matheus Gallas Lopes — <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></div>
   </footer>
 
   <script src="script.js"></script>
