@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e7f3e1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #365b2c;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+.tablink {
+  background-color: #6f8f4f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.tablink:hover {
+  background-color: #849c5f;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
