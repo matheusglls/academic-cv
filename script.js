@@ -1,8 +1,15 @@
 // ===== CONFIG =====
 const CONFIG = {
+  // Preferred: your OpenAlex author ID (more complete than ORCID filter)
+  OPENALEX_AUTHOR_ID: "A5058545919",
+  // Also keep ORCID as a fallback
   ORCID: "0000-0001-5375-2335",
+  // Profile
   GITHUB_USERNAME: "matheusglls",
-  OSF_NODES: ["5k9yv"]
+  // Data
+  OSF_NODES: ["5k9yv"],
+  // Recommended for OpenAlex reliability
+  MAILTO: "matheusgallasl@gmail.com"
 };
 // ==================
 
@@ -27,15 +34,16 @@ document.addEventListener("DOMContentLoaded", () => {
     projectList: document.getElementById("project-list")
   };
 
+  // Footer year + header chip links (chip text is fixed: "ORCID" and "GitHub")
   document.getElementById("year").textContent = new Date().getFullYear();
   els.orcidLink.href = `https://orcid.org/${CONFIG.ORCID}`;
-  els.orcidLink.textContent = `ORCID ${CONFIG.ORCID}`;
+  els.orcidLink.textContent = "ORCID";
   els.orcidLink2.href = `https://orcid.org/${CONFIG.ORCID}`;
   els.orcidLink2.textContent = CONFIG.ORCID;
   els.githubLink.href = `https://github.com/${CONFIG.GITHUB_USERNAME}`;
-  els.githubLink.textContent = CONFIG.GITHUB_USERNAME;
+  els.githubLink.textContent = "GitHub";
 
-  // Tabs (CSS handles underline now)
+  // Tabs
   document.querySelectorAll(".tabs .tab").forEach(btn=>{
     btn.addEventListener("click", ()=>{
       const active = document.querySelector(".tabs .tab.active");
@@ -48,15 +56,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Avatar (GitHub)
+  // GitHub avatar
   fetch(`https://api.github.com/users/${CONFIG.GITHUB_USERNAME}`)
-    .then(r=>r.json()).then(j=>{ if(j.avatar_url) els.ghAvatar.src = j.avatar_url; }).catch(()=>{});
+    .then(r=>r.json())
+    .then(j=>{ if(j.avatar_url) els.ghAvatar.src = j.avatar_url; })
+    .catch(()=>{});
 
-  // ---- Data helpers ----
-  let PUBS = [], PREPRINTS = [], PROTOCOLS = [];
+  // ---------- Helpers ----------
+  const yearOf = y => Number.isFinite(y) ? y : null;
   const isBioOrMed = v => /bioRxiv|medRxiv/i.test(v || "");
   const isProtocolsDoi = doi => typeof doi === "string" && doi.toLowerCase().includes("10.17504/protocols.io");
-  const yearOf = y => Number.isFinite(y) ? y : null;
 
   const makeCard = it => {
     const venue = it.venue ? ` · <span class="meta">${it.venue}</span>` : "";
@@ -69,14 +78,21 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="badges">${badges}${year}${cites}</div>
     </article>`;
   };
-  const render = (el, arr)=>{ el.classList.remove("skeleton"); el.innerHTML = arr.map(makeCard).join(""); };
+  const render = (el, arr, emptyMsg="No items found.")=>{
+    el.classList.remove("skeleton");
+    el.innerHTML = arr.length ? arr.map(makeCard).join("") : `<p class="muted">${emptyMsg}</p>`;
+  };
   const uniqueYears = arr => [...new Set(arr.map(x=>x.year).filter(Boolean))].sort((a,b)=>b-a);
 
-  // OpenAlex works for an ORCID (cursor pagination)
-  async function getOpenAlexWorks(orcid){
+  // ---------- Primary: OpenAlex ----------
+  async function getOpenAlexWorks(){
     const out = [];
     let cursor = "*";
-    const base = `https://api.openalex.org/works?filter=author.orcid:${orcid}&per-page=200&select=title,publication_year,type,display_name,authorships,host_venue,best_oa_location,primary_location,doi,cited_by_count`;
+    const mail = encodeURIComponent(CONFIG.MAILTO || "openalex@example.com");
+    const authorFilter = CONFIG.OPENALEX_AUTHOR_ID
+      ? `author.id:${CONFIG.OPENALEX_AUTHOR_ID}`
+      : `author.orcid:${CONFIG.ORCID}`;
+    const base = `https://api.openalex.org/works?filter=${authorFilter}&per-page=200&mailto=${mail}&select=title,publication_year,type,display_name,authorships,host_venue,best_oa_location,primary_location,doi,cited_by_count`;
     for(let i=0;i<5;i++){
       const r = await fetch(`${base}&cursor=${encodeURIComponent(cursor)}`);
       if(!r.ok) break;
@@ -88,7 +104,9 @@ document.addEventListener("DOMContentLoaded", () => {
     return out;
   }
   function normFromOpenAlex(w){
-    const url = w.best_oa_location?.url || w.primary_location?.landing_page_url || (w.doi ? `https://doi.org/${w.doi}` : "#");
+    const url = w.best_oa_location?.url
+             || w.primary_location?.landing_page_url
+             || (w.doi ? `https://doi.org/${w.doi}` : "#");
     const venue = w.host_venue?.display_name || null;
     const authors = (w.authorships||[]).map(a=>a.author?.display_name).filter(Boolean).join(", ");
     const title = w.title || w.display_name;
@@ -104,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return {type, title, year, doi, url, venue, authors, citations: w.cited_by_count ?? null, badges};
   }
 
-  // bioRxiv by ORCID ⇒ include missing preprints
+  // bioRxiv ORCID merge guard — add anything OpenAlex missed
   async function getBiorxivPreprints(orcid){
     const items = [];
     try{
@@ -129,7 +147,36 @@ document.addEventListener("DOMContentLoaded", () => {
     return items;
   }
 
-  // OSF nodes
+  // ---------- Fallback: ORCID -> Crossref ----------
+  async function getORCIDWorks(orcid){
+    const r = await fetch(`https://pub.orcid.org/v3.0/${orcid}/works`, {headers:{Accept:"application/json"}});
+    if(!r.ok) throw new Error("ORCID fetch failed");
+    return r.json();
+  }
+  function extId(externalIds, type){
+    const ids = externalIds?.["external-id"] || [];
+    const found = ids.find(x => (x["external-id-type"]||"").toLowerCase()===type);
+    return found?.["external-id-value"] || null;
+  }
+  async function crossrefEnrich(item){
+    if(!item.doi) return item;
+    const doiEnc = encodeURIComponent(item.doi);
+    try{
+      const r = await fetch(`https://api.crossref.org/works/${doiEnc}`);
+      if(!r.ok) return item;
+      const m = (await r.json()).message;
+      item.venue = (m["container-title"]||[])[0] || item.venue;
+      item.title = (Array.isArray(m.title) ? m.title[0] : m.title) || item.title;
+      item.year = (m["issued"]?.["date-parts"]?.[0]||[])[0] || item.year;
+      item.citations = m["is-referenced-by-count"] ?? item.citations;
+      item.url = m.URL || item.url;
+      const authorNames = (m.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(" ")).filter(Boolean);
+      if(authorNames.length) item.authors = authorNames.join(", ");
+    }catch(_){}
+    return item;
+  }
+
+  // ---------- OSF ----------
   async function osfNode(nodeId){
     try{ const r = await fetch(`https://api.osf.io/v2/nodes/${nodeId}/`); if(!r.ok) return null; return (await r.json()).data; }
     catch(_){ return null; }
@@ -139,6 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
     catch(_){ return []; }
   }
 
+  // ---------- Publications filters ----------
   function applyPubFilters(){
     let arr = [...PUBS];
     const y = els.yearFilter.value;
@@ -148,45 +196,106 @@ document.addEventListener("DOMContentLoaded", () => {
     if(s==="year-asc")  arr.sort((a,b)=> (a.year||0)-(b.year||0));
     if(s==="cites-desc")arr.sort((a,b)=> (b.citations||0)-(a.citations||0));
     if(s==="cites-asc") arr.sort((a,b)=> (a.citations||0)-(b.citations||0));
-    render(els.pubList, arr);
+    render(els.pubList, arr, "No publications yet.");
   }
 
+  // ---------- State ----------
+  let PUBS = [], PREPRINTS = [], PROTOCOLS = [];
+
+  // ---------- Init ----------
   (async function init(){
     try{
-      // OpenAlex-first dataset
-      const works = (await getOpenAlexWorks(CONFIG.ORCID)).map(normFromOpenAlex);
+      // OpenAlex first
+      let works = [];
+      try{
+        const raw = await getOpenAlexWorks();
+        works = raw.map(normFromOpenAlex);
+      }catch(_){ works = []; }
+
+      // Fallback if needed
+      if(works.length === 0){
+        try{
+          const data = await getORCIDWorks(CONFIG.ORCID);
+          const groups = data.group || [];
+          const summaries = groups.map(g => g["work-summary"]?.[0]).filter(Boolean);
+
+          const norm = (w, type)=>({
+            type,
+            title: w.title?.title?.value || "",
+            year: w?.["publication-date"]?.year?.value || null,
+            doi: (()=>{ let d = extId(w["external-ids"],"doi"); return d ? d.replace(/^doi:/i,"").trim().toLowerCase() : null; })(),
+            url: w.url || null,
+            venue: w["journal-title"]?.value || null,
+            authors: "",
+            citations: null,
+            badges: []
+          });
+
+          const jArts = summaries
+            .filter(w => (w?.type||"").toLowerCase()==="journal-article")
+            .map(w=>norm(w,"journal"));
+          const pres  = summaries
+            .filter(w => (w?.type||"").toLowerCase()==="preprint")
+            .map(w=>norm(w,"preprint"));
+          const prots = summaries
+            .map(w=>norm(w,"journal"))
+            .filter(x=> isProtocolsDoi(x.doi))
+            .map(x=>({...x, type:"protocol"}));
+
+          await Promise.all(jArts.map(crossrefEnrich));
+          await Promise.all(pres.map(crossrefEnrich));
+          await Promise.all(prots.map(crossrefEnrich));
+
+          jArts.forEach(x=>x.badges=["Journal article"]);
+          pres.forEach(x=> x.badges=[/^10\.1101\//.test(x.doi||"") ? "bioRxiv/medRxiv" : "Preprint"]);
+          prots.forEach(x=> x.badges=["Protocol"]);
+
+          works = [...jArts, ...pres, ...prots];
+        }catch(_){
+          works = [];
+        }
+      }
 
       // Split
       PROTOCOLS = works.filter(w=>w.type==="protocol");
-      PREPRINTS  = works.filter(w=>w.type==="preprint");
-      PUBS       = works.filter(w=>w.type==="journal");
+      PREPRINTS = works.filter(w=>w.type==="preprint");
+      PUBS      = works.filter(w=>w.type==="journal");
 
-      // Add any bioRxiv items missing from OpenAlex
-      const bx = await getBiorxivPreprints(CONFIG.ORCID);
-      const existingDois = new Set(PREPRINTS.map(p=>p.doi));
-      bx.forEach(p=>{ if(p.doi && !existingDois.has(p.doi)) PREPRINTS.push(p); });
+      // Merge extra bioRxiv items
+      try{
+        const bx = await getBiorxivPreprints(CONFIG.ORCID);
+        const existingDois = new Set(PREPRINTS.map(p=>p.doi));
+        bx.forEach(p=>{ if(p.doi && !existingDois.has(p.doi)) PREPRINTS.push(p); });
+      }catch(_){}
 
       // Metrics
       els.countPubs.textContent = PUBS.length;
       els.countPreprints.textContent = PREPRINTS.length;
       els.countProtocols.textContent = PROTOCOLS.length;
-      els.totalCitations.textContent = works.reduce((s,x)=> s + (x.citations||0), 0);
 
-      // h-index
+      // Author-level metrics (h-index, total citations)
       try{
-        const a = await fetch(`https://api.openalex.org/authors/https://orcid.org/${CONFIG.ORCID}`).then(r=>r.json());
-        if(a?.summary_stats?.h_index != null) els.hIndex.textContent = a.summary_stats.h_index;
-      }catch(_){}
+        const mail = encodeURIComponent(CONFIG.MAILTO || "openalex@example.com");
+        const authorURL = CONFIG.OPENALEX_AUTHOR_ID
+          ? `https://api.openalex.org/authors/${CONFIG.OPENALEX_AUTHOR_ID}?mailto=${mail}`
+          : `https://api.openalex.org/authors/https://orcid.org/${CONFIG.ORCID}?mailto=${mail}`;
+        const a = await fetch(authorURL).then(r=>r.json());
+        if (a?.summary_stats?.h_index != null) document.getElementById("h-index").textContent = a.summary_stats.h_index;
+        if (typeof a?.cited_by_count === "number") els.totalCitations.textContent = a.cited_by_count;
+        else els.totalCitations.textContent = [...PUBS, ...PREPRINTS, ...PROTOCOLS].reduce((s,x)=> s + (x.citations||0), 0);
+      }catch(_){
+        els.totalCitations.textContent = [...PUBS, ...PREPRINTS, ...PROTOCOLS].reduce((s,x)=> s + (x.citations||0), 0);
+      }
 
-      // Render lists
+      // Render
       const years = uniqueYears(PUBS);
       els.yearFilter.innerHTML = `<option value="">All</option>` + years.map(y=>`<option>${y}</option>`).join("");
       els.yearFilter.addEventListener("change", applyPubFilters);
       els.sortSel.addEventListener("change", applyPubFilters);
       applyPubFilters();
 
-      render(els.preList, PREPRINTS.sort((a,b)=> (b.year||0)-(a.year||0)));
-      render(els.protocolList, PROTOCOLS.sort((a,b)=> (b.year||0)-(a.year||0)));
+      render(els.preList, PREPRINTS.sort((a,b)=> (b.year||0)-(a.year||0)), "No preprints yet.");
+      render(els.protocolList, PROTOCOLS.sort((a,b)=> (b.year||0)-(a.year||0)), "No protocols yet.");
 
       // Latest highlight
       const latest = [...PUBS, ...PREPRINTS, ...PROTOCOLS].sort((a,b)=> (b.year||0)-(a.year||0))[0];
@@ -194,28 +303,48 @@ document.addEventListener("DOMContentLoaded", () => {
         els.latestHighlight.innerHTML = `<li><a href="${latest.url}" target="_blank" rel="noopener">${latest.title}</a> (${latest.year||"—"})</li>`;
       }
 
-      // OSF project(s)
+      // OSF projects/components
       const osfItems = [];
       for(const node of CONFIG.OSF_NODES){
-        const main = await osfNode(node);
-        if(main){
-          osfItems.push({ title: main.attributes.title || "OSF Project", url: `https://osf.io/${node}`, desc: main.attributes.description || "", badge: "OSF Project" });
+        try{
+          const main = await osfNode(node);
+          if(main){
+            osfItems.push({
+              title: main.attributes.title || "OSF Project",
+              url: `https://osf.io/${node}`,
+              desc: main.attributes.description || "",
+              badge: "OSF Project"
+            });
+          }
           const kids = await osfChildren(node);
-          kids.forEach(k=> osfItems.push({ title: k.attributes.title, url: `https://osf.io/${k.id}`, desc: k.attributes.description || "", badge: "Component" }));
-        }
+          kids.forEach(k=>{
+            osfItems.push({
+              title: k.attributes.title,
+              url: `https://osf.io/${k.id}`,
+              desc: k.attributes.description || "",
+              badge: "Component"
+            });
+          });
+        }catch(_){}
       }
       els.projectList.classList.remove("skeleton");
-      els.projectList.innerHTML = osfItems.map(i=>`
+      els.projectList.innerHTML = osfItems.length ? osfItems.map(i=>`
         <li class="item">
           <h4><a href="${i.url}" target="_blank" rel="noopener">${i.title}</a></h4>
           ${i.desc ? `<div class="meta">${i.desc}</div>` : ""}
           <div class="badges"><span class="badge">${i.badge}</span></div>
-        </li>`).join("");
+        </li>`).join("") : `<p class="muted">No OSF projects to display.</p>`;
 
     }catch(err){
       console.error(err);
-      [els.pubList,els.preList,els.protocolList,els.projectList].forEach(el=>{el.classList.remove("skeleton");});
-      els.pubList.innerHTML = `<p>Could not load items. Check your network and try again.</p>`;
+      // Ensure UI never stays in "loading"
+      [els.pubList, els.preList, els.protocolList, els.projectList].forEach(el=>{
+        el.classList.remove("skeleton");
+      });
+      els.pubList.innerHTML = `<p class="muted">Could not load publications right now.</p>`;
+      els.preList.innerHTML = `<p class="muted">Could not load preprints right now.</p>`;
+      els.protocolList.innerHTML = `<p class="muted">Could not load protocols right now.</p>`;
+      els.projectList.innerHTML = `<p class="muted">Could not load OSF projects right now.</p>`;
     }
   })();
 });
