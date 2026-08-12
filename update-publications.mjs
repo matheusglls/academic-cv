@@ -207,6 +207,15 @@ function classify(x) {
     v = (x.venue || "").toLowerCase(),
     d = x.doi || "";
   if (x.type === "Exclude") return "Exclude";
+  // Conference supplements and poster abstracts can be indexed as journal
+  // articles by Europe PMC/Crossref. They are not part of this site's outputs.
+  if (
+    /^\s*[a-z]?\d+\.?\s+/.test(t) &&
+    /(schizo|conference|congress|meeting|poster|abstract)/.test(v)
+  )
+    return "Exclude";
+  if (/\b(conference|congress|meeting) abstract\b|\bposter abstract\b/.test(t))
+    return "Exclude";
   if (d.includes("10.17504/protocols.io")) return "Protocol";
   if (/10\.(1101|64898|31222|2139)\//.test(d)) return "Preprint";
   if (x.type === "Preregistration") return "Preregistration";
@@ -225,8 +234,7 @@ function classify(x) {
   }
   return x.type === "Review" ? "Journal article" : x.type;
 }
-const seen = new Set(),
-  deduped = normalized
+const candidates = normalized
     .map((x) => ({
       ...x,
       title: clean(x.title),
@@ -234,18 +242,19 @@ const seen = new Set(),
       doi: (x.doi || "").replace(/^https?:\/\/(dx\.)?doi\.org\//, ""),
     }))
     .map((x) => ({ ...x, type: classify(x) }))
-    .filter((x) => {
-      if (!x.title || x.type === "Exclude") return false;
-      const titleKey = x.title
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, " ")
-        .trim();
-    const key = x.doi ? `doi:${x.doi}` : `title:${titleKey}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    })
+    .filter((x) => x.title && x.type !== "Exclude")
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+const seenDois = new Set(), seenVersions = new Set(), deduped = [];
+for (const x of candidates) {
+  const titleKey = x.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const versionKey = x.type === "Preregistration"
+    ? `registration:${x.id}`
+    : `${x.type}:${titleKey}`;
+  if ((x.doi && seenDois.has(x.doi)) || seenVersions.has(versionKey)) continue;
+  if (x.doi) seenDois.add(x.doi);
+  seenVersions.add(versionKey);
+  deduped.push(x);
+}
 if (!deduped.length)
   throw new Error(
     "No outputs were retrieved; refusing to overwrite the current data file.",

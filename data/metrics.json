@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12T11:05:45.670Z",
+  "generated_at": "2026-08-12T11:28:01.728Z",
   "counts": {
     "Preregistration": 40,
     "Preprint": 24,
-    "Journal article": 22,
+    "Journal article": 18,
     "Protocol": 15
   },
   "h_index": 12,
@@ -14,7 +14,7 @@
       "preprints": 1
     },
     "2020": {
-      "journals": 4,
+      "journals": 1,
       "preprints": 1
     },
     "2021": {
@@ -22,7 +22,7 @@
       "preprints": 4
     },
     "2022": {
-      "journals": 6,
+      "journals": 5,
       "preprints": 2
     },
     "2023": {

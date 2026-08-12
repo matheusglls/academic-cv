@@ -805,17 +805,6 @@
       "doi": ""
     },
     {
-      "id": "https://openalex.org/W4225674183",
-      "date": "2022-01-04",
-      "year": 2022,
-      "type": "Journal article",
-      "title": "Curcumin micronization by supercritical fluid: In vitro and in vivo biological relevance",
-      "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
-      "venue": "Industrial Crops and Products",
-      "url": "https://doi.org/10.1016/j.indcrop.2021.114501",
-      "doi": "10.1016/j.indcrop.2021.114501"
-    },
-    {
       "id": "https://openalex.org/W4200062570",
       "date": "2021-12-23",
       "year": 2021,
@@ -1067,39 +1056,6 @@
       "venue": "Trends in Psychiatry and Psychotherapy",
       "url": "https://doi.org/10.1590/2237-6089-2018-0027",
       "doi": "10.1590/2237-6089-2018-0027"
-    },
-    {
-      "id": "epmc:PMC7234138",
-      "date": "2020-05-01",
-      "year": 2020,
-      "type": "Journal article",
-      "title": "S30. SCHIZOPHRENIA IN A FISH: EFFECTS OF NMDA ANTAGONISM ON LOCOMOTOR BEHAVIOR AND SOCIAL INTERACTION IN ZEBRAFISH",
-      "authors": "Gallas-Lopes M, Benvenutti R, Sachett A, Chitolina R, Guilherme Reis C, Herrmann A, Piato A.",
-      "venue": "Schizophr Bull",
-      "url": "https://europepmc.org/article/PMC/PMC7234138",
-      "doi": ""
-    },
-    {
-      "id": "epmc:PMC7234671",
-      "date": "2020-05-01",
-      "year": 2020,
-      "type": "Journal article",
-      "title": "S218. TAURINE DOES NOT PREVENT SOCIAL DEFICITS INDUCED BY MK-801 IN ADULT ZEBRAFISH",
-      "authors": "Kich Giongo F, Benvenutti R, Gallas-Lopes M, Sachett A, Piato A, Paula Herrmann A.",
-      "venue": "Schizophr Bull",
-      "url": "https://europepmc.org/article/PMC/PMC7234671",
-      "doi": ""
-    },
-    {
-      "id": "https://openalex.org/W3027634979",
-      "date": "2020-04-01",
-      "year": 2020,
-      "type": "Journal article",
-      "title": "S30. SCHIZOPHRENIA IN A FISH: EFFECTS OF NMDA ANTAGONISM ON LOCOMOTOR BEHAVIOR AND SOCIAL INTERACTION IN ZEBRAFISH",
-      "authors": "Matheus Gallas‐Lopes, Radharani Benvenutti, Adrieli Sachett, Rafael Chitolina, Carlos G. Reis, Ana Paula Herrmann, Ângelo Piato",
-      "venue": "Schizophrenia Bulletin",
-      "url": "https://doi.org/10.1093/schbul/sbaa031.096",
-      "doi": "10.1093/schbul/sbaa031.096"
     },
     {
       "id": "https://openalex.org/W2979391241",

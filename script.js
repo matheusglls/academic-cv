@@ -1,4 +1,4 @@
-const state = { outputs: [], filter: "Journal article" };
+const state = { outputs: [], filter: "Journal article", visible: 5 };
 const esc = (s) =>
   String(s ?? "").replace(
     /[&<>'"]/g,
@@ -36,13 +36,18 @@ function render() {
     state.filter === "All"
       ? state.outputs
       : state.outputs.filter((o) => o.type === state.filter);
-  document.querySelector("#publication-list").innerHTML = shown
-    .map(row)
-    .join("");
+  const visible = shown.slice(0, state.visible);
+  document.querySelector("#publication-list").innerHTML = visible.map(row).join("") +
+    (shown.length > visible.length ? `<button class="show-more" id="show-more">Show more <span>${shown.length - visible.length} remaining</span></button>` : "");
+  document.querySelector("#show-more")?.addEventListener("click", () => {
+    state.visible += 5;
+    render();
+  });
   document.querySelectorAll("[data-type]").forEach(
     (b) =>
       (b.onclick = () => {
         state.filter = b.dataset.type;
+        state.visible = 5;
         render();
       }),
   );
@@ -84,18 +89,13 @@ const coords = {
   RU: [61.5, 105.3],
   US: [37.1, -95.7],
 };
-function drawNetwork(data) {
-  const svg = document.querySelector("#network");
-  if (!svg) return;
-  const nodes = data.coauthors || [], positioned = new Map(), cx=500, cy=330;
-  svg.setAttribute("viewBox", "0 0 1000 660");
-  nodes.forEach((n,i)=>{ const ring=Math.floor(Math.sqrt(i/5))+1, start=ring===1?0:5*(ring-1)*(ring-1), count=Math.max(8,10*ring), a=-Math.PI/2+2*Math.PI*(i-start)/count, radius=90+ring*92; positioned.set(n.id,{...n,x:cx+radius*Math.cos(a),y:cy+radius*.62*Math.sin(a)}); });
-  let html='<g class="links">';
-  (data.edges||[]).forEach(e=>{const a=positioned.get(e.source),b=positioned.get(e.target);if(a&&b)html+=`<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" style="stroke-width:${Math.min(5,0.5+e.works*.55)}"><title>${esc(a.name)} + ${esc(b.name)} · ${e.works} shared output${e.works===1?'':'s'}</title></line>`});
-  html+='</g><circle class="self" cx="500" cy="330" r="42"/><text class="self-label" x="500" y="324">Matheus</text><text class="self-label" x="500" y="344">Gallas-Lopes</text>';
-  nodes.forEach((n,i)=>{const p=positioned.get(n.id),r=5+Math.min(17,Math.sqrt(n.works)*3.1),label=i<18?`<text class="author-label" x="${p.x}" y="${p.y+r+12}">${esc(n.name)}</text>`:'';html+=`<g class="network-node"><circle class="coauthor" cx="${p.x}" cy="${p.y}" r="${r}"/><title>${esc(n.name)} · ${n.works} shared output${n.works===1?'':'s'}</title>${label}</g>`});
-  svg.innerHTML = html;
-  const list=document.querySelector('#collaborator-list'); if(list) list.innerHTML=nodes.map(n=>`<li><span>${esc(n.name)}</span><strong>${n.works}</strong></li>`).join('');
+function drawCountryRanking(data) {
+  const el = document.querySelector("#country-ranking");
+  if (!el) return;
+  const names = new Intl.DisplayNames(["en"], { type: "region" });
+  const top = (data.countries || []).slice(0, 7);
+  const max = Math.max(1, ...top.map((x) => x.works));
+  el.innerHTML = top.map((x) => `<div class="country-row"><div><span>${esc(names.of(x.code) || x.code)}</span><strong>${x.works}</strong></div><i><b style="width:${(x.works / max) * 100}%"></b></i></div>`).join("");
 }
 function drawMap(data) {
   if (!window.L) return;
@@ -123,7 +123,7 @@ function drawMap(data) {
 fetch("data/collaborations.json", { cache: "no-cache" })
   .then((r) => r.json())
   .then((data) => {
-    drawNetwork(data);
+    drawCountryRanking(data);
     drawMap(data);
   })
   .catch(() => {});

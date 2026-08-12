@@ -167,7 +167,7 @@ h1 em {
   font-size: 0.84rem;
 }
 .section {
-  padding: 120px 0;
+  padding: 92px 0;
   border-top: 1px solid var(--line);
 }
 .two-col {
@@ -441,22 +441,23 @@ footer a {
 #publications { background:#f7f3ec; box-shadow:0 0 0 100vmax #f7f3ec; clip-path:inset(0 -100vmax); }
 #profile { background:#f3f5f1; box-shadow:0 0 0 100vmax #f3f5f1; clip-path:inset(0 -100vmax); }
 .collaborations{background:linear-gradient(180deg,#e8f0ea 0,#f7f3ec 58%,#f2f5f0 100%)}
-.metrics { grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:34px; }
+.metrics { display:grid; grid-template-columns:repeat(6,1fr); gap:10px; margin-bottom:28px; }
 .metrics article{background:rgba(255,255,255,.72);border:1px solid rgba(23,86,66,.16);padding:24px 22px;border-radius:3px;display:flex;flex-direction:column;gap:5px}
-.metrics strong{font:500 clamp(2.1rem,4vw,3.7rem) 'Source Serif 4';color:#175642;line-height:1}
+.metrics strong{font:500 clamp(2rem,3.2vw,3.2rem) 'Source Serif 4';color:#175642;line-height:1}
 .metrics span{font-size:.77rem;letter-spacing:.08em;text-transform:uppercase;color:#53645c}
-.timeline-panel { background:rgba(255,255,255,.78); border:1px solid var(--line); padding:32px; margin-bottom:28px; }
+.timeline-panel { background:rgba(255,255,255,.78); border:1px solid var(--line); padding:28px; margin-bottom:22px; }
 .timeline-panel h3 { font:500 1.55rem 'Source Serif 4'; }
-.year-chart { height:230px; display:flex; align-items:stretch; gap:16px; padding-top:20px; }
+.panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}.chart-legend{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:.76rem}.chart-legend span{display:flex;align-items:center;gap:7px}.chart-legend i{width:10px;height:10px;border-radius:2px}.journal-key{background:#175642}.preprint-key{background:#bd845f}
+.year-chart { height:210px; display:flex; align-items:stretch; gap:16px; padding-top:14px; }
 .year { flex:1; min-width:34px; display:flex; flex-direction:column; text-align:center; color:var(--muted); font-size:.72rem; }
 .bars { flex:1; display:flex; align-items:flex-end; justify-content:center; gap:3px; border-bottom:1px solid var(--line); }
 .bars i { width:min(18px,38%); min-height:2px; display:block; border-radius:2px 2px 0 0; }
 .bars .journal { background:#175642; }
 .bars .preprint { background:#bd845f; }
 .year span { padding-top:9px; }
-.visual-grid>article{background:rgba(255,255,255,.7);border:1px solid var(--line);padding:22px}
-.world-map { height:460px; background:#e8eee9; z-index:1; }
-.network { width:100%; height:460px; background:#f7f8f4; overflow:hidden; }
+.visual-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,.75fr);gap:22px}.visual-grid>article{background:rgba(255,255,255,.7);border:1px solid var(--line);padding:22px}
+.world-map { height:360px; background:#e8eee9; z-index:1; }
+.country-panel h3{font:500 1.55rem 'Source Serif 4';margin:8px 0 26px}.country-ranking{display:grid;gap:16px}.country-row>div{display:flex;justify-content:space-between;gap:12px;font-size:.82rem}.country-row i{height:5px;background:#dce7e0;display:block;margin-top:7px}.country-row b{height:100%;display:block;background:#2f8065}.metric-note{color:var(--muted);font-size:.72rem;line-height:1.5;margin:26px 0 0}
 .network:before,.network:after { display:none; }
 .links line { stroke:#b4c6bc; opacity:.38; }
 .self { fill:#175642; }
@@ -472,13 +473,14 @@ footer a {
 .collaborator-directory ul{list-style:none;margin:0;padding:0;columns:3;column-gap:28px}
 .collaborator-directory li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(255,255,255,.12);padding:7px 0;break-inside:avoid;font-size:.76rem}
 .collaborator-directory strong{color:#b9d2c6}
-@media(max-width:850px){.metrics{grid-template-columns:repeat(2,1fr)}.visual-grid{grid-template-columns:1fr}.collaborator-directory{grid-template-columns:1fr}.collaborator-directory ul{columns:2}}
+@media(max-width:1050px){.metrics{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:850px){.metrics{grid-template-columns:repeat(2,1fr)}.visual-grid{grid-template-columns:1fr}.panel-heading{flex-direction:column;gap:4px}}
 @media(max-width:600px){.metrics{grid-template-columns:1fr}.year-chart{gap:6px}.year span{font-size:.6rem;transform:rotate(-45deg);margin-top:8px}.world-map,.network{height:340px}.collaborator-directory ul{columns:1}}
 
 .hero {
   display: grid;
   grid-template-columns: minmax(220px, 330px) 1fr;
-  gap: clamp(42px, 7vw, 100px);
+  gap: clamp(34px, 5vw, 72px);
   align-items: center;
 }
 .portrait {
@@ -488,6 +490,7 @@ footer a {
   filter: saturate(0.72);
   border-radius: 2px;
 }
+.contact-dock{position:fixed;right:18px;bottom:18px;z-index:1000;display:flex;align-items:center;gap:4px;padding:7px;background:rgba(18,40,31,.94);border:1px solid rgba(255,255,255,.14);border-radius:999px;box-shadow:0 8px 28px rgba(18,40,31,.18);backdrop-filter:blur(12px)}.contact-dock a{color:#eef5f1;text-decoration:none;font-size:.72rem;padding:7px 10px;border-radius:999px}.contact-dock a:hover{background:rgba(255,255,255,.12)}
 .hero h1 {
   font-size: clamp(3.3rem, 6.2vw, 6.5rem);
   margin: 0 0 18px;
@@ -536,7 +539,10 @@ footer a {
   .research-copy h2 {
     max-width: 700px;
   }
+  .contact-dock{left:10px;right:10px;bottom:10px;justify-content:center;overflow:auto}.contact-dock a{padding-inline:8px}
 }
+
+.show-more{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--green);font:600 .82rem 'DM Sans';padding:20px;cursor:pointer}.show-more:hover{background:rgba(24,77,57,.05)}.show-more span{color:var(--muted);font-weight:400}
 @media (max-width: 600px) {
   .hero {
     grid-template-columns: 1fr;
@@ -663,7 +669,7 @@ footer a {
             </article>
           </div>
           <div class="timeline-panel">
-            <h3>Journal articles and preprints over time</h3>
+            <div class="panel-heading"><h3>Journal articles and preprints over time</h3><div class="chart-legend" aria-label="Chart legend"><span><i class="journal-key"></i>Journal articles</span><span><i class="preprint-key"></i>Preprints</span></div></div>
             <div id="year-chart" class="year-chart"></div>
           </div>
           <div class="visual-grid">
@@ -675,20 +681,12 @@ footer a {
                 aria-label="Map of collaboration countries"
               ></div>
             </article>
-            <article>
-              <h3>Coauthor network</h3>
-              <svg
-                id="network"
-                class="network"
-                viewBox="0 0 760 420"
-                role="img"
-                aria-label="Network of frequent coauthors"
-              ></svg>
+            <article class="country-panel">
+              <p class="eyebrow">Collaboration footprint</p>
+              <h3>Countries with the most shared outputs</h3>
+              <div id="country-ranking" class="country-ranking" aria-live="polite"></div>
+              <p class="metric-note">Counts represent outputs with at least one coauthor affiliation in each country.</p>
             </article>
-          </div>
-          <div class="collaborator-directory">
-            <div><p class="eyebrow">Collaborator directory</p><h3>All coauthors represented in the network</h3></div>
-            <ul id="collaborator-list" aria-label="All coauthors"></ul>
           </div>
         </div>
       </section>
@@ -839,7 +837,7 @@ footer a {
       ><a href="https://lattes.cnpq.br/4154743414245084">Lattes</a>
     </aside>
     <script>
-const state = { outputs: [], filter: "Journal article" };
+const state = { outputs: [], filter: "Journal article", visible: 5 };
 const esc = (s) =>
   String(s ?? "").replace(
     /[&<>'"]/g,
@@ -877,13 +875,18 @@ function render() {
     state.filter === "All"
       ? state.outputs
       : state.outputs.filter((o) => o.type === state.filter);
-  document.querySelector("#publication-list").innerHTML = shown
-    .map(row)
-    .join("");
+  const visible = shown.slice(0, state.visible);
+  document.querySelector("#publication-list").innerHTML = visible.map(row).join("") +
+    (shown.length > visible.length ? `<button class="show-more" id="show-more">Show more <span>${shown.length - visible.length} remaining</span></button>` : "");
+  document.querySelector("#show-more")?.addEventListener("click", () => {
+    state.visible += 5;
+    render();
+  });
   document.querySelectorAll("[data-type]").forEach(
     (b) =>
       (b.onclick = () => {
         state.filter = b.dataset.type;
+        state.visible = 5;
         render();
       }),
   );
@@ -925,18 +928,13 @@ const coords = {
   RU: [61.5, 105.3],
   US: [37.1, -95.7],
 };
-function drawNetwork(data) {
-  const svg = document.querySelector("#network");
-  if (!svg) return;
-  const nodes = data.coauthors || [], positioned = new Map(), cx=500, cy=330;
-  svg.setAttribute("viewBox", "0 0 1000 660");
-  nodes.forEach((n,i)=>{ const ring=Math.floor(Math.sqrt(i/5))+1, start=ring===1?0:5*(ring-1)*(ring-1), count=Math.max(8,10*ring), a=-Math.PI/2+2*Math.PI*(i-start)/count, radius=90+ring*92; positioned.set(n.id,{...n,x:cx+radius*Math.cos(a),y:cy+radius*.62*Math.sin(a)}); });
-  let html='<g class="links">';
-  (data.edges||[]).forEach(e=>{const a=positioned.get(e.source),b=positioned.get(e.target);if(a&&b)html+=`<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" style="stroke-width:${Math.min(5,0.5+e.works*.55)}"><title>${esc(a.name)} + ${esc(b.name)} · ${e.works} shared output${e.works===1?'':'s'}</title></line>`});
-  html+='</g><circle class="self" cx="500" cy="330" r="42"/><text class="self-label" x="500" y="324">Matheus</text><text class="self-label" x="500" y="344">Gallas-Lopes</text>';
-  nodes.forEach((n,i)=>{const p=positioned.get(n.id),r=5+Math.min(17,Math.sqrt(n.works)*3.1),label=i<18?`<text class="author-label" x="${p.x}" y="${p.y+r+12}">${esc(n.name)}</text>`:'';html+=`<g class="network-node"><circle class="coauthor" cx="${p.x}" cy="${p.y}" r="${r}"/><title>${esc(n.name)} · ${n.works} shared output${n.works===1?'':'s'}</title>${label}</g>`});
-  svg.innerHTML = html;
-  const list=document.querySelector('#collaborator-list'); if(list) list.innerHTML=nodes.map(n=>`<li><span>${esc(n.name)}</span><strong>${n.works}</strong></li>`).join('');
+function drawCountryRanking(data) {
+  const el = document.querySelector("#country-ranking");
+  if (!el) return;
+  const names = new Intl.DisplayNames(["en"], { type: "region" });
+  const top = (data.countries || []).slice(0, 7);
+  const max = Math.max(1, ...top.map((x) => x.works));
+  el.innerHTML = top.map((x) => `<div class="country-row"><div><span>${esc(names.of(x.code) || x.code)}</span><strong>${x.works}</strong></div><i><b style="width:${(x.works / max) * 100}%"></b></i></div>`).join("");
 }
 function drawMap(data) {
   if (!window.L) return;
@@ -964,7 +962,7 @@ function drawMap(data) {
 fetch("data/collaborations.json", { cache: "no-cache" })
   .then((r) => r.json())
   .then((data) => {
-    drawNetwork(data);
+    drawCountryRanking(data);
     drawMap(data);
   })
   .catch(() => {});
