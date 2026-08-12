@@ -1,28 +1,30 @@
 # Matheus Gallas Lopes — academic website
 
-Academic website in English with a minimal green visual system, responsive layout, filtered scholarly outputs, research areas, collaboration visualizations, and an academic profile.
+Static academic website configured for GitHub Pages.
 
-## Local development
+## Replace the current repository
 
-```bash
-npm install
-npm run dev
-```
+Copy every file and folder in this package to the root of the `academic-cv` repository. The root must contain `index.html`, `style.css`, `script.js`, `data`, `scripts`, and `.github`.
 
-## Production build
+## Required OpenAlex secret
 
-```bash
-npm run build
-```
+Create a free OpenAlex API key. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `OPENALEX_API_KEY` and paste the key as its value.
 
-## Publication updates
+## GitHub Pages setting
 
-Use the OpenAlex author ID `A5058545919` and ORCID `0000-0001-5375-2335`. Store the OpenAlex API key as a deployment secret named `OPENALEX_API_KEY`; never add it to browser code or commit it to the repository.
+Open **Settings → Pages → Build and deployment** and select **GitHub Actions** as the source.
 
-The update process must request `publication_date`, `type`, `primary_location`, `locations`, `authorships`, `doi`, `ids`, and citation data. It must paginate until `next_cursor` is null, deduplicate by DOI and canonical identifiers, and classify each record once.
+## Publish
 
-Current OpenAlex types should be preserved when meaningful, including `article`, `review`, `preprint`, `conference-paper`, `conference-abstract`, `dataset`, and `software`. Protocols.io DOIs are classified as protocols. OSF registrations are classified from their registration metadata and must not also appear as preprints.
+Commit and push all files to `main`. Then open **Actions**, select **Update publications and deploy Pages**, and choose **Run workflow**. The workflow also runs every Monday.
 
-Conference outputs appear only when OpenAlex or Crossref explicitly classifies them as conference papers or conference abstracts.
+## Scholarly output rules
 
-The four latest outputs are selected automatically using full publication dates, not publication years alone.
+- OpenAlex author: `A5058545919`
+- ORCID: `0000-0001-5375-2335`
+- Uses current OpenAlex fields: `primary_location`, `publication_date`, and current work types.
+- Protocols.io DOIs are labeled `Protocol`.
+- OSF registrations under node `5k9yv` are labeled `Registration`.
+- Conference records are shown only when OpenAlex explicitly identifies `conference-paper` or `conference-abstract`.
+- Records are deduplicated by DOI or canonical identifier.
+- The four latest outputs are selected automatically by full publication date.
