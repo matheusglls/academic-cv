@@ -1,30 +1,15 @@
-# Matheus Gallas Lopes — academic website
+# Matheus Gallas-Lopes — Academic CV
 
-Static academic website configured for GitHub Pages.
+Personal academic website of Matheus Gallas-Lopes, PhD, researcher at Universidade Federal do Rio Grande do Sul, Brazil.
 
-## Replace the current repository
+The website presents my research interests, scholarly publications, academic background, teaching experience, honors, grants, and scientific service.
 
-Copy every file and folder in this package to the root of the `academic-cv` repository. The root must contain `index.html`, `style.css`, `script.js`, `data`, `scripts`, and `.github`.
+My research focuses on meta-research, translational validity, evidence synthesis, reproducibility, and open science, with a background in preclinical research, neuropharmacology, and behavioral models.
 
-## Required OpenAlex secret
+## Academic profiles
 
-Create a free OpenAlex API key. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `OPENALEX_API_KEY` and paste the key as its value.
-
-## GitHub Pages setting
-
-Open **Settings → Pages → Build and deployment** and select **GitHub Actions** as the source.
-
-## Publish
-
-Commit and push all files to `main`. Then open **Actions**, select **Update publications and deploy Pages**, and choose **Run workflow**. The workflow also runs every Monday.
-
-## Scholarly output rules
-
-- OpenAlex author: `A5058545919`
-- ORCID: `0000-0001-5375-2335`
-- Uses current OpenAlex fields: `primary_location`, `publication_date`, and current work types.
-- Protocols.io DOIs are labeled `Protocol`.
-- OSF registrations under node `5k9yv` are labeled `Registration`.
-- Conference records are shown only when OpenAlex explicitly identifies `conference-paper` or `conference-abstract`.
-- Records are deduplicated by DOI or canonical identifier.
-- The four latest outputs are selected automatically by full publication date.
+- [ORCID](https://orcid.org/0000-0001-5375-2335)
+- [Google Scholar](https://scholar.google.com/citations?user=-bnP544AAAAJ)
+- [Open Science Framework](https://osf.io/5k9yv)
+- [GitHub](https://github.com/matheusglls)
+- [Lattes](https://lattes.cnpq.br/4154743414245084)

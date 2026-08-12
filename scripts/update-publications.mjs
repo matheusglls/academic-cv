@@ -1,6 +1,6 @@
 import{mkdir,writeFile}from"node:fs/promises";
 const AUTHOR="A5058545919",OSF_NODE="5k9yv",apiKey=process.env.OPENALEX_API_KEY;
-if(!apiKey)throw new Error("OPENALEX_API_KEY is required");
+if(!apiKey){console.log("No OpenAlex API key configured; keeping the bundled publication records.");process.exit(0)}
 const labels={article:"Journal article",review:"Review",preprint:"Preprint","conference-paper":"Conference paper","conference-abstract":"Conference abstract",dataset:"Dataset",software:"Software",book:"Book","book-chapter":"Book chapter"};
 const works=[];let cursor="*";const select="id,title,publication_date,publication_year,type,authorships,primary_location,locations,doi,ids";
 do{const url=new URL("https://api.openalex.org/works");url.searchParams.set("filter",`author.id:${AUTHOR}`);url.searchParams.set("per_page","200");url.searchParams.set("cursor",cursor);url.searchParams.set("select",select);url.searchParams.set("api_key",apiKey);const r=await fetch(url);if(!r.ok)throw new Error(`OpenAlex ${r.status}: ${await r.text()}`);const j=await r.json();works.push(...j.results);cursor=j.meta?.next_cursor||""}while(cursor);
