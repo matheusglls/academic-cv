@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-08-12T03:44:07.064Z",
+  "coauthors": [
+    {
+      "name": "Ângelo Piato",
+      "works": 50
+    },
+    {
+      "name": "Ana Paula Herrmann",
+      "works": 49
+    },
+    {
+      "name": "Radharani Benvenutti",
+      "works": 32
+    },
+    {
+      "name": "Adrieli Sachett",
+      "works": 25
+    },
+    {
+      "name": "Leonardo M. Bastos",
+      "works": 18
+    },
+    {
+      "name": "Matheus Marcon",
+      "works": 16
+    },
+    {
+      "name": "Carlos G. Reis",
+      "works": 12
+    },
+    {
+      "name": "Rafael Chitolina",
+      "works": 12
+    },
+    {
+      "name": "Greicy M. M. Conterato",
+      "works": 11
+    },
+    {
+      "name": "Stefani M Portela",
+      "works": 7
+    },
+    {
+      "name": "Thailana Stahlhofer-Buss",
+      "works": 7
+    },
+    {
+      "name": "Gean Pablo S. Aguiar",
+      "works": 6
+    },
+    {
+      "name": "J. Vladimir Oliveira",
+      "works": 6
+    },
+    {
+      "name": "Anna Maria Siebel",
+      "works": 6
+    },
+    {
+      "name": "A.P. Alves",
+      "works": 6
+    },
+    {
+      "name": "Ana P. Herrmann",
+      "works": 6
+    },
+    {
+      "name": "María Elisa Calcagnotto",
+      "works": 5
+    },
+    {
+      "name": "Nathan Ryzewski Strogulski",
+      "works": 4
+    },
+    {
+      "name": "Querusche Klippel Zanona",
+      "works": 4
+    },
+    {
+      "name": "Dagobert Müller",
+      "works": 4
+    }
+  ],
+  "countries": [
+    {
+      "code": "BR",
+      "works": 489
+    },
+    {
+      "code": "US",
+      "works": 24
+    },
+    {
+      "code": "GB",
+      "works": 21
+    },
+    {
+      "code": "IE",
+      "works": 19
+    },
+    {
+      "code": "RU",
+      "works": 17
+    },
+    {
+      "code": "AU",
+      "works": 8
+    },
+    {
+      "code": "CL",
+      "works": 6
+    },
+    {
+      "code": "AR",
+      "works": 4
+    },
+    {
+      "code": "LU",
+      "works": 4
+    },
+    {
+      "code": "PT",
+      "works": 3
+    },
+    {
+      "code": "AZ",
+      "works": 2
+    },
+    {
+      "code": "CN",
+      "works": 2
+    },
+    {
+      "code": "CZ",
+      "works": 2
+    },
+    {
+      "code": "DE",
+      "works": 2
+    },
+    {
+      "code": "PL",
+      "works": 1
+    },
+    {
+      "code": "MD",
+      "works": 1
+    },
+    {
+      "code": "AM",
+      "works": 1
+    },
+    {
+      "code": "SO",
+      "works": 1
+    },
+    {
+      "code": "AG",
+      "works": 1
+    },
+    {
+      "code": "DK",
+      "works": 1
+    },
+    {
+      "code": "UY",
+      "works": 1
+    }
+  ]
+}
