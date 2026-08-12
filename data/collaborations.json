@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T03:44:07.064Z",
+  "generated_at": "2026-08-12T04:08:39.834Z",
   "coauthors": [
     {
       "name": "Ângelo Piato",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Leonardo M. Bastos",
-      "works": 18
+      "works": 17
     },
     {
       "name": "Matheus Marcon",
@@ -42,15 +42,7 @@
       "works": 7
     },
     {
-      "name": "Thailana Stahlhofer-Buss",
-      "works": 7
-    },
-    {
       "name": "Gean Pablo S. Aguiar",
-      "works": 6
-    },
-    {
-      "name": "J. Vladimir Oliveira",
       "works": 6
     },
     {
@@ -62,8 +54,12 @@
       "works": 6
     },
     {
-      "name": "Ana P. Herrmann",
-      "works": 6
+      "name": "Thailana Stahlhofer-Buss",
+      "works": 5
+    },
+    {
+      "name": "J. Vladimir Oliveira",
+      "works": 5
     },
     {
       "name": "María Elisa Calcagnotto",
@@ -80,51 +76,87 @@
     {
       "name": "Dagobert Müller",
       "works": 4
+    },
+    {
+      "name": "F Giongo",
+      "works": 3
+    },
+    {
+      "name": "Sofia Z. Becker",
+      "works": 3
+    },
+    {
+      "name": "Bruno Dutra Arbo",
+      "works": 3
+    },
+    {
+      "name": "Cristina R. Reschke",
+      "works": 2
+    },
+    {
+      "name": "Courtney Hillman",
+      "works": 2
+    },
+    {
+      "name": "Bárbara D. Fontana",
+      "works": 2
+    },
+    {
+      "name": "Tamara G. Amstislavskaya",
+      "works": 2
+    },
+    {
+      "name": "Stefani Altenhofen",
+      "works": 2
+    },
+    {
+      "name": "Karissa Barthelson",
+      "works": 2
+    },
+    {
+      "name": "João V Borba",
+      "works": 2
+    },
+    {
+      "name": "Carla Denise Bonan",
+      "works": 2
     }
   ],
   "countries": [
     {
       "code": "BR",
-      "works": 489
-    },
-    {
-      "code": "US",
-      "works": 24
-    },
-    {
-      "code": "GB",
-      "works": 21
+      "works": 44
     },
     {
       "code": "IE",
-      "works": 19
+      "works": 5
     },
     {
-      "code": "RU",
-      "works": 17
-    },
-    {
-      "code": "AU",
-      "works": 8
-    },
-    {
-      "code": "CL",
-      "works": 6
-    },
-    {
-      "code": "AR",
+      "code": "US",
       "works": 4
     },
     {
-      "code": "LU",
-      "works": 4
+      "code": "GB",
+      "works": 3
     },
     {
       "code": "PT",
       "works": 3
     },
     {
-      "code": "AZ",
+      "code": "RU",
+      "works": 2
+    },
+    {
+      "code": "AU",
+      "works": 2
+    },
+    {
+      "code": "CL",
+      "works": 2
+    },
+    {
+      "code": "AR",
       "works": 2
     },
     {
@@ -132,12 +164,12 @@
       "works": 2
     },
     {
-      "code": "CZ",
-      "works": 2
+      "code": "AZ",
+      "works": 1
     },
     {
-      "code": "DE",
-      "works": 2
+      "code": "CZ",
+      "works": 1
     },
     {
       "code": "PL",
@@ -160,7 +192,15 @@
       "works": 1
     },
     {
+      "code": "LU",
+      "works": 1
+    },
+    {
       "code": "DK",
+      "works": 1
+    },
+    {
+      "code": "DE",
       "works": 1
     },
     {

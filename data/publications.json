@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T03:44:07.061Z",
+  "generated_at": "2026-08-12T04:08:39.832Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7197040318",
       "date": "2026-08-03",
       "year": 2026,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "Effects of gonadectomy in an animal model of Parkinson’s disease: experiment preregistration",
       "authors": "Estefani Marin, Matheus Gallas‐Lopes, Laura Scherer Pires, Maria Manoela Rezende Severo, Manuela Zanini Laurindo, Bruno Dutra Arbo",
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/xu9tv",
-      "doi": "https://doi.org/10.17605/osf.io/xu9tv"
+      "doi": "10.17605/osf.io/xu9tv"
     },
     {
       "id": "https://openalex.org/W7171854380",
@@ -21,7 +21,7 @@
       "authors": "Fiona Ramage, Kaitlyn Hair, Matheus Gallas‐Lopes, Aileen MacLellan, Sofija Vojvodić, Maria Economou, Francesca Tinsdeall, Bruno Dutra Arbo, María Arroyo-Araujo, Alexandra Bannach‐Brown, Dean Ferguson, Daria Gramenitskaya, Ana Paula Herrmann, Matthew S. Jeffers, Dagobert Müller, Ângelo Piato, Torsten Rackoll, Wimonchat Tangamornsuksan, Manoj M. Lalu, Malcolm Macleod, Kimberley E. Wever, Sarah McCann",
       "venue": "",
       "url": "https://doi.org/10.31222/osf.io/8y4pn_v1",
-      "doi": "https://doi.org/10.31222/osf.io/8y4pn_v1"
+      "doi": "10.31222/osf.io/8y4pn_v1"
     },
     {
       "id": "crossref:10.64898/2026.05.28.728488",
@@ -43,73 +43,84 @@
       "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno D. Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela V. Muller, A.P. Alves, Daniel A. Rosa, Dirson J. Stein, Ana P. Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2026.05.13.724847",
-      "doi": "https://doi.org/10.64898/2026.05.13.724847"
+      "doi": "10.64898/2026.05.13.724847"
     },
     {
       "id": "https://openalex.org/W7161555575",
       "date": "2026-05-15",
       "year": 2026,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "Evaluation of mortality following Cannabis sp. oil exposure in Drosophila melanogaster",
       "authors": "Letícia F. G. Kinappe, Gabriela Resmini Ramalho, Maria Gabriela Scoloski Fassina, Tâmie Duarte, Matheus Gallas‐Lopes, Régis Adriel Zanette",
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/bvzq8",
-      "doi": "https://doi.org/10.17605/osf.io/bvzq8"
+      "doi": "10.17605/osf.io/bvzq8"
     },
     {
       "id": "https://openalex.org/W7161556048",
       "date": "2026-05-15",
       "year": 2026,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "Behavioral Effects of Cannabis sp. Oil in Different Formulations in Drosophila melanogaster",
       "authors": "Letícia F. G. Kinappe, Maria Gabriela Scoloski Fassina, Gabriela Resmini Ramalho, Tâmie Duarte, Matheus Gallas‐Lopes, Régis Adriel Zanette",
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/xzrga",
-      "doi": "https://doi.org/10.17605/osf.io/xzrga"
+      "doi": "10.17605/osf.io/xzrga"
     },
     {
-      "id": "https://openalex.org/W7172224026",
-      "date": "2026-01-20",
+      "id": "epmc:42030073",
+      "date": "2026-04-01",
       "year": 2026,
       "type": "Journal article",
-      "title": "BRISA-AI: comparing large language models and human scores for screening and study selection in preclinical systematic reviews",
-      "authors": "Francisco Marques da Silva Neto, Matheus Gallas‐Lopes, Ana P. Herrmann, Olavo B. Amaral",
-      "venue": "Open Science Framework",
-      "url": "https://doi.org/10.17605/osf.io/fqe85",
-      "doi": "https://doi.org/10.17605/osf.io/fqe85"
+      "title": "A Standardized Unpredictable Chronic Stress Protocol for Adult Zebrafish.",
+      "authors": "Gallas-Lopes M, Herrmann AP, Piato A.",
+      "venue": "Curr Protoc",
+      "url": "https://doi.org/10.1002/cpz1.70376",
+      "doi": "10.1002/cpz1.70376"
+    },
+    {
+      "id": "epmc:41903864",
+      "date": "2026-03-26",
+      "year": 2026,
+      "type": "Journal article",
+      "title": "Unpredictable chronic stress fails to induce robust changes in zebrafish social behavior.",
+      "authors": "Neves NA, Gallas-Lopes M, Patelli-Alves A, Müller DV, Bastos LM, Stahlhofer-Buss T, Herrmann AP, Piato A.",
+      "venue": "Neurosci Lett",
+      "url": "https://doi.org/10.1016/j.neulet.2026.138594",
+      "doi": "10.1016/j.neulet.2026.138594"
     },
     {
       "id": "https://openalex.org/W7201865763",
       "date": "2026-01-17",
       "year": 2026,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "Evaluation of the effects of geraniol in the unpredictable chronic stress protocol in adult zebrafish",
       "authors": "Alana R O Mendes, A.P. Alves, Matheus Gallas‐Lopes, Francisco Fuentealba-Villarroel, Leonardo M. Bastos, Ana P. Herrmann, Angelo Piato",
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/923rq",
-      "doi": "https://doi.org/10.17605/osf.io/923rq"
+      "doi": "10.17605/osf.io/923rq"
     },
     {
       "id": "https://openalex.org/W7155399224",
       "date": "2026-01-01",
       "year": 2026,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "Investigating the antiseizure properties of geraniol in adult zebrafish",
       "authors": "Leonardo M. Bastos, Matheus Gallas‐Lopes, A.P. Alves, Stefani M Portela, Ana P. Herrmann, Ângelo Piato",
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/a9vde",
-      "doi": "https://doi.org/10.17605/osf.io/a9vde"
+      "doi": "10.17605/osf.io/a9vde"
     },
     {
       "id": "https://openalex.org/W7155680355",
       "date": "2026-01-01",
       "year": 2026,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "Investigating the antiseizure properties of geranyl acetate in adult zebrafish",
       "authors": "Leonardo M. Bastos, Matheus Gallas‐Lopes, A.P. Alves, Stefani M Portela, Ana P. Herrmann, Ângelo Piato",
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/nkba6",
-      "doi": "https://doi.org/10.17605/osf.io/nkba6"
+      "doi": "10.17605/osf.io/nkba6"
     },
     {
       "id": "crossref:10.2139/ssrn.7109989",
@@ -131,7 +142,7 @@
       "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, A.P. Alves, Daniela Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2025.12.15.694431",
-      "doi": "https://doi.org/10.64898/2025.12.15.694431"
+      "doi": "10.64898/2025.12.15.694431"
     },
     {
       "id": "https://openalex.org/W4417216202",
@@ -142,7 +153,7 @@
       "authors": "Francisco Fuentealba-Villarroel, Gabriela Otarão Rosa, Stefani M Portela, Sara Hartke, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.4r3l21dp4g1y/v1",
-      "doi": "https://doi.org/10.17504/protocols.io.4r3l21dp4g1y/v1"
+      "doi": "10.17504/protocols.io.4r3l21dp4g1y/v1"
     },
     {
       "id": "crossref:10.17504/protocols.io.e6nvw4rpzlmk/v1",
@@ -164,7 +175,7 @@
       "authors": "Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.22541/au.176168551.13528027/v1",
-      "doi": "https://doi.org/10.22541/au.176168551.13528027/v1"
+      "doi": "10.22541/au.176168551.13528027/v1"
     },
     {
       "id": "https://openalex.org/W4415555747",
@@ -175,7 +186,7 @@
       "authors": "Querusche Klippel Zanona, Matheus Gallas‐Lopes, Gabriel Alves Marconi, Isabela Nachtigall Lazzarotto, Ângelo Piato, Ana Paula Herrmann, María Elisa Calcagnotto",
       "venue": "Journal of Hazardous Materials",
       "url": "https://doi.org/10.1016/j.jhazmat.2025.140271",
-      "doi": "https://doi.org/10.1016/j.jhazmat.2025.140271"
+      "doi": "10.1016/j.jhazmat.2025.140271"
     },
     {
       "id": "https://openalex.org/W4414283892",
@@ -186,7 +197,7 @@
       "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara Machado Bruck, Ângelo Piato, Ana Paula Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.09.16.676572",
-      "doi": "https://doi.org/10.1101/2025.09.16.676572"
+      "doi": "10.1101/2025.09.16.676572"
     },
     {
       "id": "https://openalex.org/W4411134559",
@@ -197,7 +208,7 @@
       "authors": "Querusche Klippel Zanona, Matheus Gallas‐Lopes, Gabriel Alves Marconi, Isabela Nachtigall Lazzarotto, Ângelo Piato, Ana Paula Herrmann, María Elisa Calcagnotto",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.06.07.658168",
-      "doi": "https://doi.org/10.1101/2025.06.07.658168"
+      "doi": "10.1101/2025.06.07.658168"
     },
     {
       "id": "https://openalex.org/W4410755519",
@@ -208,7 +219,7 @@
       "authors": "Courtney Hillman, Bárbara D. Fontana, Tamara G. Amstislavskaya, М. А. Gorbunova, Stefani Altenhofen, Karissa Barthelson, Leonardo M. Bastos, João V Borba, Carla Denise Bonan, Caroline H. Brennan, Amaury Farías-Cea, Austin Cooper, Jamie Corcoran, Eduardo Ronconi Dondossola, Luis M Martinez-Duran, Matheus Gallas‐Lopes, David S. Galstyan, Ella O. Garcia, Ewan Gerken, Robert Hindges, Justin W. Kenney, Maxim A. Kleshchev, Tatiana O. Kolesnikova, Adele Leggieri, Sergey L. Khatsko, Michael Lardelli, Guilherme Lodetti, Giulia Lombardelli, Ana Carolina Luchiari, Stefani M Portela, Violeta Medan, Lirane M. Moutinho, Evgeny V. Nekhoroshev, Bárbara Dutra Petersen, Maureen L. Petrunich-Rutherford, Ângelo Piato, Maurizio Porfiri, Emily Read, Cássio M Resmim, Eduardo Pacheco Rico, Denis B. Rosemberg, Murilo S. de Abreu, Catia A Salazar, Thailana Stahlhofer-Buss, Júlia Robert de Sousa Teixeira, Ana M. Valentim, Alexander V. Zhdanov, Patricio Iturriaga‐Vásquez, Xian Wang, Ryan Y. Wong, Allan V. Kalueff, Matthew O. Parker",
       "venue": "Lab Animal",
       "url": "https://doi.org/10.1038/s41684-025-01548-x",
-      "doi": "https://doi.org/10.1038/s41684-025-01548-x"
+      "doi": "10.1038/s41684-025-01548-x"
     },
     {
       "id": "https://openalex.org/W4409179041",
@@ -219,7 +230,7 @@
       "authors": "The Brazilian Reproducibility Initiative, Olavo B. Amaral, Clarissa F. D. Carneiro, Kleber Neves, Ana Paula Wasilewska‐Sampaio, Bruna Valério‐Gomes, Mariana Abreu, Pedro Batista Tan, Gabriel Paz Souza Mota, Ricardo Netto Goulart, Nathália Fernandes, J Linhares, A. M. G. Ibelli, Adriano D. Andricopulo, Adriano Sebollela, Adryano Augustto Valladão de Carvalho, Airton Pereira e Silva, A. Souza, Aryelle Almeida Lima, Alessandra Mara de Sousa, Alexander Birbrair, Alexandre Urban Borbely, Ana Manuel Dantas Machado, Alinne C. Costa, Aliny Pereira de Vasconcelos, Alvaro Henrique Bernardo de Lima Silva, Amanda de Souza, Ana Paula, Ana Carolina Caetano Nunes, Ana Maria de Lauro Castrucci, Ana Paula Bastos, Ana Paula Farias Waltrick, Ana Paula Herrmann, Andre Gustavo Ferreira de Macedo, Andrelson W. Rinaldi, André S. Mecawi, Andrés Delgado Cañedo, Anna Paula Marçal, Anna Paula Perin Vidigal, Antonio Martins Monteiro, Beatriz G. S. Rocha, Bianca Cruz Pachane, Brenda da Silva Andrade, Bruna Carla Casali, Bruno Popik, Camila Pasquini de Souza, Camila da Silva dos Santos, Camilla M. Gonçalves, Camilla Ribeiro Barroso do Nascimento, C Veríssimo, Carlos Eduardo Neves Girardi, Carmen Penido, Carolina Batista, Carolina Panis, Carolina Saibro Girardi, Carolina da S. G. Pedrosa, Caroline C. Picoli, Cristiane Regina Guerino Furini, Daniel Pens Gelain, Daniel Sturza Lucas Caetano, Daniela Costa Silva, Daniele C. Aguiar, Demétrius A. M. Araújo, Deoclécio Alves Chianca Júnior, Dilza Balteiro Pereira de Campos, Débora Aguirre Gonçalves, Débora Santos da Silva, Eduarda Godfried Nachtigall, Eloiza Lopes de Lira Tanabe, Érika Seki Kioshima, Fábio Rodrigues Ferreira Seiva, Fabrício A. Moreira, Felipe Saceanu Leser, Felipe Vanz, Fernanda C. Silva, Fernanda M. Ferrão, Fernanda Nogueira Lotz, Flávia Fonseca Bloise, Flávia Regina Souza Lima, Flávio Alves Lara, Franciana Aparecida Volpato Bellaver, Francieli Moro Stefanello, Francisca N. de Luna Vitorino, Francisco Noé da Fonseca, Fabio Jorge Moreira da Silva, Fábio A. Mendes, Gabriel Vasata Furtado, Gilda Neves, Giovanna Zanetti, Giulia Scarcella Cancelliero, Graziéle Fernanda Deriggi Pisani, GUILHERME CURI AIUB CASAGRANDE, Gustavo Roberto Villas Boas, Heitor Roque Oliveira Alvez da Cruz, Helena L. Borges, Heloísa Sobreiro Selistre-de-Araújo, Helvécio Cardoso Corrêa Póvoa, Hilana dos Santos Sena Brunel, Hugo Bayer, Igor L. Baptista",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.04.02.645026",
-      "doi": "https://doi.org/10.1101/2025.04.02.645026"
+      "doi": "10.1101/2025.04.02.645026"
     },
     {
       "id": "https://openalex.org/W4406441098",
@@ -230,7 +241,7 @@
       "authors": "Adhemar Lourenço Da Silva, Leonardo M. Bastos, Matheus Gallas‐Lopes, Rafael Chitolina, Carlos G. Reis, Domingos Sávio Nunes de Lima, Elaine Elisabetsky, Ana Paula Herrmann, María Elisa Calcagnotto, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.01.14.633001",
-      "doi": "https://doi.org/10.1101/2025.01.14.633001"
+      "doi": "10.1101/2025.01.14.633001"
     },
     {
       "id": "https://openalex.org/W4403476189",
@@ -241,7 +252,7 @@
       "authors": "Matthew O. Parker, Courtney Hillman, Bárbara D. Fontana, Tamara G. Amstislavskaya, Maria Gorbunova, Stefani Altenhofen, Karissa Barthelson, Leonardo Soares Bastos, João V Borba, Carla Denise Bonan, Caroline H. Brennan, Amaury Farías-Cea, Austin Cooper, Jamie Corcoran, Eduardo Ronconi Dondossola, Luis M Martinez-Duran, Matheus Gallas‐Lopes, David S. Galstyan, Ella Garcia, Ewan Gerken, Robert Hindges, Justin W. Kenney, Maxim A. Kleshchev, Tatiana Kolesnikov, Adele Leggieri, Sergey L. Khatsko, Michael Lardelli, Guilherme Lodetti, Giulia Lombardelli, Ana Carolina Luchiari, Stefani M Portela, Violeta Medan, Lirane Moutinho, Evgeny V. Nekhoroshev, Bárbara Dutra Petersen, Maureen L. Petrunich-Rutherford, Ângelo Piato, Maurizio Porfiri, Emily Read, Cássio M Resmim, Eduardo Pacheco Rico, Denis B. Rosemberg, Murilo S. de Abreu, Catia A Salazar, Thaliana Stahloher-Buss, Júlia Robert de Sousa Teixeira, Ana M. Valentim, Alexander V. Zhdanov, Patricio Iturriaga‐Vásquez, Xian Wang, Ryan Y. Wong, Allan V. Kalueff",
       "venue": "Research Square",
       "url": "https://doi.org/10.21203/rs.3.rs-4849877/v1",
-      "doi": "https://doi.org/10.21203/rs.3.rs-4849877/v1"
+      "doi": "10.21203/rs.3.rs-4849877/v1"
     },
     {
       "id": "https://openalex.org/W4400378600",
@@ -252,7 +263,7 @@
       "authors": "Radharani Benvenutti, Danielle do Carmo Ferreira Bruno, Matheus Gallas‐Lopes, Morten T. Venø, Estela M. Bruxel, Tammy Strickland, Arielle Ramsook, Aditi Wadgaonkar, Yiyue Jiang, Amaya Sanz‐Rodriguez, Lasse Sinkkonen, Marina K. M. Alvim, Clarissa Lin Yasuda, Fábio Rogério, Fernando Cendes, David C. Henshall, Annie M. Curtis, Katja Kobow, Íscia Lopes‐Cendes, Cristina R. Reschke",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2024.07.02.601732",
-      "doi": "https://doi.org/10.1101/2024.07.02.601732"
+      "doi": "10.1101/2024.07.02.601732"
     },
     {
       "id": "https://openalex.org/W4399957156",
@@ -263,7 +274,7 @@
       "authors": "Giovana R. Oliveira, Matheus Gallas‐Lopes, Rafael Chitolina, Leonardo M. Bastos, Stefani M Portela, Thailana Stahlhofer-Buss, Darlan Gusso, Rosane Gomez, Ângela Terezinha de Souza Wyse, Ana Paula Herrmann, Ângelo Piato",
       "venue": "Comparative Biochemistry and Physiology Part C Toxicology & Pharmacology",
       "url": "https://doi.org/10.1016/j.cbpc.2024.109969",
-      "doi": "https://doi.org/10.1016/j.cbpc.2024.109969"
+      "doi": "10.1016/j.cbpc.2024.109969"
     },
     {
       "id": "https://openalex.org/W4391399915",
@@ -274,13 +285,13 @@
       "authors": "Giovana R. Oliveira, Matheus Gallas‐Lopes, Rafael Chitolina, Leonardo M. Bastos, Stefani M Portela, Thailana Stahlhofer-Buss, Darlan Gusso, Rosane Gomez, Ângela Terezinha de Souza Wyse, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2024.01.30.578041",
-      "doi": "https://doi.org/10.1101/2024.01.30.578041"
+      "doi": "10.1101/2024.01.30.578041"
     },
     {
       "id": "https://openalex.org/W7166960321",
       "date": "2024-01-01",
       "year": 2024,
-      "type": "Preprint",
+      "type": "Preregistration",
       "title": "CAMARADES Reproducibility Challenge: Replication of Reis (2019) by Gallas-Lopes et al.",
       "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Bruno Dutra Arbo, Angelo Piato, Ana P. Herrmann",
       "venue": "Open MIND",
@@ -296,7 +307,7 @@
       "authors": "Matheus Gallas‐Lopes, Radharani Benvenutti, Nayne I. Z. Donzelli, Matheus Marcon",
       "venue": "Lab Animal",
       "url": "https://doi.org/10.1038/s41684-023-01288-w",
-      "doi": "https://doi.org/10.1038/s41684-023-01288-w"
+      "doi": "10.1038/s41684-023-01288-w"
     },
     {
       "id": "https://openalex.org/W4387904464",
@@ -307,7 +318,7 @@
       "authors": "Carlos G. Reis, Leonardo M. Bastos, Rafael Chitolina, Matheus Gallas‐Lopes, Querusche Klippel Zanona, Sofia Z. Becker, Ana Paula Herrmann, Ângelo Piato",
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-023-45350-6",
-      "doi": "https://doi.org/10.1038/s41598-023-45350-6"
+      "doi": "10.1038/s41598-023-45350-6"
     },
     {
       "id": "https://openalex.org/W4387233753",
@@ -318,7 +329,7 @@
       "authors": "Rafael Chitolina, Matheus Gallas‐Lopes, Carlos G. Reis, Radharani Benvenutti, Thailana Stahlhofer-Buss, María Elisa Calcagnotto, Ana Paula Herrmann, Ângelo Piato",
       "venue": "Epilepsy Research",
       "url": "https://doi.org/10.1016/j.eplepsyres.2023.107236",
-      "doi": "https://doi.org/10.1016/j.eplepsyres.2023.107236"
+      "doi": "10.1016/j.eplepsyres.2023.107236"
     },
     {
       "id": "https://openalex.org/W4386740896",
@@ -329,7 +340,7 @@
       "authors": "Matheus Gallas‐Lopes, Leonardo M. Bastos, Radharani Benvenutti, Alana Castro Panzenhagen, Ângelo Piato, Ana Paula Herrmann",
       "venue": "Lab Animal",
       "url": "https://doi.org/10.1038/s41684-023-01239-5",
-      "doi": "https://doi.org/10.1038/s41684-023-01239-5"
+      "doi": "10.1038/s41684-023-01239-5"
     },
     {
       "id": "https://openalex.org/W4382363324",
@@ -340,7 +351,7 @@
       "authors": "Rafael Chitolina, Matheus Gallas‐Lopes, Carlos G. Reis, Radharani Benvenutti, Thailana Stahlhofer-Buss, María Elisa Calcagnotto, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2023.06.26.546569",
-      "doi": "https://doi.org/10.1101/2023.06.26.546569"
+      "doi": "10.1101/2023.06.26.546569"
     },
     {
       "id": "https://openalex.org/W4379792539",
@@ -351,7 +362,7 @@
       "authors": "Carlos G. Reis, Leonardo M. Bastos, Rafael Chitolina, Matheus Gallas‐Lopes, Querusche Klippel Zanona, Sofia Z. Becker, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2023.06.06.543927",
-      "doi": "https://doi.org/10.1101/2023.06.06.543927"
+      "doi": "10.1101/2023.06.06.543927"
     },
     {
       "id": "https://openalex.org/W4415358497",
@@ -362,7 +373,7 @@
       "authors": "Matheus Gallas‐Lopes, Dagobert Müller, A.P. Alves, Ângelo Piato, Ana Paula Herrmann",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.j8nlkwz7wl5r/v1",
-      "doi": "https://doi.org/10.17504/protocols.io.j8nlkwz7wl5r/v1"
+      "doi": "10.17504/protocols.io.j8nlkwz7wl5r/v1"
     },
     {
       "id": "crossref:10.17504/protocols.io.5qpvor4o7v4o/v1",
@@ -384,7 +395,7 @@
       "authors": "Matheus Gallas‐Lopes, Radharani Benvenutti, Nayne I. Z. Donzelli, Matheus Marcon",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2023.02.02.526810",
-      "doi": "https://doi.org/10.1101/2023.02.02.526810"
+      "doi": "10.1101/2023.02.02.526810"
     },
     {
       "id": "https://openalex.org/W4311304923",
@@ -395,7 +406,7 @@
       "authors": "Matheus Gallas‐Lopes, Leonardo M. Bastos, Radharani Benvenutti, Alana Castro Panzenhagen, Ângelo Piato, Ana Paula Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2022.12.12.520151",
-      "doi": "https://doi.org/10.1101/2022.12.12.520151"
+      "doi": "10.1101/2022.12.12.520151"
     },
     {
       "id": "https://openalex.org/W4306175322",
@@ -406,7 +417,7 @@
       "authors": "F Giongo, Matheus Gallas‐Lopes, Radharani Benvenutti, Adrieli Sachett, Leonardo M. Bastos, Adriane Ribeiro Rosa, Ana Paula Herrmann",
       "venue": "The International Journal of Neuropsychopharmacology",
       "url": "https://doi.org/10.1093/ijnp/pyac073",
-      "doi": "https://doi.org/10.1093/ijnp/pyac073"
+      "doi": "10.1093/ijnp/pyac073"
     },
     {
       "id": "https://openalex.org/W4286219984",
@@ -417,7 +428,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Amanda M. Linazzi, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
       "venue": "Pharmacological Reports",
       "url": "https://doi.org/10.1007/s43440-022-00389-6",
-      "doi": "https://doi.org/10.1007/s43440-022-00389-6"
+      "doi": "10.1007/s43440-022-00389-6"
     },
     {
       "id": "https://openalex.org/W4285393234",
@@ -428,7 +439,7 @@
       "authors": "Matheus Marcon, Radharani Benvenutti, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
       "venue": "European Journal of Neuroscience",
       "url": "https://doi.org/10.1111/ejn.15771",
-      "doi": "https://doi.org/10.1111/ejn.15771"
+      "doi": "10.1111/ejn.15771"
     },
     {
       "id": "https://openalex.org/W4285737798",
@@ -439,7 +450,18 @@
       "authors": "Matheus Marcon, Radharani Benvenutti, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.1111/ejn.15771/v3/response1",
-      "doi": "https://doi.org/10.1111/ejn.15771/v3/response1"
+      "doi": "10.1111/ejn.15771/v3/response1"
+    },
+    {
+      "id": "https://openalex.org/W4285738565",
+      "date": "2022-05-29",
+      "year": 2022,
+      "type": "Other output",
+      "title": "Author response for \"What do male and female zebrafish prefer? Directional and color preference in maze tasks\"",
+      "authors": "Matheus Marcon, Radharani Benvenutti, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
+      "venue": "",
+      "url": "https://doi.org/10.1111/ejn.15771/v2/response1",
+      "doi": "10.1111/ejn.15771/v2/response1"
     },
     {
       "id": "https://openalex.org/W4280592113",
@@ -450,7 +472,7 @@
       "authors": "Adrieli Sachett, Radharani Benvenutti, Carlos G. Reis, Matheus Gallas‐Lopes, Leonardo M. Bastos, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
       "venue": "Neurochemical Research",
       "url": "https://doi.org/10.1007/s11064-022-03618-9",
-      "doi": "https://doi.org/10.1007/s11064-022-03618-9"
+      "doi": "10.1007/s11064-022-03618-9"
     },
     {
       "id": "https://openalex.org/W4221063913",
@@ -461,7 +483,18 @@
       "authors": "F Giongo, Matheus Gallas‐Lopes, Radharani Benvenutti, Adrieli Sachett, Leonardo M. Bastos, Adriane Ribeiro Rosa, Ana Paula Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2022.03.29.486302",
-      "doi": "https://doi.org/10.1101/2022.03.29.486302"
+      "doi": "10.1101/2022.03.29.486302"
+    },
+    {
+      "id": "epmc:IND607616514",
+      "date": "2022-03-01",
+      "year": 2022,
+      "type": "Journal article",
+      "title": "Curcumin micronization by supercritical fluid: In vitro and in vivo biological relevance",
+      "authors": "Sachett A, Gallas-Lopes M, Benvenutti R, Marcon M, Aguiar GPS, Herrmann AP, Oliveira JV, Siebel AM, Piato A.",
+      "venue": "Industrial crops and products.",
+      "url": "https://europepmc.org/article/AGR/IND607616514",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4225674183",
@@ -472,7 +505,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
       "venue": "Industrial Crops and Products",
       "url": "https://doi.org/10.1016/j.indcrop.2021.114501",
-      "doi": "https://doi.org/10.1016/j.indcrop.2021.114501"
+      "doi": "10.1016/j.indcrop.2021.114501"
     },
     {
       "id": "https://openalex.org/W4200062570",
@@ -483,7 +516,7 @@
       "authors": "Matheus Marcon, Radharani Benvenutti, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2021.12.22.473814",
-      "doi": "https://doi.org/10.1101/2021.12.22.473814"
+      "doi": "10.1101/2021.12.22.473814"
     },
     {
       "id": "https://openalex.org/W3217011170",
@@ -494,7 +527,7 @@
       "authors": "Adrieli Sachett, Radharani Benvenutti, Carlos G. Reis, Matheus Gallas‐Lopes, Leonardo M. Bastos, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2021.11.29.470475",
-      "doi": "https://doi.org/10.1101/2021.11.29.470475"
+      "doi": "10.1101/2021.11.29.470475"
     },
     {
       "id": "https://openalex.org/W3206584514",
@@ -505,7 +538,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Amanda M. Linazzi, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2021.10.11.463974",
-      "doi": "https://doi.org/10.1101/2021.10.11.463974"
+      "doi": "10.1101/2021.10.11.463974"
     },
     {
       "id": "https://openalex.org/W4200169639",
@@ -516,7 +549,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Radharani Benvenutti, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bx8tprwn",
-      "doi": "https://doi.org/10.17504/protocols.io.bx8tprwn"
+      "doi": "10.17504/protocols.io.bx8tprwn"
     },
     {
       "id": "https://openalex.org/W3196305610",
@@ -527,7 +560,7 @@
       "authors": "Radharani Benvenutti, Matheus Gallas‐Lopes, Adrieli Sachett, Matheus Marcon, Nathan Ryzewski Strogulski, Carlos G. Reis, Rafael Chitolina, Ângelo Piato, Ana Paula Herrmann",
       "venue": "Journal of Neuroscience Research",
       "url": "https://doi.org/10.1002/jnr.24948",
-      "doi": "https://doi.org/10.1002/jnr.24948"
+      "doi": "10.1002/jnr.24948"
     },
     {
       "id": "https://openalex.org/W3179624534",
@@ -538,7 +571,18 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Gean Pablo S. Aguiar, Ana Paula Herrmann, J. Vladimir Oliveira, Anna Maria Siebel, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2021.07.08.451641",
-      "doi": "https://doi.org/10.1101/2021.07.08.451641"
+      "doi": "10.1101/2021.07.08.451641"
+    },
+    {
+      "id": "https://openalex.org/W4251621719",
+      "date": "2021-06-21",
+      "year": 2021,
+      "type": "Other output",
+      "title": "Author response for \"How do zebrafish ( Danio rerio ) respond to MK‐801 and amphetamine? Relevance for assessing schizophrenia‐related endophenotypes in alternative model organisms\"",
+      "authors": "Radharani Benvenutti, Matheus Gallas‐Lopes, Adrieli Sachett, Matheus Marcon, Nathan Ryzewski Strogulski, Carlos G. Reis, Rafael Chitolina, Ângelo Piato, Ana Paula Herrmann",
+      "venue": "",
+      "url": "https://doi.org/10.1002/jnr.24948/v3/response1",
+      "doi": "10.1002/jnr.24948/v3/response1"
     },
     {
       "id": "https://openalex.org/W3165060183",
@@ -549,7 +593,7 @@
       "authors": "Radharani Benvenutti, Matheus Marcon, Matheus Gallas‐Lopes, Anna Julie de Mello, Ana Paula Herrmann, Ângelo Piato",
       "venue": "Neuroscience & Biobehavioral Reviews",
       "url": "https://doi.org/10.1016/j.neubiorev.2021.05.027",
-      "doi": "https://doi.org/10.1016/j.neubiorev.2021.05.027"
+      "doi": "10.1016/j.neubiorev.2021.05.027"
     },
     {
       "id": "https://openalex.org/W4249874820",
@@ -560,7 +604,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.btqrnmv6",
-      "doi": "https://doi.org/10.17504/protocols.io.btqrnmv6"
+      "doi": "10.17504/protocols.io.btqrnmv6"
     },
     {
       "id": "https://openalex.org/W3170311929",
@@ -571,7 +615,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.btjdnki6",
-      "doi": "https://doi.org/10.17504/protocols.io.btjdnki6"
+      "doi": "10.17504/protocols.io.btjdnki6"
     },
     {
       "id": "https://openalex.org/W3166736548",
@@ -582,7 +626,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato, Greicy M. M. Conterato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.btbpnimn",
-      "doi": "https://doi.org/10.17504/protocols.io.btbpnimn"
+      "doi": "10.17504/protocols.io.btbpnimn"
     },
     {
       "id": "https://openalex.org/W3181252742",
@@ -593,7 +637,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.btaynifw",
-      "doi": "https://doi.org/10.17504/protocols.io.btaynifw"
+      "doi": "10.17504/protocols.io.btaynifw"
     },
     {
       "id": "https://openalex.org/W3183082844",
@@ -604,7 +648,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bsuuneww",
-      "doi": "https://doi.org/10.17504/protocols.io.bsuuneww"
+      "doi": "10.17504/protocols.io.bsuuneww"
     },
     {
       "id": "https://openalex.org/W3173132597",
@@ -615,7 +659,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bsujneun",
-      "doi": "https://doi.org/10.17504/protocols.io.bsujneun"
+      "doi": "10.17504/protocols.io.bsujneun"
     },
     {
       "id": "https://openalex.org/W3198048409",
@@ -626,7 +670,7 @@
       "authors": "Radharani Benvenutti, Matheus Gallas‐Lopes, Adrieli Sachett, Matheus Marcon, Nathan Ryzewski Strogulski, Carlos G. Reis, Rafael Chitolina, Ângelo Piato, Ana Paula Herrmann",
       "venue": "",
       "url": "https://doi.org/10.1002/jnr.24948/v2/response1",
-      "doi": "https://doi.org/10.1002/jnr.24948/v2/response1"
+      "doi": "10.1002/jnr.24948/v2/response1"
     },
     {
       "id": "https://openalex.org/W3132528234",
@@ -637,7 +681,7 @@
       "authors": "Ângelo Piato, Radharani Benvenutti, Matheus Gallas‐Lopes, Matheus Marcon, Cristina R. Reschke, Ana Paula Herrmann",
       "venue": "Current Neuropharmacology",
       "url": "https://doi.org/10.2174/1570159x19666210215121428",
-      "doi": "https://doi.org/10.2174/1570159x19666210215121428"
+      "doi": "10.2174/1570159x19666210215121428"
     },
     {
       "id": "https://openalex.org/W3089229132",
@@ -648,7 +692,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Radharani Benvenutti, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bjrkkm4w",
-      "doi": "https://doi.org/10.17504/protocols.io.bjrkkm4w"
+      "doi": "10.17504/protocols.io.bjrkkm4w"
     },
     {
       "id": "https://openalex.org/W3088716505",
@@ -659,7 +703,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Radharani Benvenutti, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bjp8kmrw",
-      "doi": "https://doi.org/10.17504/protocols.io.bjp8kmrw"
+      "doi": "10.17504/protocols.io.bjp8kmrw"
     },
     {
       "id": "https://openalex.org/W3088844941",
@@ -670,7 +714,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Radharani Benvenutti, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bjnfkmbn",
-      "doi": "https://doi.org/10.17504/protocols.io.bjnfkmbn"
+      "doi": "10.17504/protocols.io.bjnfkmbn"
     },
     {
       "id": "https://openalex.org/W3084988166",
@@ -681,7 +725,7 @@
       "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Greicy M. M. Conterato, Ana Paula Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bjkdkks6",
-      "doi": "https://doi.org/10.17504/protocols.io.bjkdkks6"
+      "doi": "10.17504/protocols.io.bjkdkks6"
     },
     {
       "id": "https://openalex.org/W3046250000",
@@ -692,7 +736,7 @@
       "authors": "Radharani Benvenutti, Matheus Gallas‐Lopes, Adrieli Sachett, Matheus Marcon, Nathan Ryzewski Strogulski, Carlos G. Reis, Rafael Chitolina, Ângelo Piato, Ana Paula Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2020.08.03.234567",
-      "doi": "https://doi.org/10.1101/2020.08.03.234567"
+      "doi": "10.1101/2020.08.03.234567"
     },
     {
       "id": "https://openalex.org/W3044188155",
@@ -703,7 +747,29 @@
       "authors": "Mailton Vasconcelos, Dirson João Stein, Matheus Gallas‐Lopes, Luane Landau, Rosa M. M. de Almeida",
       "venue": "Trends in Psychiatry and Psychotherapy",
       "url": "https://doi.org/10.1590/2237-6089-2018-0027",
-      "doi": "https://doi.org/10.1590/2237-6089-2018-0027"
+      "doi": "10.1590/2237-6089-2018-0027"
+    },
+    {
+      "id": "epmc:PMC7234138",
+      "date": "2020-05-01",
+      "year": 2020,
+      "type": "Journal article",
+      "title": "S30. SCHIZOPHRENIA IN A FISH: EFFECTS OF NMDA ANTAGONISM ON LOCOMOTOR BEHAVIOR AND SOCIAL INTERACTION IN ZEBRAFISH",
+      "authors": "Gallas-Lopes M, Benvenutti R, Sachett A, Chitolina R, Guilherme Reis C, Herrmann A, Piato A.",
+      "venue": "Schizophr Bull",
+      "url": "https://europepmc.org/article/PMC/PMC7234138",
+      "doi": ""
+    },
+    {
+      "id": "epmc:PMC7234671",
+      "date": "2020-05-01",
+      "year": 2020,
+      "type": "Journal article",
+      "title": "S218. TAURINE DOES NOT PREVENT SOCIAL DEFICITS INDUCED BY MK-801 IN ADULT ZEBRAFISH",
+      "authors": "Kich Giongo F, Benvenutti R, Gallas-Lopes M, Sachett A, Piato A, Paula Herrmann A.",
+      "venue": "Schizophr Bull",
+      "url": "https://europepmc.org/article/PMC/PMC7234671",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W3027634979",
@@ -714,18 +780,7 @@
       "authors": "Matheus Gallas‐Lopes, Radharani Benvenutti, Adrieli Sachett, Rafael Chitolina, Carlos G. Reis, Ana Paula Herrmann, Ângelo Piato",
       "venue": "Schizophrenia Bulletin",
       "url": "https://doi.org/10.1093/schbul/sbaa031.096",
-      "doi": "https://doi.org/10.1093/schbul/sbaa031.096"
-    },
-    {
-      "id": "https://openalex.org/W3027862565",
-      "date": "2020-04-01",
-      "year": 2020,
-      "type": "Conference abstract",
-      "title": "S218. TAURINE DOES NOT PREVENT SOCIAL DEFICITS INDUCED BY MK-801 IN ADULT ZEBRAFISH",
-      "authors": "F Giongo, Radharani Benvenutti, Matheus Gallas‐Lopes, Adrieli Sachett, Ângelo Piato, Ana Paula Herrmann",
-      "venue": "Schizophrenia Bulletin",
-      "url": "https://doi.org/10.1093/schbul/sbaa031.284",
-      "doi": "https://doi.org/10.1093/schbul/sbaa031.284"
+      "doi": "10.1093/schbul/sbaa031.096"
     },
     {
       "id": "https://openalex.org/W2979391241",
@@ -736,7 +791,7 @@
       "authors": "Mailton Vasconcelos, Dirson João Stein, Matheus Gallas‐Lopes, Luane Landau, Luiza Marques Prates Behrens, Lucas Albrechet‐Souza, Klaus A. Miczek, Rosa M. M. de Almeida",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/784488",
-      "doi": "https://doi.org/10.1101/784488"
+      "doi": "10.1101/784488"
     }
   ]
 }
