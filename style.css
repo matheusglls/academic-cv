@@ -156,8 +156,8 @@ h1 em {
 }
 .two-col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  grid-template-columns: minmax(150px, 0.3fr) minmax(0, 1fr);
+  gap: clamp(48px, 7vw, 88px);
 }
 .two-col .section-title h2 {
   font-size: 3rem;
@@ -167,6 +167,7 @@ h1 em {
   font-size: 1.25rem;
   line-height: 1.7;
   color: #334039;
+  max-width: 850px;
 }
 .dark {
   background: var(--green);
