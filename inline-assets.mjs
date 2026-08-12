@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-const html = await readFile("index.html", "utf8");
+const html = await readFile("index(1).html", "utf8");
 const css = await readFile("style.css", "utf8");
 const js = await readFile("script.js", "utf8");
 const inlined = html
@@ -11,4 +11,4 @@ const inlined = html
     /<script>\s*const state\s*=[\s\S]*?<\/script>/,
     `<script>\n${js}\n</script>`,
   );
-await writeFile("index.html", inlined);
+await writeFile("index(1).html", inlined);

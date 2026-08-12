@@ -22,7 +22,6 @@ function render() {
       "Protocol",
       "Preregistration",
       "Data / code",
-      "Other output",
       "All",
     ],
     present = new Set(state.outputs.map((o) => o.type)),
@@ -88,35 +87,15 @@ const coords = {
 function drawNetwork(data) {
   const svg = document.querySelector("#network");
   if (!svg) return;
-  const preferred = data.coauthors.filter((x) =>
-      /m[uü]ller|amaral/i.test(x.name),
-    ),
-    rest = data.coauthors.filter((x) => !preferred.includes(x)),
-    nodes = [...preferred, ...rest]
-      .filter((x, i, a) => a.findIndex((y) => y.name === x.name) === i)
-      .slice(0, 14),
-    cx = 400,
-    cy = 255,
-    rx = 315,
-    ry = 185;
-  svg.setAttribute("viewBox", "0 0 800 510");
-  let html = '<g class="links">';
-  nodes.forEach((n, i) => {
-    const a = -Math.PI / 2 + (i * 2 * Math.PI) / nodes.length,
-      x = cx + rx * Math.cos(a),
-      y = cy + ry * Math.sin(a);
-    html += `<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}"/>`;
-  });
-  html +=
-    '</g><circle class="self" cx="400" cy="255" r="55"/><text class="self-label" x="400" y="248">Matheus</text><text class="self-label" x="400" y="271">Gallas-Lopes</text>';
-  nodes.forEach((n, i) => {
-    const a = -Math.PI / 2 + (i * 2 * Math.PI) / nodes.length,
-      x = cx + rx * Math.cos(a),
-      y = cy + ry * Math.sin(a),
-      r = 18 + Math.min(18, n.works);
-    html += `<circle class="coauthor" cx="${x}" cy="${y}" r="${r}"/><text class="author-label" x="${x}" y="${y + r + 18}">${esc(n.name)}</text><text class="work-label" x="${x}" y="${y + 5}">${n.works}</text>`;
-  });
+  const nodes = data.coauthors || [], positioned = new Map(), cx=500, cy=330;
+  svg.setAttribute("viewBox", "0 0 1000 660");
+  nodes.forEach((n,i)=>{ const ring=Math.floor(Math.sqrt(i/5))+1, start=ring===1?0:5*(ring-1)*(ring-1), count=Math.max(8,10*ring), a=-Math.PI/2+2*Math.PI*(i-start)/count, radius=90+ring*92; positioned.set(n.id,{...n,x:cx+radius*Math.cos(a),y:cy+radius*.62*Math.sin(a)}); });
+  let html='<g class="links">';
+  (data.edges||[]).forEach(e=>{const a=positioned.get(e.source),b=positioned.get(e.target);if(a&&b)html+=`<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" style="stroke-width:${Math.min(5,0.5+e.works*.55)}"><title>${esc(a.name)} + ${esc(b.name)} · ${e.works} shared output${e.works===1?'':'s'}</title></line>`});
+  html+='</g><circle class="self" cx="500" cy="330" r="42"/><text class="self-label" x="500" y="324">Matheus</text><text class="self-label" x="500" y="344">Gallas-Lopes</text>';
+  nodes.forEach((n,i)=>{const p=positioned.get(n.id),r=5+Math.min(17,Math.sqrt(n.works)*3.1),label=i<18?`<text class="author-label" x="${p.x}" y="${p.y+r+12}">${esc(n.name)}</text>`:'';html+=`<g class="network-node"><circle class="coauthor" cx="${p.x}" cy="${p.y}" r="${r}"/><title>${esc(n.name)} · ${n.works} shared output${n.works===1?'':'s'}</title>${label}</g>`});
   svg.innerHTML = html;
+  const list=document.querySelector('#collaborator-list'); if(list) list.innerHTML=nodes.map(n=>`<li><span>${esc(n.name)}</span><strong>${n.works}</strong></li>`).join('');
 }
 function drawMap(data) {
   if (!window.L) return;
@@ -173,6 +152,7 @@ fetch("data/metrics.json", { cache: "no-cache" })
     set("#metric-protocols", m.counts?.Protocol);
     set("#metric-registrations", m.counts?.Preregistration);
     set("#metric-h", m.h_index);
+    set("#metric-citations", Number.isFinite(m.total_citations) ? m.total_citations.toLocaleString() : "—");
     drawYears(m.by_year || {});
   })
   .catch(() => {});

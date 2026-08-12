@@ -1,18 +1,18 @@
 import { mkdir, writeFile } from "node:fs/promises";
 const AUTHOR = "A5058545919",
   ORCID = "0000-0001-5375-2335",
-  OSF_NODE = "5k9yv",
+  OSF_USER = "5k9yv",
   apiKey = process.env.OPENALEX_API_KEY;
 const labels = {
   article: "Journal article",
   review: "Journal article",
   preprint: "Preprint",
-  "conference-paper": "Other output",
+  "conference-paper": "Exclude",
   "conference-abstract": "Exclude",
   dataset: "Data / code",
   software: "Data / code",
-  book: "Other output",
-  "book-chapter": "Other output",
+  book: "Exclude",
+  "book-chapter": "Exclude",
 };
 const works = [];
 let cursor = "*";
@@ -41,7 +41,7 @@ const normalized = works.map((w) => {
     id: w.id,
     date: w.publication_date || `${w.publication_year}-01-01`,
     year: w.publication_year,
-    type: protocol ? "Protocol" : labels[w.type] || "Other output",
+    type: protocol ? "Protocol" : labels[w.type] || "Exclude",
     title: w.title || "Untitled",
     authors: (w.authorships || [])
       .map((a) => a.author?.display_name)
@@ -162,9 +162,9 @@ async function biorxiv() {
   }
   return out;
 }
-async function osfRegistrations(node) {
+async function osfRegistrations(userId) {
   const out = [];
-  let next = `https://api.osf.io/v2/nodes/${node}/registrations/?page[size]=100`;
+  let next = `https://api.osf.io/v2/users/${userId}/registrations/?page[size]=100`;
   while (next) {
     const r = await fetch(next);
     if (!r.ok) break;
@@ -182,7 +182,7 @@ async function osfRegistrations(node) {
         ),
         type: "Preregistration",
         title: x.attributes?.title || "OSF registration",
-        authors: "Matheus Gallas-Lopes and collaborators",
+        authors: "Matheus Gallas-Lopes",
         venue: "Open Science Framework",
         url: `https://osf.io/${x.id}/`,
         doi: "",
@@ -195,7 +195,7 @@ normalized.push(
   ...(await crossrefByOrcid()),
   ...(await biorxiv()),
   ...(await europePmc()),
-  ...(await osfRegistrations(OSF_NODE)),
+  ...(await osfRegistrations(OSF_USER)),
 );
 const clean = (s) =>
   String(s || "")
@@ -261,28 +261,71 @@ await writeFile(
 );
 console.log(`Wrote ${deduped.length} unique outputs`);
 const people = new Map(),
+  edges = new Map(),
   countries = new Map();
+const normName = (name) => clean(name).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+const familyKey = (name) => normName(name).split(" ").filter(Boolean).at(-1) || "unknown";
+// Confirmed source-level identity correction: this OpenAlex profile is attached
+// to one of Matheus's works with the wrong display identity.
+const authorIdentityOverrides = new Map([
+  ["https://openalex.org/A5083759916", "Daniela Varisco Müller"],
+]);
+const externalAuthorsByDoi = new Map(
+  normalized
+    .filter((x) => x.doi && String(x.id).startsWith("crossref:") && x.authors)
+    .map((x) => [x.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//, ""), x.authors.split(/\s*,\s*/).filter(Boolean)]),
+);
+const externallyVerifiedNames = new Set([...externalAuthorsByDoi.values()].flat().map(normName));
 for (const w of works) {
   const workCountries = new Set();
+  const workPeople = [];
+  const doiKey = String(w.doi || "").toLowerCase().replace(/^https?:\/\/(dx\.)?doi\.org\//, "");
+  const verifiedNames = externalAuthorsByDoi.get(doiKey) || [];
+  if (verifiedNames.length) {
+    for (const name of verifiedNames) {
+      if (/matheus.*gallas/i.test(name)) continue;
+      const bits = normName(name).split(" ").filter(Boolean);
+      const key = `verified:${bits[0] || "unknown"}|${bits.at(-1) || "unknown"}`;
+      const p = people.get(key) || { id: key, name, works: 0 };
+      if (name.length > p.name.length) p.name = name;
+      p.works++;
+      people.set(key, p);
+      workPeople.push(key);
+    }
+  }
   for (const a of w.authorships || []) {
     const id = a.author?.id,
-      name = a.author?.display_name;
-    if (id && name && !/matheus gallas/i.test(name)) {
-      const p = people.get(id) || { name, works: 0 };
+      name = authorIdentityOverrides.get(id) || a.author?.display_name;
+    if (!verifiedNames.length && id && name && !/matheus gallas/i.test(name) && (!doiKey || externallyVerifiedNames.has(normName(name)))) {
+      // OpenAlex occasionally merges distinct people into one author profile.
+      // Keeping a surname discriminator prevents an unrelated display name
+      // from replacing another person who happens to share that profile.
+      const overrideBits = normName(name).split(" ").filter(Boolean);
+      const key = authorIdentityOverrides.has(id)
+        ? `verified:${overrideBits[0]}|${overrideBits.at(-1)}`
+        : `${id}|${familyKey(name)}`;
+      const p = people.get(key) || { id: key, openalex_id: id, name, works: 0 };
       p.works++;
-      people.set(id, p);
+      people.set(key, p);
+      workPeople.push(key);
     }
     for (const inst of a.institutions || [])
       if (inst.country_code) workCountries.add(inst.country_code);
   }
   for (const code of workCountries)
     countries.set(code, (countries.get(code) || 0) + 1);
+  for (let i = 0; i < workPeople.length; i++)
+    for (let j = i + 1; j < workPeople.length; j++) {
+      const pair = [workPeople[i], workPeople[j]].sort();
+      const key = pair.join("::");
+      edges.set(key, { source: pair[0], target: pair[1], works: (edges.get(key)?.works || 0) + 1 });
+    }
 }
 const collaborations = {
   generated_at: new Date().toISOString(),
   coauthors: [...people.values()]
-    .sort((a, b) => b.works - a.works)
-    .slice(0, 30),
+    .sort((a, b) => b.works - a.works || a.name.localeCompare(b.name)),
+  edges: [...edges.values()].sort((a, b) => b.works - a.works),
   countries: [...countries]
     .sort((a, b) => b[1] - a[1])
     .map(([code, works]) => ({ code, works })),
