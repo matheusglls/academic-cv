@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:34:10.014Z",
+  "generated_at": "2026-08-20T21:34:08.489Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7203655525",
@@ -13,6 +13,17 @@
       "doi": "10.17504/protocols.io.bp2l6od95lqe/v1"
     },
     {
+      "id": "osf:gxskc",
+      "date": "2026-08-13T18:41:04.654993",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Panorama of Preclinical Systematic Reviews Conducted by Researchers in Brazil – Data Extraction Materials Registration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/gxskc/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W7203446194",
       "date": "2026-08-13",
       "year": 2026,
@@ -22,6 +33,28 @@
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/gxskc",
       "doi": "10.17605/osf.io/gxskc"
+    },
+    {
+      "id": "osf:923rq",
+      "date": "2026-08-04T16:57:27.649582",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Evaluation of the effects of geraniol in the unpredictable chronic stress protocol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/923rq/",
+      "doi": ""
+    },
+    {
+      "id": "osf:xu9tv",
+      "date": "2026-08-03T12:11:48.697278",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Effects of gonadectomy in an animal model of Parkinson’s disease: experiment preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/xu9tv/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W7197040318",
@@ -57,6 +90,28 @@
       "doi": "10.64898/2026.05.28.728488"
     },
     {
+      "id": "osf:bvzq8",
+      "date": "2026-05-15T19:57:14.802117",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Evaluation of mortality following Cannabis sp. oil exposure in Drosophila melanogaster",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/bvzq8/",
+      "doi": ""
+    },
+    {
+      "id": "osf:xzrga",
+      "date": "2026-05-15T14:53:03.527566",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Behavioral Effects of Cannabis sp. Oil in Different Formulations in Drosophila melanogaster",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/xzrga/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W7161238391",
       "date": "2026-05-15",
       "year": 2026,
@@ -90,6 +145,50 @@
       "doi": "10.17605/osf.io/xzrga"
     },
     {
+      "id": "osf:7ef6z",
+      "date": "2026-05-06T17:43:34.858889",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Evaluation of mortality following ketamine exposure in Drosophila melanogaster",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/7ef6z/",
+      "doi": ""
+    },
+    {
+      "id": "osf:6rzq8",
+      "date": "2026-05-05T15:24:50.183635",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Assessment of the behavioral effects of the antifungal carbendazim on social preference in adult zebrafish (Danio rerio).",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/6rzq8/",
+      "doi": ""
+    },
+    {
+      "id": "osf:nkba6",
+      "date": "2026-04-23T13:49:58.224322",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Investigating the antiseizure properties of geranyl acetate in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/nkba6/",
+      "doi": ""
+    },
+    {
+      "id": "osf:a9vde",
+      "date": "2026-04-23T13:49:26.247023",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Investigating the antiseizure properties of geraniol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/a9vde/",
+      "doi": ""
+    },
+    {
       "id": "epmc:42030073",
       "date": "2026-04-01",
       "year": 2026,
@@ -99,6 +198,17 @@
       "venue": "Curr Protoc",
       "url": "https://doi.org/10.1002/cpz1.70376",
       "doi": "10.1002/cpz1.70376"
+    },
+    {
+      "id": "osf:f29tb",
+      "date": "2026-03-30T15:49:12.157156",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Behavioral effects of ketamine in Drosophila melanogaster",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/f29tb/",
+      "doi": ""
     },
     {
       "id": "epmc:41903864",
@@ -112,6 +222,17 @@
       "doi": "10.1016/j.neulet.2026.138594"
     },
     {
+      "id": "osf:rzju8",
+      "date": "2026-02-13T17:23:40.781333",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Performance of Large Language Models in Title and Abstract Screening of Preclinical Systematic Reviews - Study Registration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/rzju8/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W7201865763",
       "date": "2026-01-17",
       "year": 2026,
@@ -121,6 +242,17 @@
       "venue": "Open MIND",
       "url": "https://doi.org/10.17605/osf.io/923rq",
       "doi": "10.17605/osf.io/923rq"
+    },
+    {
+      "id": "osf:72na9",
+      "date": "2026-01-14T17:52:04.567515",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Evaluation of the effects of geraniol in the unpredictable chronic stress protocol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/72na9/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W7155399224",
@@ -156,6 +288,17 @@
       "doi": "10.2139/ssrn.7109989"
     },
     {
+      "id": "osf:gftrx",
+      "date": "2025-12-29T19:33:53.179361",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Panorama of preclinical systematic reviews conducted by researchers in Brazil - Study Registration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/gftrx/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W4417447965",
       "date": "2025-12-17",
       "year": 2025,
@@ -187,6 +330,17 @@
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.e6nvw4rpzlmk/v1",
       "doi": "10.17504/protocols.io.e6nvw4rpzlmk/v1"
+    },
+    {
+      "id": "osf:c45en",
+      "date": "2025-11-14T14:43:17.931501",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Sleep and circadian disturbances in Dravet Syndrome: a scoping review of clinical and preclinical evidence - Study Registration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/c45en/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4415630968",
@@ -222,6 +376,39 @@
       "doi": "10.1101/2025.09.16.676572"
     },
     {
+      "id": "osf:wp3mc",
+      "date": "2025-09-05T17:31:17.288983",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Assessment of behavioral, neurochemical, and physiological effects of the antifungal agent carbendazim in zebrafish (Danio rerio).",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/wp3mc/",
+      "doi": ""
+    },
+    {
+      "id": "osf:sxtv2",
+      "date": "2025-06-17T14:49:36.918793",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Which experimental factors are associated to successful animal-to-human translation for monoclonal antibody therapies in Alzheimer's disease?",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/sxtv2/",
+      "doi": ""
+    },
+    {
+      "id": "osf:xq9bu",
+      "date": "2025-06-17T14:18:01.625897",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Investigation of the rapid effects of ketamine in the unpredictable chronic stress protocol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/xq9bu/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W4411134559",
       "date": "2025-06-09",
       "year": 2025,
@@ -244,6 +431,17 @@
       "doi": "10.1038/s41684-025-01548-x"
     },
     {
+      "id": "osf:y9vna",
+      "date": "2025-05-20T18:07:33.582251",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "A systematic review and meta-analysis on the effects of acute stress in adult zebrafish (Danio rerio)",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/y9vna/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W4409179041",
       "date": "2025-04-03",
       "year": 2025,
@@ -253,6 +451,50 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.04.02.645026",
       "doi": "10.1101/2025.04.02.645026"
+    },
+    {
+      "id": "osf:shf24",
+      "date": "2025-03-10T13:08:35.938460",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Neurobehavioral effects of geranyl acetate in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/shf24/",
+      "doi": ""
+    },
+    {
+      "id": "osf:uxmqp",
+      "date": "2025-02-19T15:48:47.598255",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Behavioral effects of alstonine in the novel tank and light-dark tests in adult zebrafish: experiment preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/uxmqp/",
+      "doi": ""
+    },
+    {
+      "id": "osf:dp7hz",
+      "date": "2025-02-19T13:33:44.478566",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Replication attempt of Cognato et al. (2012): MK-801 impairs spatial memory acquisition in the Y-maze task in zebrafish (experiment preregistration)",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/dp7hz/",
+      "doi": ""
+    },
+    {
+      "id": "osf:y3kn7",
+      "date": "2025-02-18T14:02:28.070934",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Behavioral effects of acute exposure to geraniol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/y3kn7/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4406441098",
@@ -266,6 +508,17 @@
       "doi": "10.1101/2025.01.14.633001"
     },
     {
+      "id": "osf:x95w6",
+      "date": "2025-01-08T16:29:14.817897",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Modulation of social behavior in adult zebrafish (Danio rerio): a systematic review and meta-analysis",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/x95w6/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W4403476189",
       "date": "2024-10-16",
       "year": 2024,
@@ -275,6 +528,50 @@
       "venue": "Research Square",
       "url": "https://doi.org/10.21203/rs.3.rs-4849877/v1",
       "doi": "10.21203/rs.3.rs-4849877/v1"
+    },
+    {
+      "id": "osf:3jteu",
+      "date": "2024-10-15T19:06:47.751952",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Neurobehavioral effects of geraniol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/3jteu/",
+      "doi": ""
+    },
+    {
+      "id": "osf:gm8ez",
+      "date": "2024-09-19T18:17:52.572343",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Neurobehavioral effects of geraniol in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/gm8ez/",
+      "doi": ""
+    },
+    {
+      "id": "osf:rq9hp",
+      "date": "2024-07-10T16:09:24.738639",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Replication study of “The antidepressant impact of minocycline in rodents: A systematic review and meta-analysis” by Reis et al. (2019) - Registration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/rq9hp/",
+      "doi": ""
+    },
+    {
+      "id": "osf:2eg93",
+      "date": "2024-07-06T19:29:41.994283",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Effects of antipsychotics on ketamine-induced behavioral alterations in the social preference and open tank tests in adult zebrafish: experiment preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/2eg93/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4400378600",
@@ -288,6 +585,17 @@
       "doi": "10.1101/2024.07.02.601732"
     },
     {
+      "id": "osf:jg4r6",
+      "date": "2024-07-03T14:41:00.755159",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Effects of anxiolytic and anxiogenic interventions on shoal cohesion in zebrafish: experiment preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/jg4r6/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W4399957156",
       "date": "2024-06-24",
       "year": 2024,
@@ -297,6 +605,28 @@
       "venue": "Comparative Biochemistry and Physiology Part C Toxicology & Pharmacology",
       "url": "https://doi.org/10.1016/j.cbpc.2024.109969",
       "doi": "10.1016/j.cbpc.2024.109969"
+    },
+    {
+      "id": "osf:yruhm",
+      "date": "2024-03-18T19:57:09.125068",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Effects of fluoxetine, bromazepam and buspirone on anxiety-related behavioral assays in zebrafish",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/yruhm/",
+      "doi": ""
+    },
+    {
+      "id": "osf:vkcft",
+      "date": "2024-02-09T14:15:59.359667",
+      "year": 2024,
+      "type": "Preregistration",
+      "title": "Evaluation of sustained behavioral effects following 14-day ketamine exposure in adult zebrafish - Experiment Preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/vkcft/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4391399915",
@@ -330,6 +660,17 @@
       "venue": "Lab Animal",
       "url": "https://doi.org/10.1038/s41684-023-01288-w",
       "doi": "10.1038/s41684-023-01288-w"
+    },
+    {
+      "id": "osf:kjf3r",
+      "date": "2023-11-27T18:44:23.884153",
+      "year": 2023,
+      "type": "Preregistration",
+      "title": "Evaluation of sustained behavioral effects following 5-day ketamine exposure in adult zebrafish - Experiment Preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/kjf3r/",
+      "doi": ""
     },
     {
       "id": "crossref:10.1016/j.eplepsyres.2023.107236",
@@ -398,6 +739,17 @@
       "doi": "10.17504/protocols.io.j8nlkwz7wl5r/v1"
     },
     {
+      "id": "osf:r7xdy",
+      "date": "2023-04-06T22:18:53.006151",
+      "year": 2023,
+      "type": "Preregistration",
+      "title": "Assessment of behavioral sensitization to repeated ketamine exposure in adult zebrafish - Experiment Preregistration",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/r7xdy/",
+      "doi": ""
+    },
+    {
       "id": "crossref:10.17504/protocols.io.5qpvor4o7v4o/v1",
       "date": "2023-03-29",
       "year": 2023,
@@ -407,6 +759,17 @@
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.5qpvor4o7v4o/v1",
       "doi": "10.17504/protocols.io.5qpvor4o7v4o/v1"
+    },
+    {
+      "id": "osf:5k2br",
+      "date": "2023-02-17T13:38:53.231785",
+      "year": 2023,
+      "type": "Preregistration",
+      "title": "Effects of NMDA antagonists on social behavior: a systematic review and meta-analysis of preclinical studies - Search Terms",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/5k2br/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4319231486",
@@ -530,6 +893,17 @@
       "doi": "10.1101/2021.11.29.470475"
     },
     {
+      "id": "osf:h92c7",
+      "date": "2021-11-08T20:30:41.056054",
+      "year": 2021,
+      "type": "Preregistration",
+      "title": "Chemically-induced epileptic seizures in zebrafish: a systematic review",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/h92c7/",
+      "doi": ""
+    },
+    {
       "id": "https://openalex.org/W3206584514",
       "date": "2021-10-13",
       "year": 2021,
@@ -583,6 +957,28 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2021.07.08.451641",
       "doi": "10.1101/2021.07.08.451641"
+    },
+    {
+      "id": "osf:9rvyn",
+      "date": "2021-07-08T15:27:26.901237",
+      "year": 2021,
+      "type": "Preregistration",
+      "title": "Unpredictable chronic stress in zebrafish: a systematic review",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/9rvyn/",
+      "doi": ""
+    },
+    {
+      "id": "osf:ga9p4",
+      "date": "2021-06-07T21:49:55.713156",
+      "year": 2021,
+      "type": "Preregistration",
+      "title": "Effects of micro and nanoplastic in fish: protocol",
+      "authors": "Matheus Gallas-Lopes",
+      "venue": "Open Science Framework",
+      "url": "https://osf.io/ga9p4/",
+      "doi": ""
     },
     {
       "id": "https://openalex.org/W4249874820",
