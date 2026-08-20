@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-12T11:28:01.728Z",
+  "generated_at": "2026-08-20T02:49:04.988Z",
   "counts": {
-    "Preregistration": 40,
+    "Protocol": 16,
+    "Preregistration": 36,
     "Preprint": 24,
-    "Journal article": 18,
-    "Protocol": 15
+    "Journal article": 18
   },
-  "h_index": 12,
-  "total_citations": 433,
+  "h_index": 13,
+  "total_citations": 435,
   "by_year": {
     "2019": {
       "journals": 0,
@@ -18,7 +18,7 @@
       "preprints": 1
     },
     "2021": {
-      "journals": 3,
+      "journals": 2,
       "preprints": 4
     },
     "2022": {
@@ -26,7 +26,7 @@
       "preprints": 2
     },
     "2023": {
-      "journals": 4,
+      "journals": 5,
       "preprints": 3
     },
     "2024": {
