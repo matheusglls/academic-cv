@@ -1,4 +1,4 @@
-name: Refresh data daily
+name: Refresh data daily 
 
 on:
   schedule:
