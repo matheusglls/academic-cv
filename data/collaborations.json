@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:30:09.585Z",
+  "generated_at": "2026-08-22T06:23:29.848Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -1948,13 +1948,13 @@
       "works": 13
     },
     {
-      "source": "verified:ana|herrmann",
-      "target": "verified:leonardo|bastos",
+      "source": "verified:adrieli|sachett",
+      "target": "verified:radharani|benvenutti",
       "works": 12
     },
     {
-      "source": "verified:adrieli|sachett",
-      "target": "verified:radharani|benvenutti",
+      "source": "verified:ana|herrmann",
+      "target": "verified:leonardo|bastos",
       "works": 12
     },
     {
@@ -2068,11 +2068,6 @@
       "works": 6
     },
     {
-      "source": "verified:leonardo|bastos",
-      "target": "verified:radharani|benvenutti",
-      "works": 5
-    },
-    {
       "source": "verified:carlos|reis",
       "target": "verified:radharani|benvenutti",
       "works": 5
@@ -2080,6 +2075,11 @@
     {
       "source": "verified:ana|herrmann",
       "target": "verified:thailana|buss",
+      "works": 5
+    },
+    {
+      "source": "verified:leonardo|bastos",
+      "target": "verified:radharani|benvenutti",
       "works": 5
     },
     {
@@ -8248,26 +8248,6 @@
       "works": 2
     },
     {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:leonardo|bastos",
-      "works": 2
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:radharani|benvenutti",
-      "works": 2
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:angelo|piato",
-      "works": 2
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:ana|herrmann",
-      "works": 2
-    },
-    {
       "source": "verified:dirson|stein",
       "target": "verified:mailton|vasconcelos",
       "works": 2
@@ -8385,6 +8365,26 @@
     {
       "source": "verified:matheus|marcon",
       "target": "verified:nayne|donzelli",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:leonardo|bastos",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:radharani|benvenutti",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:angelo|piato",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:ana|herrmann",
       "works": 2
     },
     {
