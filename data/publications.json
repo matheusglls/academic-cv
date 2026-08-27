@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:31:57.286Z",
+  "generated_at": "2026-08-27T17:07:20.691Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7203655525",
@@ -647,8 +647,8 @@
       "title": "CAMARADES Reproducibility Challenge: Replication of Reis (2019) by Gallas-Lopes et al.",
       "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Bruno Dutra Arbo, Angelo Piato, Ana P. Herrmann",
       "venue": "Open MIND",
-      "url": "https://osf.io/q7uyf",
-      "doi": ""
+      "url": "https://doi.org/10.17605/osf.io/q7uyf",
+      "doi": "10.17605/osf.io/q7uyf"
     },
     {
       "id": "https://openalex.org/W4389099737",
