@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:07:20.718Z",
+  "generated_at": "2026-08-28T17:54:35.576Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -55,11 +55,6 @@
       "works": 9
     },
     {
-      "id": "verified:daniela|muller",
-      "name": "Daniela Varisco Müller",
-      "works": 8
-    },
-    {
       "id": "verified:rafael|chitolina",
       "name": "Rafael Chitolina",
       "works": 8
@@ -73,6 +68,11 @@
     {
       "id": "verified:carlos|reis",
       "name": "Carlos Guilherme Rosa Reis",
+      "works": 7
+    },
+    {
+      "id": "verified:daniela|muller",
+      "name": "Daniela Varisco Müller",
       "works": 7
     },
     {
@@ -122,12 +122,6 @@
     {
       "id": "verified:anna|siebel",
       "name": "Anna M. Siebel",
-      "works": 3
-    },
-    {
-      "id": "https://openalex.org/A5089351637|arbo",
-      "openalex_id": "https://openalex.org/A5089351637",
-      "name": "Bruno Dutra Arbo",
       "works": 3
     },
     {
@@ -209,12 +203,6 @@
       "works": 2
     },
     {
-      "id": "https://openalex.org/A5135653932|piato",
-      "openalex_id": "https://openalex.org/A5135653932",
-      "name": "Angelo Piato",
-      "works": 2
-    },
-    {
       "id": "verified:austin|cooper",
       "name": "Austin Cooper",
       "works": 2
@@ -231,6 +219,12 @@
     },
     {
       "id": "verified:bruno|arbo",
+      "name": "Bruno Dutra Arbo",
+      "works": 2
+    },
+    {
+      "id": "https://openalex.org/A5089351637|arbo",
+      "openalex_id": "https://openalex.org/A5089351637",
       "name": "Bruno Dutra Arbo",
       "works": 2
     },
@@ -630,12 +624,6 @@
       "works": 1
     },
     {
-      "id": "https://openalex.org/A5139770292|herrmann",
-      "openalex_id": "https://openalex.org/A5139770292",
-      "name": "Ana P. Herrmann",
-      "works": 1
-    },
-    {
       "id": "https://openalex.org/A5144229236|herrmann",
       "openalex_id": "https://openalex.org/A5144229236",
       "name": "Ana P. Herrmann",
@@ -691,6 +679,12 @@
     {
       "id": "verified:angela|wyse",
       "name": "Angela TS Wyse",
+      "works": 1
+    },
+    {
+      "id": "https://openalex.org/A5135653932|piato",
+      "openalex_id": "https://openalex.org/A5135653932",
+      "name": "Angelo Piato",
       "works": 1
     },
     {
@@ -9633,11 +9627,6 @@
       "works": 2
     },
     {
-      "source": "https://openalex.org/A5089351637|arbo",
-      "target": "verified:daniela|muller",
-      "works": 2
-    },
-    {
       "source": "verified:anna|mello",
       "target": "verified:radharani|benvenutti",
       "works": 1
@@ -10203,36 +10192,6 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5007179372|sachett",
-      "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5031597903|benvenutti",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5090033511|reis",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5036658002|oliveira",
-      "target": "https://openalex.org/A5090033511|reis",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5036658002|oliveira",
-      "works": 1
-    },
-    {
       "source": "https://openalex.org/A5040662413|zanona",
       "target": "https://openalex.org/A5104214342|marconi",
       "works": 1
@@ -10290,6 +10249,36 @@
     {
       "source": "https://openalex.org/A5019385803|herrmann",
       "target": "https://openalex.org/A5077079258|calcagnotto",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5007179372|sachett",
+      "target": "https://openalex.org/A5019870433|bastos",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5031597903|benvenutti",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003434038|aguiar",
+      "target": "https://openalex.org/A5090033511|reis",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5036658002|oliveira",
+      "target": "https://openalex.org/A5090033511|reis",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003434038|aguiar",
+      "target": "https://openalex.org/A5019870433|bastos",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5036658002|oliveira",
       "works": 1
     },
     {
@@ -122343,31 +122332,6 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5135653932|piato",
-      "target": "verified:daniela|muller",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5139770292|herrmann",
-      "target": "verified:daniela|muller",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5089351637|arbo",
-      "target": "https://openalex.org/A5135653932|piato",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5089351637|arbo",
-      "target": "https://openalex.org/A5139770292|herrmann",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5135653932|piato",
-      "target": "https://openalex.org/A5139770292|herrmann",
-      "works": 1
-    },
-    {
       "source": "verified:fiona|ramage",
       "target": "verified:kaitlyn|hair",
       "works": 1
@@ -123420,6 +123384,11 @@
     {
       "source": "https://openalex.org/A5135653932|piato",
       "target": "https://openalex.org/A5145990840|herrmann",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5089351637|arbo",
+      "target": "verified:daniela|muller",
       "works": 1
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:07:20.691Z",
+  "generated_at": "2026-08-28T17:54:35.540Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7203655525",
@@ -231,6 +231,17 @@
       "venue": "Open Science Framework",
       "url": "https://osf.io/rzju8/",
       "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7172224026",
+      "date": "2026-01-20",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "BRISA-AI: comparing large language models and human scores for screening and study selection in preclinical systematic reviews",
+      "authors": "Francisco Marques da Silva Neto, Matheus Gallas‐Lopes, Ana P. Herrmann, Olavo B. Amaral",
+      "venue": "Open MIND",
+      "url": "https://doi.org/10.17605/osf.io/fqe85",
+      "doi": "10.17605/osf.io/fqe85"
     },
     {
       "id": "https://openalex.org/W7201865763",
@@ -638,17 +649,6 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2024.01.30.578041",
       "doi": "10.1101/2024.01.30.578041"
-    },
-    {
-      "id": "https://openalex.org/W7166960321",
-      "date": "2024-01-01",
-      "year": 2024,
-      "type": "Preregistration",
-      "title": "CAMARADES Reproducibility Challenge: Replication of Reis (2019) by Gallas-Lopes et al.",
-      "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Bruno Dutra Arbo, Angelo Piato, Ana P. Herrmann",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/q7uyf",
-      "doi": "10.17605/osf.io/q7uyf"
     },
     {
       "id": "https://openalex.org/W4389099737",
