@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:13:35.395Z",
+  "generated_at": "2026-09-03T10:25:01.495Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7203655525",
@@ -30,7 +30,7 @@
       "type": "Data / code",
       "title": "Panorama of Preclinical Systematic Reviews Conducted by Researchers in Brazil – Data Extraction Materials Registration",
       "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, A.P. Alves, Ana P. Herrmann, Mariana Abreu",
-      "venue": "Open MIND",
+      "venue": "",
       "url": "https://doi.org/10.17605/osf.io/gxskc",
       "doi": "10.17605/osf.io/gxskc"
     },
@@ -63,7 +63,7 @@
       "type": "Preregistration",
       "title": "Effects of gonadectomy in an animal model of Parkinson’s disease: experiment preregistration",
       "authors": "Estefani Marin, Matheus Gallas‐Lopes, Laura Scherer Pires, Maria Manoela Rezende Severo, Manuela Zanini Laurindo, Bruno Dutra Arbo",
-      "venue": "Open MIND",
+      "venue": "",
       "url": "https://doi.org/10.17605/osf.io/xu9tv",
       "doi": "10.17605/osf.io/xu9tv"
     },
@@ -121,28 +121,6 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2026.05.13.724847",
       "doi": "10.64898/2026.05.13.724847"
-    },
-    {
-      "id": "https://openalex.org/W7161555575",
-      "date": "2026-05-15",
-      "year": 2026,
-      "type": "Preregistration",
-      "title": "Evaluation of mortality following Cannabis sp. oil exposure in Drosophila melanogaster",
-      "authors": "Letícia F. G. Kinappe, Gabriela Resmini Ramalho, Maria Gabriela Scoloski Fassina, Tâmie Duarte, Matheus Gallas‐Lopes, Régis Adriel Zanette",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/bvzq8",
-      "doi": "10.17605/osf.io/bvzq8"
-    },
-    {
-      "id": "https://openalex.org/W7161556048",
-      "date": "2026-05-15",
-      "year": 2026,
-      "type": "Preregistration",
-      "title": "Behavioral Effects of Cannabis sp. Oil in Different Formulations in Drosophila melanogaster",
-      "authors": "Letícia F. G. Kinappe, Maria Gabriela Scoloski Fassina, Gabriela Resmini Ramalho, Tâmie Duarte, Matheus Gallas‐Lopes, Régis Adriel Zanette",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/xzrga",
-      "doi": "10.17605/osf.io/xzrga"
     },
     {
       "id": "osf:7ef6z",
@@ -233,28 +211,6 @@
       "doi": ""
     },
     {
-      "id": "https://openalex.org/W7172224026",
-      "date": "2026-01-20",
-      "year": 2026,
-      "type": "Preregistration",
-      "title": "BRISA-AI: comparing large language models and human scores for screening and study selection in preclinical systematic reviews",
-      "authors": "Francisco Marques da Silva Neto, Matheus Gallas‐Lopes, Ana P. Herrmann, Olavo B. Amaral",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/fqe85",
-      "doi": "10.17605/osf.io/fqe85"
-    },
-    {
-      "id": "https://openalex.org/W7201865763",
-      "date": "2026-01-17",
-      "year": 2026,
-      "type": "Preregistration",
-      "title": "Evaluation of the effects of geraniol in the unpredictable chronic stress protocol in adult zebrafish",
-      "authors": "Alana R O Mendes, A.P. Alves, Matheus Gallas‐Lopes, Francisco Fuentealba-Villarroel, Leonardo M. Bastos, Ana P. Herrmann, Angelo Piato",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/923rq",
-      "doi": "10.17605/osf.io/923rq"
-    },
-    {
       "id": "osf:72na9",
       "date": "2026-01-14T17:52:04.567515",
       "year": 2026,
@@ -264,28 +220,6 @@
       "venue": "Open Science Framework",
       "url": "https://osf.io/72na9/",
       "doi": ""
-    },
-    {
-      "id": "https://openalex.org/W7155399224",
-      "date": "2026-01-01",
-      "year": 2026,
-      "type": "Preregistration",
-      "title": "Investigating the antiseizure properties of geraniol in adult zebrafish",
-      "authors": "Leonardo M. Bastos, Matheus Gallas‐Lopes, A.P. Alves, Stefani M Portela, Ana P. Herrmann, Ângelo Piato",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/a9vde",
-      "doi": "10.17605/osf.io/a9vde"
-    },
-    {
-      "id": "https://openalex.org/W7155680355",
-      "date": "2026-01-01",
-      "year": 2026,
-      "type": "Preregistration",
-      "title": "Investigating the antiseizure properties of geranyl acetate in adult zebrafish",
-      "authors": "Leonardo M. Bastos, Matheus Gallas‐Lopes, A.P. Alves, Stefani M Portela, Ana P. Herrmann, Ângelo Piato",
-      "venue": "Open MIND",
-      "url": "https://doi.org/10.17605/osf.io/nkba6",
-      "doi": "10.17605/osf.io/nkba6"
     },
     {
       "id": "crossref:10.2139/ssrn.7109989",
