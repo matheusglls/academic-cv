@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-08T10:18:23.345Z",
+  "generated_at": "2026-09-09T10:26:00.922Z",
   "counts": {
+    "Preprint": 25,
     "Protocol": 16,
     "Preregistration": 37,
     "Data / code": 1,
-    "Preprint": 24,
     "Journal article": 18
   },
   "h_index": 13,
@@ -40,7 +40,7 @@
     },
     "2026": {
       "journals": 2,
-      "preprints": 4
+      "preprints": 5
     }
   }
 }
