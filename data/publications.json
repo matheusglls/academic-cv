@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-16T10:30:49.261Z",
+  "generated_at": "2026-09-17T10:41:09.991Z",
   "outputs": [
+    {
+      "id": "https://openalex.org/W7213414709",
+      "date": "2026-09-16",
+      "year": 2026,
+      "type": "Preprint",
+      "title": "Evaluation of Elicit, SciSpace and Nested Knowledge in replicating three systematic reviews",
+      "authors": "Charis Wong, Malcolm Macleod, Harris Khalid, Florence Do, Kat Stefanska, Mohammed Abomostafa, Gemma Dalgety, Leonor Rodríguez, Matheus Gallas‐Lopes, Stephen Malden, Kaitlyn Hair, Gillian L. Currie, Yvonne Shum Yee Khor, Nadia Soliman, Khrystyna Stotska",
+      "venue": "",
+      "url": "https://doi.org/10.31222/osf.io/cyu3m_v1",
+      "doi": "10.31222/osf.io/cyu3m_v1"
+    },
     {
       "id": "https://openalex.org/W7211947154",
       "date": "2026-09-08",

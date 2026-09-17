@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:30:49.303Z",
+  "generated_at": "2026-09-17T10:41:10.032Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -339,6 +339,11 @@
       "works": 2
     },
     {
+      "id": "verified:kaitlyn|hair",
+      "name": "Kaitlyn Hair",
+      "works": 2
+    },
+    {
       "id": "verified:karissa|barthelson",
       "name": "Karissa Barthelson",
       "works": 2
@@ -366,6 +371,11 @@
     {
       "id": "verified:mailton|vasconcelos",
       "name": "Mailton Vasconcelos",
+      "works": 2
+    },
+    {
+      "id": "verified:malcolm|macleod",
+      "name": "Malcolm Robert Macleod",
       "works": 2
     },
     {
@@ -808,6 +818,11 @@
       "works": 1
     },
     {
+      "id": "verified:charis|wong",
+      "name": "Charis Wong",
+      "works": 1
+    },
+    {
       "id": "verified:clarissa|carneiro",
       "name": "Clarissa França Dias Carneiro",
       "works": 1
@@ -1020,6 +1035,11 @@
       "works": 1
     },
     {
+      "id": "verified:florence|do",
+      "name": "Florence Do",
+      "works": 1
+    },
+    {
       "id": "verified:francesca|tinsdeall",
       "name": "Francesca Tinsdeall",
       "works": 1
@@ -1077,8 +1097,18 @@
       "works": 1
     },
     {
+      "id": "verified:gemma|dalgety",
+      "name": "Gemma Dalgety",
+      "works": 1
+    },
+    {
       "id": "verified:gilda|neves",
       "name": "Gilda Angela Neves",
+      "works": 1
+    },
+    {
+      "id": "verified:gillian|currie",
+      "name": "Gillian Currie",
       "works": 1
     },
     {
@@ -1121,6 +1151,11 @@
     {
       "id": "verified:gustavo|boas",
       "name": "Gustavo Roberto Villas-Boas",
+      "works": 1
+    },
+    {
+      "id": "verified:harris|khalid",
+      "name": "Harris Khalid",
       "works": 1
     },
     {
@@ -1265,11 +1300,6 @@
       "works": 1
     },
     {
-      "id": "verified:kaitlyn|hair",
-      "name": "Kaitlyn Hair",
-      "works": 1
-    },
-    {
       "id": "verified:karen|borbely",
       "name": "Karen Steponavicius Cruz Borbely",
       "works": 1
@@ -1290,6 +1320,11 @@
       "works": 1
     },
     {
+      "id": "verified:kat|stefanska",
+      "name": "Kat Stefanska",
+      "works": 1
+    },
+    {
       "id": "verified:katja|kobow",
       "name": "Katja Kobow",
       "works": 1
@@ -1307,6 +1342,11 @@
     {
       "id": "verified:keyla|pires",
       "name": "Keyla Silva Nobre Pires",
+      "works": 1
+    },
+    {
+      "id": "verified:khrystyna|stotska",
+      "name": "Khrystyna Stotska",
       "works": 1
     },
     {
@@ -1342,6 +1382,11 @@
     {
       "id": "verified:leonardo|assis",
       "name": "Leonardo Vinicius Monteiro de Assis",
+      "works": 1
+    },
+    {
+      "id": "verified:leonor|rodriguez",
+      "name": "Leonor Rodriguez",
       "works": 1
     },
     {
@@ -1402,11 +1447,6 @@
     {
       "id": "verified:luiz|chuffa",
       "name": "Luiz Gustavo de Almeida Chuffa",
-      "works": 1
-    },
-    {
-      "id": "verified:malcolm|macleod",
-      "name": "Malcolm Robert Macleod",
       "works": 1
     },
     {
@@ -1532,6 +1572,11 @@
       "works": 1
     },
     {
+      "id": "verified:mohammed|abomostafa",
+      "name": "Mohammed Abomostafa",
+      "works": 1
+    },
+    {
       "id": "verified:monica|ledur",
       "name": "Mônica Corrêa Ledur",
       "works": 1
@@ -1554,6 +1599,11 @@
     {
       "id": "verified:mychelle|souza",
       "name": "Mychelle Pacheco de Souza",
+      "works": 1
+    },
+    {
+      "id": "verified:nadia|soliman",
+      "name": "Nadia Soliman",
       "works": 1
     },
     {
@@ -1784,6 +1834,11 @@
       "works": 1
     },
     {
+      "id": "verified:stephen|malden",
+      "name": "Stephen Malden",
+      "works": 1
+    },
+    {
       "id": "verified:stevens|rehen",
       "name": "Stevens Kastrup Rehen",
       "works": 1
@@ -1907,6 +1962,11 @@
     {
       "id": "verified:yiyue|jiang",
       "name": "Yiyue Jiang",
+      "works": 1
+    },
+    {
+      "id": "verified:yvonne|khor",
+      "name": "Yvonne Shum Yee Khor",
       "works": 1
     }
   ],
@@ -9624,6 +9684,11 @@
     {
       "source": "verified:angelo|piato",
       "target": "verified:francisco|villarroel",
+      "works": 2
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:malcolm|macleod",
       "works": 2
     },
     {
@@ -122518,11 +122583,6 @@
     },
     {
       "source": "verified:kaitlyn|hair",
-      "target": "verified:malcolm|macleod",
-      "works": 1
-    },
-    {
-      "source": "verified:kaitlyn|hair",
       "target": "verified:kimberley|wever",
       "works": 1
     },
@@ -123470,6 +123530,456 @@
       "source": "verified:ana|herrmann",
       "target": "verified:murilo|abreu",
       "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:harris|khalid",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:florence|do",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:kat|stefanska",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:gemma|dalgety",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:kaitlyn|hair",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:gillian|currie",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:charis|wong",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:malcolm|macleod",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:leonor|rodriguez",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:malcolm|macleod",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:malcolm|macleod",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:malcolm|macleod",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:khrystyna|stotska",
+      "target": "verified:malcolm|macleod",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:harris|khalid",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:kat|stefanska",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:harris|khalid",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:kaitlyn|hair",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:harris|khalid",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:harris|khalid",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:kat|stefanska",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:gemma|dalgety",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:kaitlyn|hair",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:gillian|currie",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:florence|do",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:kat|stefanska",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:kat|stefanska",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:kat|stefanska",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:kat|stefanska",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:leonor|rodriguez",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:mohammed|abomostafa",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:mohammed|abomostafa",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:mohammed|abomostafa",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:khrystyna|stotska",
+      "target": "verified:mohammed|abomostafa",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:kaitlyn|hair",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:gillian|currie",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:gemma|dalgety",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:leonor|rodriguez",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:leonor|rodriguez",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:leonor|rodriguez",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:khrystyna|stotska",
+      "target": "verified:leonor|rodriguez",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:stephen|malden",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:nadia|soliman",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:khrystyna|stotska",
+      "target": "verified:stephen|malden",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:kaitlyn|hair",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:kaitlyn|hair",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "verified:gillian|currie",
+      "target": "verified:khrystyna|stotska",
+      "works": 1
+    },
+    {
+      "source": "verified:nadia|soliman",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:khrystyna|stotska",
+      "target": "verified:yvonne|khor",
+      "works": 1
+    },
+    {
+      "source": "verified:khrystyna|stotska",
+      "target": "verified:nadia|soliman",
+      "works": 1
     }
   ],
   "countries": [
@@ -123482,12 +123992,12 @@
       "works": 5
     },
     {
-      "code": "US",
+      "code": "GB",
       "works": 4
     },
     {
-      "code": "GB",
-      "works": 3
+      "code": "US",
+      "works": 4
     },
     {
       "code": "PT",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T10:30:49.518Z",
+  "generated_at": "2026-09-17T10:41:10.268Z",
   "counts": {
-    "Preprint": 25,
+    "Preprint": 26,
     "Protocol": 16,
     "Preregistration": 37,
     "Data / code": 1,
@@ -40,7 +40,7 @@
     },
     "2026": {
       "journals": 2,
-      "preprints": 5
+      "preprints": 6
     }
   }
 }
