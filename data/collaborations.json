@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T10:41:10.032Z",
+  "generated_at": "2026-09-18T10:16:13.800Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -9717,26 +9717,6 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5023562560|reschke",
-      "target": "https://openalex.org/A5038381567|piato",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5023562560|reschke",
-      "target": "https://openalex.org/A5031597903|benvenutti",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5023562560|reschke",
-      "target": "https://openalex.org/A5046645039|marcon",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5023562560|reschke",
-      "works": 1
-    },
-    {
       "source": "verified:courtney|hillman",
       "target": "verified:tatiana|kolesnikova",
       "works": 1
@@ -10214,6 +10194,26 @@
     {
       "source": "verified:matthew|parker",
       "target": "verified:thailana|buss",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5023562560|reschke",
+      "target": "https://openalex.org/A5038381567|piato",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5023562560|reschke",
+      "target": "https://openalex.org/A5031597903|benvenutti",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5023562560|reschke",
+      "target": "https://openalex.org/A5046645039|marcon",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5023562560|reschke",
       "works": 1
     },
     {
