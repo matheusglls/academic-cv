@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T11:29:36.393Z",
+  "generated_at": "2026-09-22T10:36:52.254Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -95,7 +95,7 @@
     {
       "id": "https://openalex.org/A5090033511|reis",
       "openalex_id": "https://openalex.org/A5090033511",
-      "name": "Carlos G. Reis",
+      "name": "Carlos Guilherme Rosa Reis",
       "works": 5
     },
     {
@@ -146,12 +146,6 @@
       "works": 3
     },
     {
-      "id": "https://openalex.org/A5036658002|oliveira",
-      "openalex_id": "https://openalex.org/A5036658002",
-      "name": "J. Vladimir Oliveira",
-      "works": 3
-    },
-    {
       "id": "verified:j|oliveira",
       "name": "J. Vladimir Oliveira",
       "works": 3
@@ -164,7 +158,7 @@
     {
       "id": "https://openalex.org/A5009585091|portela",
       "openalex_id": "https://openalex.org/A5009585091",
-      "name": "Stefani M Portela",
+      "name": "Stéfani Malet Portela",
       "works": 3
     },
     {
@@ -838,12 +832,6 @@
       "works": 1
     },
     {
-      "id": "https://openalex.org/A5023562560|reschke",
-      "openalex_id": "https://openalex.org/A5023562560",
-      "name": "Cristina R. Reschke",
-      "works": 1
-    },
-    {
       "id": "verified:cristina|reschke",
       "name": "Cristina R. Reschke",
       "works": 1
@@ -1047,6 +1035,12 @@
     {
       "id": "verified:franciana|volpato",
       "name": "Franciana Aparecida Volpato",
+      "works": 1
+    },
+    {
+      "id": "https://openalex.org/A5076992520|giongo",
+      "openalex_id": "https://openalex.org/A5076992520",
+      "name": "Franciele Kich Giongo",
       "works": 1
     },
     {
@@ -2257,18 +2251,8 @@
       "works": 3
     },
     {
-      "source": "https://openalex.org/A5007179372|sachett",
-      "target": "https://openalex.org/A5036658002|oliveira",
-      "works": 3
-    },
-    {
       "source": "https://openalex.org/A5003434038|aguiar",
       "target": "https://openalex.org/A5031597903|benvenutti",
-      "works": 3
-    },
-    {
-      "source": "https://openalex.org/A5031597903|benvenutti",
-      "target": "https://openalex.org/A5036658002|oliveira",
       "works": 3
     },
     {
@@ -2278,21 +2262,6 @@
     },
     {
       "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5036658002|oliveira",
-      "works": 3
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5038381567|piato",
-      "works": 3
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5036658002|oliveira",
-      "works": 3
-    },
-    {
-      "source": "https://openalex.org/A5036658002|oliveira",
       "target": "https://openalex.org/A5038381567|piato",
       "works": 3
     },
@@ -8347,11 +8316,6 @@
       "works": 2
     },
     {
-      "source": "https://openalex.org/A5036658002|oliveira",
-      "target": "https://openalex.org/A5046645039|marcon",
-      "works": 2
-    },
-    {
       "source": "verified:nathan|strogulski",
       "target": "verified:radharani|benvenutti",
       "works": 2
@@ -10197,26 +10161,6 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5023562560|reschke",
-      "target": "https://openalex.org/A5038381567|piato",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5023562560|reschke",
-      "target": "https://openalex.org/A5031597903|benvenutti",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5023562560|reschke",
-      "target": "https://openalex.org/A5046645039|marcon",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5023562560|reschke",
-      "works": 1
-    },
-    {
       "source": "https://openalex.org/A5040662413|zanona",
       "target": "https://openalex.org/A5090033511|reis",
       "works": 1
@@ -10337,18 +10281,8 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5036658002|oliveira",
-      "target": "https://openalex.org/A5090033511|reis",
-      "works": 1
-    },
-    {
       "source": "https://openalex.org/A5003434038|aguiar",
       "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5036658002|oliveira",
       "works": 1
     },
     {
@@ -10374,11 +10308,6 @@
     {
       "source": "https://openalex.org/A5019385803|herrmann",
       "target": "https://openalex.org/A5021112412|linazzi",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5021112412|linazzi",
-      "target": "https://openalex.org/A5036658002|oliveira",
       "works": 1
     },
     {
@@ -122009,6 +121938,26 @@
     {
       "source": "verified:ana|herrmann",
       "target": "verified:dirson|stein",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5031597903|benvenutti",
+      "target": "https://openalex.org/A5076992520|giongo",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5007179372|sachett",
+      "target": "https://openalex.org/A5076992520|giongo",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5038381567|piato",
+      "target": "https://openalex.org/A5076992520|giongo",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5076992520|giongo",
       "works": 1
     },
     {
