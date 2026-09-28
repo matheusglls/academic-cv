@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:29:43.230Z",
+  "generated_at": "2026-09-28T12:24:02.855Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7213414709",
@@ -84,7 +84,7 @@
       "year": 2026,
       "type": "Preregistration",
       "title": "Effects of gonadectomy in an animal model of Parkinson’s disease: experiment preregistration",
-      "authors": "Estefani Marin, Matheus Gallas‐Lopes, Laura Scherer Pires, Maria Manoela Rezende Severo, Manuela Zanini Laurindo, Bruno Dutra Arbo",
+      "authors": "Estéfani Marin, Matheus Gallas‐Lopes, Laura Scherer Pires, Maria Manoela Rezende Severo, Manuela Zanini Laurindo, Bruno Dutra Arbo",
       "venue": "",
       "url": "https://doi.org/10.17605/osf.io/xu9tv",
       "doi": "10.17605/osf.io/xu9tv"
@@ -95,21 +95,54 @@
       "year": 2026,
       "type": "Preprint",
       "title": "How reproducible are preclinical systematic reviews? Evidence from a multi-team challenge",
-      "authors": "Fiona Ramage, Kaitlyn Hair, Matheus Gallas‐Lopes, Aileen MacLellan, Sofija Vojvodić, Maria Economou, Francesca Tinsdeall, Bruno Dutra Arbo, María Arroyo-Araujo, Alexandra Bannach‐Brown, Dean Ferguson, Daria Gramenitskaya, Ana Paula Herrmann, Matthew Strider Jeffers, Dagobert Müller, Ângelo Piato, Torsten Rackoll, Wimonchat Tangamornsuksan, Manoj Mathew Lalu, Malcolm Robert Macleod, Kimberley Elaine Wever, Sarah McCann",
+      "authors": "Fiona Jane Ramage, Kaitlyn Hair, Matheus Gallas‐Lopes, Aileen MacLellan, Sofija Vojvodić, Maria Economou, Francesca Tinsdeall, Bruno Dutra Arbo, María Arroyo-Araujo, Alexandra Bannach‐Brown, Dean Ferguson, Daria Gramenitskaya, Ana Paula Herrmann, Matthew Strider Jeffers, Dagobert Müller, Ângelo Piato, Torsten Rackoll, Wimonchat Tangamornsuksan, Manoj Mathew Lalu, Malcolm Robert Macleod, Kimberley Elaine Wever, Sarah McCann",
       "venue": "",
       "url": "https://doi.org/10.31222/osf.io/8y4pn_v1",
       "doi": "10.31222/osf.io/8y4pn_v1"
     },
     {
-      "id": "crossref:10.64898/2026.05.28.728488",
-      "date": "2026-05-29",
+      "id": "https://openalex.org/W7134876771",
+      "date": "2026-07-28",
       "year": 2026,
       "type": "Preprint",
-      "title": "Modulation of social behavior in adult zebrafish ( Danio rerio ): a systematic review and meta-analysis",
-      "authors": "Daniela V. Müller, Matheus Gallas-Lopes, Mariana B. Abreu, Bruno D. Arbo, Leonardo M. Bastos, Nicole T. Fröhlich, Matheus Marcon, Izabela B. Moraes, Luiz Cesar C. P. da Silva, Gabriel da R. Zurchimitten, Ana P. Herrmann",
-      "venue": "",
-      "url": "https://doi.org/10.64898/2026.05.28.728488",
-      "doi": "10.64898/2026.05.28.728488"
+      "title": "BRISA-AI: comparing large language models and human scores for screening and study selection in preclinical systematic reviews",
+      "authors": "Ana P. Herrmann, Olavo Bohrer Amaral, Francisco Marques da Silva Neto, Matheus Gallas‐Lopes",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "url": "https://osf.io/fqe85",
+      "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7172233890",
+      "date": "2026-07-25",
+      "year": 2026,
+      "type": "Preprint",
+      "title": "Behavioral effects of ketamine in Drosophila melanogaster",
+      "authors": "Ana P. Herrmann, Tâmie Duarte, Matheus Gallas‐Lopes, Gabriela Resmini Ramalho, Régis Adriel Zanette",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "url": "https://osf.io/thzce",
+      "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7172239087",
+      "date": "2026-06-08",
+      "year": 2026,
+      "type": "Preprint",
+      "title": "Modulation of social behavior in adult zebrafish (Danio rerio): a systematic review and meta-analysis",
+      "authors": "Bruno Dutra Arbo, Leonardo M. Bastos, Matheus Marcon, Mariana Abreu, Dagobert Müller, Matheus Gallas‐Lopes, Ana P. Herrmann, Nicole Taís Fröhlich, Gabriel Zurchimitten, Luiz Cesar Cavalcanti Pereira da Silva, Izabela Barbosa Moraes",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "url": "https://osf.io/h4v3k",
+      "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7162831846",
+      "date": "2026-05-27",
+      "year": 2026,
+      "type": "Preprint",
+      "title": "A systematic review and meta-analysis on the effects of acute stress in adult zebrafish (Danio rerio)",
+      "authors": "Ana P. Herrmann, A.P. Alves, Dagobert Müller, Matheus Gallas‐Lopes, Angelo Piato",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "url": "https://osf.io/bkcm5",
+      "doi": ""
     },
     {
       "id": "osf:bvzq8",
@@ -139,7 +172,7 @@
       "year": 2026,
       "type": "Preprint",
       "title": "Effects of NMDA antagonists on social behaviour: a systematic review and meta-analysis of preclinical studies",
-      "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno D. Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela V. Muller, A.P. Alves, Daniel A. Rosa, Dirson J. Stein, Ana P. Herrmann",
+      "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno Dutra Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela Virote Kassick Müller, A.P. Alves, Daniel Alves Rosa, Dirson João Stein, Ana P. Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2026.05.13.724847",
       "doi": "10.64898/2026.05.13.724847"
@@ -189,13 +222,13 @@
       "doi": ""
     },
     {
-      "id": "epmc:42030073",
+      "id": "https://openalex.org/W7155557663",
       "date": "2026-04-01",
       "year": 2026,
       "type": "Journal article",
-      "title": "A Standardized Unpredictable Chronic Stress Protocol for Adult Zebrafish.",
-      "authors": "Gallas-Lopes M, Herrmann AP, Piato A.",
-      "venue": "Curr Protoc",
+      "title": "A Standardized Unpredictable Chronic Stress Protocol for Adult Zebrafish",
+      "authors": "Matheus Gallas‐Lopes, Ana P. Herrmann, Ângelo Piato",
+      "venue": "Current Protocols",
       "url": "https://doi.org/10.1002/cpz1.70376",
       "doi": "10.1002/cpz1.70376"
     },
@@ -211,15 +244,26 @@
       "doi": ""
     },
     {
-      "id": "epmc:41903864",
+      "id": "https://openalex.org/W7140805368",
       "date": "2026-03-26",
       "year": 2026,
       "type": "Journal article",
-      "title": "Unpredictable chronic stress fails to induce robust changes in zebrafish social behavior.",
-      "authors": "Neves NA, Gallas-Lopes M, Patelli-Alves A, Müller DV, Bastos LM, Stahlhofer-Buss T, Herrmann AP, Piato A.",
-      "venue": "Neurosci Lett",
+      "title": "Unpredictable chronic stress fails to induce robust changes in zebrafish social behavior",
+      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, A.P. Alves, Dagobert Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana P. Herrmann, Ângelo Piato",
+      "venue": "Neuroscience Letters",
       "url": "https://doi.org/10.1016/j.neulet.2026.138594",
       "doi": "10.1016/j.neulet.2026.138594"
+    },
+    {
+      "id": "https://openalex.org/W7172240329",
+      "date": "2026-03-09",
+      "year": 2026,
+      "type": "Preprint",
+      "title": "Panorama of preclinical systematic reviews conducted by researchers in Brazil",
+      "authors": "Bruno Dutra Arbo, Olavo Bohrer Amaral, Matheus Marcon, Mariana Abreu, Dagobert Müller, Pedro Lucas Neves Iozzo Campos, Matheus Gallas‐Lopes, Ana P. Herrmann, Gabriel Zurchimitten, DANIEL ALVES ROSA, Giulia Scarcella Cancelliero",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "url": "https://osf.io/e4k63",
+      "doi": ""
     },
     {
       "id": "osf:rzju8",
@@ -230,6 +274,28 @@
       "authors": "Matheus Gallas-Lopes",
       "venue": "Open Science Framework",
       "url": "https://osf.io/rzju8/",
+      "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7124569681",
+      "date": "2026-01-17",
+      "year": 2026,
+      "type": "Data / code",
+      "title": "matheusglls/SRMA-NMDA-social-behaviour: Initial public release",
+      "authors": "Matheus Gallas‐Lopes",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "url": "https://doi.org/10.5281/zenodo.18284730",
+      "doi": "10.5281/zenodo.18284730"
+    },
+    {
+      "id": "https://openalex.org/W7172235005",
+      "date": "2026-01-17",
+      "year": 2026,
+      "type": "Preprint",
+      "title": "Evaluation of the effects of geraniol in the unpredictable chronic stress protocol in adult zebrafish",
+      "authors": "Leonardo M. Bastos, Ana P. Herrmann, A.P. Alves, Alana R O Mendes, Francisco Fuentealba-Villarroel, Matheus Gallas‐Lopes, Angelo Piato",
+      "venue": "OSF Preprints (OSF Preprints)",
+      "url": "https://osf.io/r74pe",
       "doi": ""
     },
     {
@@ -244,13 +310,24 @@
       "doi": ""
     },
     {
-      "id": "crossref:10.2139/ssrn.7109989",
+      "id": "https://openalex.org/W7129095804",
+      "date": "2026-01-01",
+      "year": 2026,
+      "type": "Preregistration",
+      "title": "Performance of Large Language Models in Title and Abstract Screening of Preclinical Systematic Reviews - Study Registration",
+      "authors": "Francisco Marques da Silva Neto, Matheus Gallas‐Lopes, Ana P. Herrmann, Olavo Bohrer Amaral",
+      "venue": "",
+      "url": "https://doi.org/10.17605/osf.io/rzju8",
+      "doi": "10.17605/osf.io/rzju8"
+    },
+    {
+      "id": "https://openalex.org/W7168250897",
       "date": "2026-01-01",
       "year": 2026,
       "type": "Preprint",
       "title": "Epileptogenesis desynchronizes transcriptomic rhythms by inhibiting the hippocampal circadian clock",
-      "authors": "Radharani Benvenutti, Tammy Strickland, Danielle C. F. Bruno, Matheus Gallas-Lopes, Melissa A. B. Oliveira, Morten T. Venø, Estela Maria Bruxel, Arielle Ramsook, Aditi Wadgaonkar, Yiyue Jiang, Amaya Sanz-Rodriguez, Lasse Sinkkonen, Marina K.M. Alvim, Clarissa L. Yasuda, Fabio Rogerio, Fernando Cendes, David C. Henshall, Annie M. Curtis, Katja Kobow, Iscia Lopes-Cendes, Cristina R. Reschke",
-      "venue": "",
+      "authors": "Radharani Benvenutti, Tammy Strickland, Danielle Bruno, Matheus Gallas‐Lopes, Melissa A. B. Oliveira, Morten Trillingsgaard Venø, Estela M. Bruxel, Arielle Ramsook, Aditi Wadgaonkar, Yiyue Jiang, Amaya Sanz‐Rodriguez, Lasse Sinkkonen, Marina K.M. Alvim, Clarissa L. Yasuda, Fábio Rogério, Fernando Cendes, David Clifford Henshall, Annie M. Curtis, Katja Kobow, Íscia Lopes‐Cendes, Cristina R. Reschke",
+      "venue": "SSRN Electronic Journal",
       "url": "https://doi.org/10.2139/ssrn.7109989",
       "doi": "10.2139/ssrn.7109989"
     },
@@ -271,7 +348,7 @@
       "year": 2025,
       "type": "Preprint",
       "title": "Unpredictable chronic stress does not alter social behavior in zebrafish",
-      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, A.P. Alves, Daniela Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana Paula Herrmann, Ângelo Piato",
+      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, A.P. Alves, Daniela V. Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2025.12.15.694431",
       "doi": "10.64898/2025.12.15.694431"
@@ -469,7 +546,7 @@
       "year": 2025,
       "type": "Preprint",
       "title": "Linalool and trans -nerolidol prevent pentylenetetrazole-induced seizures in adult zebrafish",
-      "authors": "Adhemar Lourenço Da Silva, Leonardo M. Bastos, Matheus Gallas‐Lopes, Rafael Chitolina, Carlos Guilherme Rosa Reis, Domingos Sávio Nunes de Lima, Elaine Elisabetsky, Ana Paula Herrmann, María Elisa Calcagnotto, Ângelo Piato",
+      "authors": "Adhemar Lourenço Da Silva, Leonardo M. Bastos, Matheus Gallas‐Lopes, Rafael Chitolina, Carlos Guilherme Rosa Reis, Domingos Sávio Nunes, Elaine Elisabetsky, Ana Paula Herrmann, María Elisa Calcagnotto, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.01.14.633001",
       "doi": "10.1101/2025.01.14.633001"
