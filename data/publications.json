@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:50:46.279Z",
+  "generated_at": "2026-09-30T11:36:23.509Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7213414709",
@@ -29,7 +29,7 @@
       "year": 2026,
       "type": "Protocol",
       "title": "Extraction of Whole-Body Cortisol from Adult Zebrafish (Danio rerio) and Quantification by ELISA v1",
-      "authors": "Francisco Fuentealba-Villarroel, Dagobert Müller, Leonardo M. Bastos, Matheus Gallas‐Lopes, A.P. Alves, Ana P. Herrmann, Murilo S. de Abreu, Ângelo Piato",
+      "authors": "Francisco Fuentealba-Villarroel, Dagobert Müller, Leonardo M. Bastos, Matheus Gallas‐Lopes, Amanda Patelli Alves, Ana P. Herrmann, Murilo S. de Abreu, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bp2l6od95lqe/v1",
       "doi": "10.17504/protocols.io.bp2l6od95lqe/v1"
@@ -51,7 +51,7 @@
       "year": 2026,
       "type": "Data / code",
       "title": "Panorama of Preclinical Systematic Reviews Conducted by Researchers in Brazil – Data Extraction Materials Registration",
-      "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, A.P. Alves, Ana P. Herrmann, Mariana Abreu",
+      "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, Amanda Patelli-Alves, Ana P. Herrmann, Mariana Abreu",
       "venue": "",
       "url": "https://doi.org/10.17605/osf.io/gxskc",
       "doi": "10.17605/osf.io/gxskc"
@@ -95,7 +95,7 @@
       "year": 2026,
       "type": "Preprint",
       "title": "How reproducible are preclinical systematic reviews? Evidence from a multi-team challenge",
-      "authors": "Fiona Jane Ramage, Kaitlyn Hair, Matheus Gallas‐Lopes, Aileen MacLellan, Sofija Vojvodić, Maria Economou, Francesca Tinsdeall, Bruno Dutra Arbo, María Arroyo-Araujo, Alexandra Bannach‐Brown, Dean Ferguson, Daria Gramenitskaya, Ana Paula Herrmann, Matthew Strider Jeffers, Dagobert Müller, Ângelo Piato, Torsten Rackoll, Wimonchat Tangamornsuksan, Manoj Mathew Lalu, Malcolm Robert Macleod, Kimberley Elaine Wever, Sarah McCann",
+      "authors": "Fiona Ramage, Kaitlyn Hair, Matheus Gallas‐Lopes, Aileen MacLellan, Sofija Vojvodić, Maria Economou, Francesca Tinsdeall, Bruno Dutra Arbo, María Arroyo-Araujo, Alexandra Bannach‐Brown, Dean Ferguson, Daria Gramenitskaya, Ana Paula Herrmann, Matthew Strider Jeffers, Dagobert Müller, Ângelo Piato, Torsten Rackoll, Wimonchat Tangamornsuksan, Manoj Mathew Lalu, Malcolm Robert Macleod, Kimberley Elaine Wever, Sarah McCann",
       "venue": "",
       "url": "https://doi.org/10.31222/osf.io/8y4pn_v1",
       "doi": "10.31222/osf.io/8y4pn_v1"
@@ -139,7 +139,7 @@
       "year": 2026,
       "type": "Preprint",
       "title": "A systematic review and meta-analysis on the effects of acute stress in adult zebrafish (Danio rerio)",
-      "authors": "Ana P. Herrmann, A.P. Alves, Dagobert Müller, Matheus Gallas‐Lopes, Angelo Piato",
+      "authors": "Ana P. Herrmann, Amanda Patelli-Alves, Dagobert Müller, Matheus Gallas‐Lopes, Angelo Piato",
       "venue": "OSF Preprints (OSF Preprints)",
       "url": "https://osf.io/bkcm5",
       "doi": ""
@@ -172,7 +172,7 @@
       "year": 2026,
       "type": "Preprint",
       "title": "Effects of NMDA antagonists on social behaviour: a systematic review and meta-analysis of preclinical studies",
-      "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno Dutra Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela Virote Kassick Müller, A.P. Alves, Daniel Alves Rosa, Dirson João Stein, Ana P. Herrmann",
+      "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno Dutra Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela Virote Kassick Müller, Amanda Patelli-Alves, Daniel Alves Rosa, Dirson João Stein, Ana P. Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2026.05.13.724847",
       "doi": "10.64898/2026.05.13.724847"
@@ -249,7 +249,7 @@
       "year": 2026,
       "type": "Journal article",
       "title": "Unpredictable chronic stress fails to induce robust changes in zebrafish social behavior",
-      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, A.P. Alves, Dagobert Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana P. Herrmann, Ângelo Piato",
+      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, Amanda Patelli-Alves, Dagobert Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana P. Herrmann, Ângelo Piato",
       "venue": "Neuroscience Letters",
       "url": "https://doi.org/10.1016/j.neulet.2026.138594",
       "doi": "10.1016/j.neulet.2026.138594"
@@ -293,7 +293,7 @@
       "year": 2026,
       "type": "Preprint",
       "title": "Evaluation of the effects of geraniol in the unpredictable chronic stress protocol in adult zebrafish",
-      "authors": "Leonardo M. Bastos, Ana P. Herrmann, A.P. Alves, Alana R O Mendes, Francisco Fuentealba-Villarroel, Matheus Gallas‐Lopes, Angelo Piato",
+      "authors": "Leonardo M. Bastos, Ana P. Herrmann, Amanda Patelli-Alves, Alana R O Mendes, Francisco Fuentealba-Villarroel, Matheus Gallas‐Lopes, Angelo Piato",
       "venue": "OSF Preprints (OSF Preprints)",
       "url": "https://osf.io/r74pe",
       "doi": ""
@@ -348,7 +348,7 @@
       "year": 2025,
       "type": "Preprint",
       "title": "Unpredictable chronic stress does not alter social behavior in zebrafish",
-      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, A.P. Alves, Daniela V. Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana Paula Herrmann, Ângelo Piato",
+      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, Amanda Patelli-Alves, Daniela V. Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana Paula Herrmann, Ângelo Piato",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2025.12.15.694431",
       "doi": "10.64898/2025.12.15.694431"
@@ -469,7 +469,7 @@
       "year": 2025,
       "type": "Journal article",
       "title": "Housing and husbandry factors affecting zebrafish novel tank test responses: a global multi-laboratory study",
-      "authors": "Courtney Hillman, Barbara Dotto Fontana, Tamara G. Amstislavskaya, М. А. Gorbunova, Stefani Altenhofen, Karissa Barthelson, Leonardo M. Bastos, João V Borba, Carla Denise Bonan, Caroline H. Brennan, Amaury Farías-Cea, Austin H. Cooper, Jamie Corcoran, Eduardo Ronconi Dondossola, Luis M Martinez-Duran, Matheus Gallas‐Lopes, David S. Galstyan, Ella O. Garcia, Ewan Gerken, Robert Hindges, Justin W. Kenney, Maxim A. Kleshchev, Tatiana O. Kolesnikova, Adele Leggieri, Sergey L. Khatsko, Michael Lardelli, Guilherme Lodetti, Giulia Lombardelli, Ana Carolina Luchiari, Stéfani Malet Portela, Violeta Medan, Lirane M. Moutinho, Evgeny V. Nekhoroshev, Bárbara Dutra Petersen, Maureen L. Petrunich-Rutherford, Ângelo Piato, Maurizio Porfiri, Emily Read, Cássio M Resmim, Eduardo Pacheco Rico, Denis Broock Rosemberg, Murilo S. de Abreu, Catia A Salazar, Thailana Stahlhofer-Buss, Júlia Robert de Sousa Teixeira, Ana Maria Valentim, Alexander V. Zhdanov, Patricio Iturriaga‐Vásquez, Xian Wang, Ryan Y. Wong, Allan V. Kalueff, Matthew O. Parker",
+      "authors": "Courtney Hillman, Barbara Dotto Fontana, Tamara G. Amstislavskaya, Maria A. Gorbunova, Stefani Altenhofen, Karissa Barthelson, Leonardo M. Bastos, João V Borba, Carla Denise Bonan, Caroline H. Brennan, Amaury Farías-Cea, Austin H. Cooper, Jamie Corcoran, Eduardo Ronconi Dondossola, Luis M Martinez-Duran, Matheus Gallas‐Lopes, David S. Galstyan, Ella O. Garcia, Ewan Gerken, Robert Hindges, Justin W. Kenney, Maxim A. Kleshchev, Tatiana O. Kolesnikova, Adele Leggieri, Sergey L. Khatsko, Michael Lardelli, Guilherme Lodetti, Giulia Lombardelli, Ana Carolina Luchiari, Stéfani Malet Portela, Violeta Medan, Lirane M. Moutinho, Evgeny V. Nekhoroshev, Bárbara Dutra Petersen, Maureen L. Petrunich-Rutherford, Ângelo Piato, Maurizio Porfiri, Emily Read, Cássio M Resmim, Eduardo Pacheco Rico, Denis Broock Rosemberg, Murilo S. de Abreu, Catia A Salazar, Thailana Stahlhofer-Buss, Júlia Robert de Sousa Teixeira, Ana Maria Valentim, Alexander V. Zhdanov, Patricio Iturriaga‐Vásquez, Xian Wang, Ryan Y. Wong, Allan V. Kalueff, Matthew O. Parker",
       "venue": "Lab Animal",
       "url": "https://doi.org/10.1038/s41684-025-01548-x",
       "doi": "10.1038/s41684-025-01548-x"
@@ -491,7 +491,7 @@
       "year": 2025,
       "type": "Preprint",
       "title": "Estimating the replicability of Brazilian biomedical science",
-      "authors": "The Brazilian Reproducibility Initiative, Olavo B. Amaral, Clarissa F. D. Carneiro, Kleber Neves, Ana Paula Wasilewska‐Sampaio, Bruna Valério‐Gomes, Mariana Boechat de Abreu, Pedro Batista Tan, Gabriel Paz Souza Mota, Ricardo Netto Goulart, Nathalia Raquel de Souza Fernandes, João Neto Cruz Linhares, A. M. G. Ibelli, Adriano Defini Andricopulo, Adriano Sebollela, Adryano Augustto Valladão de Carvalho, Airton Pereira e Silva, A. Souza, Aryelle Almeida Lima, Alessandra Mara de Sousa, Alexander Birbrair, Alexandre Urban Borbely, Ana Manuel Dantas Machado, Alinne C. Costa, Aliny Pereira de Vasconcelos, Alvaro Henrique Bernardo de Lima Silva, Amanda de Souza, Ana Paula, Ana Carolina Caetano Nunes, Ana Maria de Lauro Castrucci, Ana Paula Bastos, Ana Paula Farias Waltrick, Ana Paula Herrmann, Andre Gustavo Ferreira de Macedo, Andrelson W. Rinaldi, André S. Mecawi, Andrés Delgado Cañedo, Anna Paula Marçal, Anna Paula Perin Vidigal, Antonio Martins Monteiro, Beatriz G. S. Rocha, Bianca Cruz Pachane, Brenda da Silva Andrade, Bruna Carla Casali, Bruno Popik, Camila Pasquini de Souza, Camila da Silva dos Santos, Camilla M. Gonçalves, Camilla Ribeiro Barroso do Nascimento, C Veríssimo, Carlos Eduardo Neves Girardi, Carmen Penido, Carolina Batista, Carolina Panis, Carolina Saibro Girardi, Carolina da S. G. Pedrosa, Caroline C. Picoli, Cristiane Regina Guerino Furini, Daniel Pens Gelain, Daniel Sturza Lucas Caetano, Daniela Costa Silva, Daniele Cristina de Aguiar, Demétrius A. M. Araújo, Deoclécio Alves Chianca Júnior, Dilza Balteiro Pereira de Campos, Débora Aguirre Gonçalves, Débora Santos da Silva, Eduarda Godfried Nachtigall, Eloiza Lopes de Lira Tanabe, Érika Seki Kioshima, Fábio Rodrigues Ferreira Seiva, Fabrício A. Moreira, Felipe Saceanu Leser, Felipe Vanz, Fernanda Cacilda Santos Silva, Fernanda M. Ferrão, Fernanda Nogueira Lotz, Flávia Fonseca Bloise, Flávia Regina Souza Lima, Flávio Alves Lara, Franciana Aparecida Volpato Bellaver, Francieli Moro Stefanello, Francisca N. de Luna Vitorino, Francisco Noé da Fonseca, Fabio Jorge Moreira da Silva, Fábio A. Mendes, Gabriel Vasata Furtado, Gilda Angela Neves, Giovanna Zanetti, Giulia Scarcella Cancelliero, Graziéle Fernanda Deriggi Pisani, GUILHERME CURI AIUB CASAGRANDE, Gustavo Roberto Villas Boas, Heitor Roque Oliveira Alvez da Cruz, Helena L. Borges, Heloísa Sobreiro Selistre-de-Araújo, Helvécio Cardoso Corrêa Póvoa, Hilana dos Santos Sena Brunel, Hugo Bayer, Igor L. Baptista",
+      "authors": "The Brazilian Reproducibility Initiative, Olavo B. Amaral, Clarissa F. D. Carneiro, Kleber Neves, Ana Paula Wasilewska‐Sampaio, Bruna Valério‐Gomes, Mariana Boechat de Abreu, Pedro Batista Tan, Gabriel Paz Souza Mota, Ricardo Netto Goulart, Nathalia Raquel de Souza Fernandes, Jimmy Hayden Linhares, A. M. G. Ibelli, Adriano Defini Andricopulo, Adriano Sebollela, Adryano Augustto Valladão de Carvalho, Airton Pereira e Silva, A. Souza, Aryelle Almeida Lima, Alessandra Mara de Sousa, Alexander Birbrair, Alexandre Urban Borbely, Aline Maria Machado, Alinne C. Costa, Aliny Pereira de Vasconcelos, Alvaro Henrique Bernardo de Lima Silva, Amanda de Souza, Ana Paula, Ana Carolina Caetano Nunes, Ana Maria de Lauro Castrucci, Ana Paula Bastos, Ana Paula Farias Waltrick, Ana Paula Herrmann, Andre Gustavo Ferreira de Macedo, Andrelson W. Rinaldi, André S. Mecawi, Andrés Delgado Cañedo, Anna Paula Marçal, Anna Paula Perin Vidigal, Antonio Martins Monteiro, Beatriz G. S. Rocha, Bianca Cruz Pachane, Brenda da Silva Andrade, Bruna Carla Casali, Bruno Popik, Camila Pasquini de Souza, Camila da Silva dos Santos, Camilla M. Gonçalves, Camilla Ribeiro Barroso do Nascimento, C Veríssimo, Carlos Eduardo Neves Girardi, Carmen Penido, Carolina Batista, Carolina Panis, Carolina Saibro Girardi, Carolina da S. G. Pedrosa, Caroline C. Picoli, Cristiane Regina Guerino Furini, Daniel Pens Gelain, Daniel Sturza Lucas Caetano, Daniela Costa Silva, Daniele Cristina de Aguiar, Demétrius A. M. Araújo, Deoclécio Alves Chianca Júnior, Dilza Balteiro Pereira de Campos, Débora Aguirre Gonçalves, Débora Santos da Silva, Eduarda Godfried Nachtigall, Eloiza Lopes de Lira Tanabe, Érika Seki Kioshima, Fábio Rodrigues Ferreira Seiva, Fabrício A. Moreira, Felipe Saceanu Leser, Felipe Vanz, Fernanda Cacilda Santos Silva, Fernanda M. Ferrão, Fernanda Nogueira Lotz, Flávia Fonseca Bloise, Flávia Regina Souza Lima, Flávio Alves Lara, Franciana Aparecida Volpato Bellaver, Francieli Moro Stefanello, Francisca N. de Luna Vitorino, Francisco Noé da Fonseca, Fabio Jorge Moreira da Silva, Fábio A. Mendes, Gabriel Vasata Furtado, Gilda Angela Neves, Giovanna Zanetti, Giulia Scarcella Cancelliero, Graziéle Fernanda Deriggi Pisani, GUILHERME CURI AIUB CASAGRANDE, Gustavo Roberto Villas Boas, Heitor Roque Oliveira Alvez da Cruz, Helena L. Borges, Heloísa Sobreiro Selistre-de-Araújo, Helvécio Cardoso Corrêa Póvoa, Hilana dos Santos Sena Brunel, Hugo Bayer, Igor L. Baptista",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2025.04.02.645026",
       "doi": "10.1101/2025.04.02.645026"
@@ -563,13 +563,13 @@
       "doi": ""
     },
     {
-      "id": "https://openalex.org/W4403476189",
+      "id": "crossref:10.21203/rs.3.rs-4849877/v1",
       "date": "2024-10-16",
       "year": 2024,
       "type": "Preprint",
       "title": "Housing and Husbandry Factors Affecting Zebrafish (Danio rerio) Novel Tank Test Responses: A Global Multi-Laboratory Study",
-      "authors": "Matthew O. Parker, Courtney Hillman, Barbara Dotto Fontana, Tamara G. Amstislavskaya, Maria Gorbunova, Stefani Altenhofen, Karissa Barthelson, Leonardo Soares Bastos, João V Borba, Carla Denise Bonan, Caroline H. Brennan, Amaury Farías-Cea, Austin H. Cooper, Jamie Corcoran, Eduardo Ronconi Dondossola, Luis M Martinez-Duran, Matheus Gallas‐Lopes, David S. Galstyan, Ella Garcia, Ewan Gerken, Robert Hindges, Justin W. Kenney, Maxim A. Kleshchev, Tatiana Kolesnikov, Adele Leggieri, Sergey L. Khatsko, Michael Lardelli, Guilherme Lodetti, Giulia Lombardelli, Ana Carolina Luchiari, Stéfani Malet Portela, Violeta Medan, Lirane Moutinho, Evgeny V. Nekhoroshev, Bárbara Dutra Petersen, Maureen L. Petrunich-Rutherford, Ângelo Piato, Maurizio Porfiri, Emily Read, Cássio M Resmim, Eduardo Pacheco Rico, Denis Broock Rosemberg, Murilo S. de Abreu, Catia A Salazar, Thaliana Stahloher-Buss, Júlia Robert de Sousa Teixeira, Ana Maria Valentim, Alexander V. Zhdanov, Patricio Iturriaga‐Vásquez, Xian Wang, Ryan Y. Wong, Allan V. Kalueff",
-      "venue": "Research Square",
+      "authors": "Matthew Parker, Courtney Hillman, Barbara Fontana, Tamara Amstislavskaya, Maria Gorbunova, Stefani Altenhofen, Karissa Barthelson, Leonardo Bastos, João Borba, Carla Bonan, Caroline Brennan, Amaury Farias-Cea, Austin Cooper, Jamie Corcoran, Eduardo Dondossola, Luis Martinez-Duran, Matheus Gallas-Lopes, David Galstyan, Ella Garcia, Ewan Gerken, Robert Hindges, Justin Kenney, Maxim Kleshchev, Tatiana Kolesnikov, Adele Leggieri, Sergey Khatsko, Michael Lardelli, Guilherme Lodetti, Giulia Lombardelli, Ana Luchiari, Stefani Portela, Violeta Medan, Lirane Moutinho, Evgeny Nekhoroshev, Barbara Petersen, Maureen Petrunich-Rutherford, Angelo Piato, Maurizio Porfiri, Emily Read, Cássio Resmim, Eduardo Rico, Denis Rosemberg, Murilo Sander de Abreu, Catia Salazar, Thaliana Stahloher-Buss, Júlia Teixeira, Ana Valentim, Alexander Zhdanov, Patricio Iturriaga-Vásquez, Xian Wang, Ryan Wong, Allan Kalueff",
+      "venue": "",
       "url": "https://doi.org/10.21203/rs.3.rs-4849877/v1",
       "doi": "10.21203/rs.3.rs-4849877/v1"
     },
@@ -766,7 +766,7 @@
       "year": 2023,
       "type": "Protocol",
       "title": "Measuring shoal cohesion from video frames in ImageJ using the Interfish Distance plugin v1",
-      "authors": "Matheus Gallas‐Lopes, Dagobert Müller, A.P. Alves, Ângelo Piato, Ana Paula Herrmann",
+      "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Amanda Patelli Alves, Ângelo Piato, Ana Paula Herrmann",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.j8nlkwz7wl5r/v1",
       "doi": "10.17504/protocols.io.j8nlkwz7wl5r/v1"
