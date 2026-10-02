@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T12:05:23.581Z",
+  "generated_at": "2026-10-02T11:36:10.727Z",
   "counts": {
     "Preprint": 31,
     "Protocol": 16,
-    "Preregistration": 38,
     "Data / code": 2,
+    "Preregistration": 2,
     "Journal article": 18
   },
   "h_index": 13,
-  "total_citations": 440,
+  "total_citations": 441,
   "by_year": {
     "2019": {
       "journals": 0,
