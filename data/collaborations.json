@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:18:26.999Z",
+  "generated_at": "2026-10-10T11:36:41.802Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -96,14 +96,14 @@
       "works": 5
     },
     {
-      "id": "verified:carlos|reis",
-      "name": "Carlos Guilherme Reis",
+      "id": "https://openalex.org/A5090033511|reis",
+      "openalex_id": "https://openalex.org/A5090033511",
+      "name": "Carlos G. Reis",
       "works": 5
     },
     {
-      "id": "https://openalex.org/A5090033511|reis",
-      "openalex_id": "https://openalex.org/A5090033511",
-      "name": "Carlos Guilherme Rosa Reis",
+      "id": "verified:carlos|reis",
+      "name": "Carlos Guilherme Reis",
       "works": 5
     },
     {
@@ -1867,7 +1867,7 @@
     {
       "id": "https://openalex.org/A5009585091|portela",
       "openalex_id": "https://openalex.org/A5009585091",
-      "name": "Stéfani Malet Portela",
+      "name": "Stefani M Portela",
       "works": 1
     },
     {
