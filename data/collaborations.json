@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:36:41.802Z",
+  "generated_at": "2026-10-11T11:50:06.970Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -2269,11 +2269,6 @@
       "works": 3
     },
     {
-      "source": "verified:leonardo|bastos",
-      "target": "verified:radharani|benvenutti",
-      "works": 3
-    },
-    {
       "source": "https://openalex.org/A5003434038|aguiar",
       "target": "https://openalex.org/A5007179372|sachett",
       "works": 3
@@ -2321,6 +2316,11 @@
     {
       "source": "verified:angelo|piato",
       "target": "verified:maria|calcagnotto",
+      "works": 3
+    },
+    {
+      "source": "verified:leonardo|bastos",
+      "target": "verified:radharani|benvenutti",
       "works": 3
     },
     {
@@ -2399,26 +2399,6 @@
       "works": 2
     },
     {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:leonardo|bastos",
-      "works": 2
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:radharani|benvenutti",
-      "works": 2
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:angelo|piato",
-      "works": 2
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:ana|herrmann",
-      "works": 2
-    },
-    {
       "source": "verified:dirson|stein",
       "target": "verified:mailton|vasconcelos",
       "works": 2
@@ -2486,6 +2466,26 @@
     {
       "source": "verified:maria|calcagnotto",
       "target": "verified:thailana|buss",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:leonardo|bastos",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:radharani|benvenutti",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:angelo|piato",
+      "works": 2
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:ana|herrmann",
       "works": 2
     },
     {
