@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T10:34:59.940Z",
+  "generated_at": "2026-10-16T10:21:43.945Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -80,6 +80,12 @@
       "works": 7
     },
     {
+      "id": "https://openalex.org/A5135653932|piato",
+      "openalex_id": "https://openalex.org/A5135653932",
+      "name": "Angelo Piato",
+      "works": 6
+    },
+    {
       "id": "verified:matheus|marcon",
       "name": "Matheus Marcon",
       "works": 6
@@ -129,12 +135,6 @@
       "works": 4
     },
     {
-      "id": "https://openalex.org/A5135653932|piato",
-      "openalex_id": "https://openalex.org/A5135653932",
-      "name": "Angelo Piato",
-      "works": 4
-    },
-    {
       "id": "verified:bruno|arbo",
       "name": "Bruno Dutra Arbo",
       "works": 4
@@ -143,6 +143,12 @@
       "id": "https://openalex.org/A5135682745|villarroel",
       "openalex_id": "https://openalex.org/A5135682745",
       "name": "Francisco Fuentealba-Villarroel",
+      "works": 4
+    },
+    {
+      "id": "https://openalex.org/A5092349084|buss",
+      "openalex_id": "https://openalex.org/A5092349084",
+      "name": "Thailana Stahlhofer-Buss",
       "works": 4
     },
     {
@@ -196,6 +202,12 @@
     {
       "id": "https://openalex.org/A5130662721|herrmann",
       "openalex_id": "https://openalex.org/A5130662721",
+      "name": "Ana P. Herrmann",
+      "works": 2
+    },
+    {
+      "id": "https://openalex.org/A5158740778|herrmann",
+      "openalex_id": "https://openalex.org/A5158740778",
       "name": "Ana P. Herrmann",
       "works": 2
     },
@@ -281,6 +293,12 @@
       "works": 2
     },
     {
+      "id": "https://openalex.org/A5129575787|bastos",
+      "openalex_id": "https://openalex.org/A5129575787",
+      "name": "Leonardo Bastos",
+      "works": 2
+    },
+    {
       "id": "verified:luane|landau",
       "name": "Luane Landau",
       "works": 2
@@ -361,12 +379,6 @@
     {
       "id": "verified:tammy|strickland",
       "name": "Tammy Strickland",
-      "works": 2
-    },
-    {
-      "id": "https://openalex.org/A5092349084|buss",
-      "openalex_id": "https://openalex.org/A5092349084",
-      "name": "Thailana Stahlhofer-Buss",
       "works": 2
     },
     {
@@ -4601,6 +4613,36 @@
     {
       "source": "https://openalex.org/A5046553132|zurchimitten",
       "target": "verified:daniela|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5129575787|bastos",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5135653932|piato",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5158740778|herrmann",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5129575787|bastos",
+      "target": "https://openalex.org/A5135653932|piato",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5129575787|bastos",
+      "target": "https://openalex.org/A5158740778|herrmann",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5135653932|piato",
+      "target": "https://openalex.org/A5158740778|herrmann",
       "works": 2
     },
     {
