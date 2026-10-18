@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:54:57.174Z",
+  "generated_at": "2026-10-18T10:06:51.012Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -12,15 +12,21 @@
       "works": 28
     },
     {
+      "id": "https://openalex.org/A5038381567|piato",
+      "openalex_id": "https://openalex.org/A5038381567",
+      "name": "Ângelo Piato",
+      "works": 17
+    },
+    {
       "id": "verified:radharani|benvenutti",
       "name": "Radharani Benvenutti",
       "works": 17
     },
     {
-      "id": "https://openalex.org/A5038381567|piato",
-      "openalex_id": "https://openalex.org/A5038381567",
-      "name": "Ângelo Piato",
-      "works": 16
+      "id": "https://openalex.org/A5019385803|herrmann",
+      "openalex_id": "https://openalex.org/A5019385803",
+      "name": "Ana Paula Herrmann",
+      "works": 14
     },
     {
       "id": "verified:daniela|muller",
@@ -34,12 +40,6 @@
       "works": 13
     },
     {
-      "id": "https://openalex.org/A5019385803|herrmann",
-      "openalex_id": "https://openalex.org/A5019385803",
-      "name": "Ana Paula Herrmann",
-      "works": 13
-    },
-    {
       "id": "verified:greicy|conterato",
       "name": "Greicy M M Conterato",
       "works": 11
@@ -48,6 +48,12 @@
       "id": "verified:leonardo|bastos",
       "name": "Leonardo Marensi Bastos",
       "works": 11
+    },
+    {
+      "id": "https://openalex.org/A5019870433|bastos",
+      "openalex_id": "https://openalex.org/A5019870433",
+      "name": "Leonardo M. Bastos",
+      "works": 10
     },
     {
       "id": "https://openalex.org/A5031597903|benvenutti",
@@ -59,12 +65,6 @@
       "id": "https://openalex.org/A5144224471|herrmann",
       "openalex_id": "https://openalex.org/A5144224471",
       "name": "Ana P. Herrmann",
-      "works": 9
-    },
-    {
-      "id": "https://openalex.org/A5019870433|bastos",
-      "openalex_id": "https://openalex.org/A5019870433",
-      "name": "Leonardo M. Bastos",
       "works": 9
     },
     {
@@ -113,6 +113,12 @@
       "works": 5
     },
     {
+      "id": "https://openalex.org/A5135682745|villarroel",
+      "openalex_id": "https://openalex.org/A5135682745",
+      "name": "Francisco Fuentealba-Villarroel",
+      "works": 5
+    },
+    {
       "id": "https://openalex.org/A5003172677|chitolina",
       "openalex_id": "https://openalex.org/A5003172677",
       "name": "Rafael Chitolina",
@@ -137,12 +143,6 @@
     {
       "id": "verified:bruno|arbo",
       "name": "Bruno Dutra Arbo",
-      "works": 4
-    },
-    {
-      "id": "https://openalex.org/A5135682745|villarroel",
-      "openalex_id": "https://openalex.org/A5135682745",
-      "name": "Francisco Fuentealba-Villarroel",
       "works": 4
     },
     {
@@ -2021,13 +2021,13 @@
       "works": 27
     },
     {
-      "source": "verified:ana|herrmann",
-      "target": "verified:radharani|benvenutti",
-      "works": 13
-    },
-    {
       "source": "https://openalex.org/A5019385803|herrmann",
       "target": "https://openalex.org/A5038381567|piato",
+      "works": 14
+    },
+    {
+      "source": "verified:ana|herrmann",
+      "target": "verified:radharani|benvenutti",
       "works": 13
     },
     {
@@ -2126,6 +2126,11 @@
       "works": 6
     },
     {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5038381567|piato",
+      "works": 6
+    },
+    {
       "source": "verified:angelo|piato",
       "target": "verified:daniela|muller",
       "works": 6
@@ -2171,11 +2176,6 @@
       "works": 5
     },
     {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5038381567|piato",
-      "works": 5
-    },
-    {
       "source": "https://openalex.org/A5003172677|chitolina",
       "target": "https://openalex.org/A5019385803|herrmann",
       "works": 5
@@ -2193,6 +2193,11 @@
     {
       "source": "verified:daniela|muller",
       "target": "verified:leonardo|bastos",
+      "works": 5
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5135682745|villarroel",
       "works": 5
     },
     {
@@ -2218,6 +2223,11 @@
     {
       "source": "https://openalex.org/A5003172677|chitolina",
       "target": "https://openalex.org/A5090033511|reis",
+      "works": 4
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5019870433|bastos",
       "works": 4
     },
     {
@@ -2253,11 +2263,6 @@
     {
       "source": "https://openalex.org/A5089351637|arbo",
       "target": "verified:daniela|muller",
-      "works": 4
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5135682745|villarroel",
       "works": 4
     },
     {
@@ -2333,11 +2338,6 @@
     {
       "source": "verified:leonardo|bastos",
       "target": "verified:radharani|benvenutti",
-      "works": 3
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5019870433|bastos",
       "works": 3
     },
     {
@@ -4573,6 +4573,11 @@
     {
       "source": "https://openalex.org/A5046645039|marcon",
       "target": "verified:daniela|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5038381567|piato",
+      "target": "https://openalex.org/A5135682745|villarroel",
       "works": 2
     },
     {
@@ -121682,11 +121687,6 @@
     },
     {
       "source": "https://openalex.org/A5038381567|piato",
-      "target": "https://openalex.org/A5135682745|villarroel",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5038381567|piato",
       "target": "https://openalex.org/A5144224471|herrmann",
       "works": 1
     },
@@ -123883,6 +123883,11 @@
     {
       "source": "verified:khrystyna|stotska",
       "target": "verified:nadia|soliman",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5135682745|villarroel",
       "works": 1
     }
   ],
