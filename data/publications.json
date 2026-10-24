@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:43:44.350Z",
+  "generated_at": "2026-10-24T10:00:04.801Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7222478227",
@@ -816,17 +816,6 @@
       "doi": "10.1101/2023.02.02.526810"
     },
     {
-      "id": "epmc:36239455",
-      "date": "2023-02-01",
-      "year": 2023,
-      "type": "Journal article",
-      "title": "Effects of Taurine in Mice and Zebrafish Behavioral Assays With Translational Relevance to Schizophrenia.",
-      "authors": "Giongo FK, Gallas-Lopes M, Benvenutti R, Sachett A, Bastos LM, Rosa AR, Herrmann AP.",
-      "venue": "Int J Neuropsychopharmacol",
-      "url": "https://doi.org/10.1093/ijnp/pyac073",
-      "doi": "10.1093/ijnp/pyac073"
-    },
-    {
       "id": "https://openalex.org/W4311304923",
       "date": "2022-12-13",
       "year": 2022,
@@ -836,6 +825,17 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.1101/2022.12.12.520151",
       "doi": "10.1101/2022.12.12.520151"
+    },
+    {
+      "id": "crossref:10.1093/ijnp/pyac073",
+      "date": "2022-10-14",
+      "year": 2022,
+      "type": "Journal article",
+      "title": "Effects of Taurine in Mice and Zebrafish Behavioral Assays With Translational Relevance to Schizophrenia",
+      "authors": "Franciele Kich Giongo, Matheus Gallas-Lopes, Radharani Benvenutti, Adrieli Sachett, Leonardo Marensi Bastos, Adriane Ribeiro Rosa, Ana Paula Herrmann",
+      "venue": "International Journal of Neuropsychopharmacology",
+      "url": "https://doi.org/10.1093/ijnp/pyac073",
+      "doi": "10.1093/ijnp/pyac073"
     },
     {
       "id": "https://openalex.org/W4286219984",
@@ -882,26 +882,15 @@
       "doi": "10.1101/2022.03.29.486302"
     },
     {
-      "id": "epmc:33588731",
-      "date": "2022-03-01",
-      "year": 2022,
-      "type": "Journal article",
-      "title": "Glutamate NMDA Receptor Antagonists with Relevance to Schizophrenia: A Review of Zebrafish Behavioral Studies.",
-      "authors": "Benvenutti R, Gallas-Lopes M, Marcon M, Reschke CR, Herrmann AP, Piato A.",
-      "venue": "Curr Neuropharmacol",
-      "url": "https://doi.org/10.2174/1570159x19666210215121428",
-      "doi": "10.2174/1570159x19666210215121428"
-    },
-    {
-      "id": "epmc:IND607616514",
-      "date": "2022-03-01",
+      "id": "https://openalex.org/W4225674183",
+      "date": "2022-01-04",
       "year": 2022,
       "type": "Journal article",
       "title": "Curcumin micronization by supercritical fluid: In vitro and in vivo biological relevance",
-      "authors": "Sachett A, Gallas-Lopes M, Benvenutti R, Marcon M, Aguiar GPS, Herrmann AP, Oliveira JV, Siebel AM, Piato A.",
-      "venue": "Industrial crops and products.",
-      "url": "https://europepmc.org/article/AGR/IND607616514",
-      "doi": ""
+      "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Gean Pablo S. Aguiar, Ana Paula Herrmann, José Vladimir de Oliveira, Anna Maria Siebel, Ângelo Piato",
+      "venue": "Industrial Crops and Products",
+      "url": "https://doi.org/10.1016/j.indcrop.2021.114501",
+      "doi": "10.1016/j.indcrop.2021.114501"
     },
     {
       "id": "crossref:10.1101/2021.12.22.473814",
@@ -1078,6 +1067,17 @@
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bsujneun",
       "doi": "10.17504/protocols.io.bsujneun"
+    },
+    {
+      "id": "https://openalex.org/W3132528234",
+      "date": "2021-02-16",
+      "year": 2021,
+      "type": "Journal article",
+      "title": "Glutamate NMDA Receptor Antagonists with Relevance to Schizophrenia: A Review of Zebrafish Behavioral Studies",
+      "authors": "Ângelo Piato, Radharani Benvenutti, Matheus Gallas‐Lopes, Matheus Marcon, Cristina Ruedell Reschke, Ana Paula Herrmann",
+      "venue": "Current Neuropharmacology",
+      "url": "https://doi.org/10.2174/1570159x19666210215121428",
+      "doi": "10.2174/1570159x19666210215121428"
     },
     {
       "id": "https://openalex.org/W3089229132",
