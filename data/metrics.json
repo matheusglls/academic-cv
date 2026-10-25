@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:00:05.153Z",
+  "generated_at": "2026-10-25T10:25:04.017Z",
   "counts": {
     "Data / code": 2,
     "Preprint": 31,
@@ -8,7 +8,7 @@
     "Journal article": 18
   },
   "h_index": 12,
-  "total_citations": 421,
+  "total_citations": 423,
   "by_year": {
     "2019": {
       "journals": 0,
@@ -19,7 +19,7 @@
       "preprints": 1
     },
     "2021": {
-      "journals": 3,
+      "journals": 2,
       "preprints": 4
     },
     "2022": {
@@ -27,7 +27,7 @@
       "preprints": 2
     },
     "2023": {
-      "journals": 4,
+      "journals": 5,
       "preprints": 3
     },
     "2024": {
