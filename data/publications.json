@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:17:21.344Z",
+  "generated_at": "2026-10-28T11:51:08.716Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7222478227",
@@ -365,12 +365,12 @@
       "doi": "10.17504/protocols.io.4r3l21dp4g1y/v1"
     },
     {
-      "id": "crossref:10.17504/protocols.io.e6nvw4rpzlmk/v1",
+      "id": "https://openalex.org/W7108450340",
       "date": "2025-11-17",
       "year": 2025,
       "type": "Protocol",
       "title": "Gelatin coating of microscope slides for zebrafish brain tissue sections v1",
-      "authors": "Francisco Fuentealba-Villarroel, Gabriela Otarão Rosa, Amanda Patelli-Alves, leonardo bastos, Matheus Gallas-Lopes, Denise M Zancan, Ana P Herrmann, Angelo Piato",
+      "authors": "Francisco Fuentealba-Villarroel, Gabriela Otarão Rosa, Amanda Patelli-Alves, leonardo bastos, Matheus Gallas‐Lopes, Denise M Zancan, Ana P Herrmann, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.e6nvw4rpzlmk/v1",
       "doi": "10.17504/protocols.io.e6nvw4rpzlmk/v1"
@@ -385,6 +385,17 @@
       "venue": "Open Science Framework",
       "url": "https://osf.io/c45en/",
       "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7105902772",
+      "date": "2025-11-14",
+      "year": 2025,
+      "type": "Preregistration",
+      "title": "Sleep and circadian disturbances in Dravet Syndrome: a scoping review of clinical and preclinical evidence - Study Registration",
+      "authors": "Radharani Benvenutti, Matheus Gallas‐Lopes, Carolann McDonald, Rachel Fitzsimons, Nicola Kehoe, Ana P. Herrmann, Susan Byrne, Norman Delanty, Cristina R. Reschke",
+      "venue": "",
+      "url": "https://doi.org/10.17605/osf.io/c45en",
+      "doi": "10.17605/osf.io/c45en"
     },
     {
       "id": "crossref:10.22541/au.176168551.13528027/v1",
@@ -783,12 +794,12 @@
       "doi": ""
     },
     {
-      "id": "crossref:10.17504/protocols.io.5qpvor4o7v4o/v1",
+      "id": "https://openalex.org/W4385413323",
       "date": "2023-03-29",
       "year": 2023,
       "type": "Protocol",
       "title": "Assessment of prepulse inhibition (PPI) of the acoustic startle reflex in rodents v1",
-      "authors": "Franciele Kich Giongo, Matheus Gallas-Lopes, Ana P Herrmann",
+      "authors": "Franciele Kich Giongo, Matheus Gallas‐Lopes, Ana P Herrmann",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.5qpvor4o7v4o/v1",
       "doi": "10.17504/protocols.io.5qpvor4o7v4o/v1"
