@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:51:08.750Z",
+  "generated_at": "2026-10-29T11:59:06.580Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -197,6 +197,12 @@
     {
       "id": "verified:alana|panzenhagen",
       "name": "Alana C. Panzenhagen",
+      "works": 2
+    },
+    {
+      "id": "https://openalex.org/A5159767137|alves",
+      "openalex_id": "https://openalex.org/A5159767137",
+      "name": "Amanda Patelli-Alves",
       "works": 2
     },
     {
@@ -4613,6 +4619,16 @@
     {
       "source": "https://openalex.org/A5038381567|piato",
       "target": "https://openalex.org/A5135682745|villarroel",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5144224471|herrmann",
+      "target": "https://openalex.org/A5159767137|alves",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5135653932|piato",
+      "target": "https://openalex.org/A5159767137|alves",
       "works": 2
     },
     {
@@ -121926,6 +121942,11 @@
       "works": 1
     },
     {
+      "source": "https://openalex.org/A5159767137|alves",
+      "target": "verified:daniela|muller",
+      "works": 1
+    },
+    {
       "source": "https://openalex.org/A5135653932|piato",
       "target": "verified:daniela|muller",
       "works": 1
@@ -123072,12 +123093,27 @@
     },
     {
       "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5159767137|alves",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
       "target": "https://openalex.org/A5123270567|mendes",
       "works": 1
     },
     {
       "source": "https://openalex.org/A5123270567|mendes",
       "target": "https://openalex.org/A5144224471|herrmann",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5123270567|mendes",
+      "target": "https://openalex.org/A5159767137|alves",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5135682745|villarroel",
+      "target": "https://openalex.org/A5159767137|alves",
       "works": 1
     },
     {

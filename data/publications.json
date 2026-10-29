@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:51:08.716Z",
+  "generated_at": "2026-10-29T11:59:06.546Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7222478227",
@@ -40,7 +40,7 @@
       "year": 2026,
       "type": "Protocol",
       "title": "Extraction of Whole-Body Cortisol from Adult Zebrafish (Danio rerio) and Quantification by ELISA v1",
-      "authors": "Francisco Fuentealba-Villarroel, Dagobert Müller, Leonardo M. Bastos, Matheus Gallas‐Lopes, Amanda Patelli Alves, Ana P. Herrmann, Murilo S. de Abreu, Ângelo Piato",
+      "authors": "Francisco Fuentealba-Villarroel, Dagobert Müller, Leonardo M. Bastos, Matheus Gallas‐Lopes, A. Pimenta Alves, Ana P. Herrmann, Murilo S. de Abreu, Ângelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bp2l6od95lqe/v1",
       "doi": "10.17504/protocols.io.bp2l6od95lqe/v1"
@@ -62,7 +62,7 @@
       "year": 2026,
       "type": "Data / code",
       "title": "Panorama of Preclinical Systematic Reviews Conducted by Researchers in Brazil – Data Extraction Materials Registration",
-      "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, Amanda Patelli-Alves, Ana P. Herrmann, Mariana Abreu",
+      "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, A. Pimenta Alves, Ana P. Herrmann, Mariana Abreu",
       "venue": "",
       "url": "https://doi.org/10.17605/osf.io/gxskc",
       "doi": "10.17605/osf.io/gxskc"
@@ -183,7 +183,7 @@
       "year": 2026,
       "type": "Preprint",
       "title": "Effects of NMDA antagonists on social behaviour: a systematic review and meta-analysis of preclinical studies",
-      "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno Dutra Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela Virote Kassick Müller, Amanda Patelli-Alves, Daniel Alves Rosa, Dirson João Stein, Ana P. Herrmann",
+      "authors": "Matheus Gallas‐Lopes, Mariana B. Abreu, Michael Andrades, Bruno Dutra Arbo, Leonardo M. Bastos, Tainah C. Caetano, Daniela Virote Kassick Müller, A. Pimenta Alves, Daniel Alves Rosa, Dirson João Stein, Ana P. Herrmann",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "url": "https://doi.org/10.64898/2026.05.13.724847",
       "doi": "10.64898/2026.05.13.724847"
