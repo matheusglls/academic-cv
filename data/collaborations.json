@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:53:06.885Z",
+  "generated_at": "2026-10-31T11:26:23.339Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -311,7 +311,7 @@
     {
       "id": "https://openalex.org/A5129575787|bastos",
       "openalex_id": "https://openalex.org/A5129575787",
-      "name": "Leonardo Bastos",
+      "name": "Leonardo M. Bastos",
       "works": 2
     },
     {
@@ -383,7 +383,19 @@
       "works": 2
     },
     {
+      "id": "https://openalex.org/A5158737806|bruck",
+      "openalex_id": "https://openalex.org/A5158737806",
+      "name": "Samara M. Bruck",
+      "works": 2
+    },
+    {
       "id": "verified:sofia|becker",
+      "name": "Sofia Z. Becker",
+      "works": 2
+    },
+    {
+      "id": "https://openalex.org/A5064423792|becker",
+      "openalex_id": "https://openalex.org/A5064423792",
       "name": "Sofia Z. Becker",
       "works": 2
     },
@@ -4677,6 +4689,16 @@
       "works": 2
     },
     {
+      "source": "https://openalex.org/A5064423792|becker",
+      "target": "https://openalex.org/A5092349084|buss",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5158737806|bruck",
+      "works": 2
+    },
+    {
       "source": "https://openalex.org/A5092349084|buss",
       "target": "https://openalex.org/A5135653932|piato",
       "works": 2
@@ -4687,12 +4709,47 @@
       "works": 2
     },
     {
+      "source": "https://openalex.org/A5064423792|becker",
+      "target": "https://openalex.org/A5129575787|bastos",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5129575787|bastos",
+      "target": "https://openalex.org/A5158737806|bruck",
+      "works": 2
+    },
+    {
       "source": "https://openalex.org/A5129575787|bastos",
       "target": "https://openalex.org/A5135653932|piato",
       "works": 2
     },
     {
       "source": "https://openalex.org/A5129575787|bastos",
+      "target": "https://openalex.org/A5158740778|herrmann",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5064423792|becker",
+      "target": "https://openalex.org/A5158737806|bruck",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5064423792|becker",
+      "target": "https://openalex.org/A5135653932|piato",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5064423792|becker",
+      "target": "https://openalex.org/A5158740778|herrmann",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5135653932|piato",
+      "target": "https://openalex.org/A5158737806|bruck",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5158737806|bruck",
       "target": "https://openalex.org/A5158740778|herrmann",
       "works": 2
     },
