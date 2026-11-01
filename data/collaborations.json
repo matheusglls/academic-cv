@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:26:23.339Z",
+  "generated_at": "2026-11-01T12:20:47.728Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -240,6 +240,12 @@
     {
       "id": "verified:cristina|reschke",
       "name": "Cristina  R. Reschke",
+      "works": 2
+    },
+    {
+      "id": "https://openalex.org/A5158680512|muller",
+      "openalex_id": "https://openalex.org/A5158680512",
+      "name": "Daniela V. Müller",
       "works": 2
     },
     {
@@ -4681,6 +4687,36 @@
     {
       "source": "https://openalex.org/A5046553132|zurchimitten",
       "target": "verified:daniela|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5158680512|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5129575787|bastos",
+      "target": "https://openalex.org/A5158680512|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5064423792|becker",
+      "target": "https://openalex.org/A5158680512|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5158680512|muller",
+      "target": "https://openalex.org/A5158737806|bruck",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5135653932|piato",
+      "target": "https://openalex.org/A5158680512|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5158680512|muller",
+      "target": "https://openalex.org/A5158740778|herrmann",
       "works": 2
     },
     {
