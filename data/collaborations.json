@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:15:46.688Z",
+  "generated_at": "2026-11-03T13:17:09.513Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -11467,146 +11467,6 @@
     {
       "source": "https://openalex.org/A5021112412|linazzi",
       "target": "https://openalex.org/A5038381567|piato",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003172677|chitolina",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5092349084|buss",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5063045675|gusso",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5043340356|gomez",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5038381567|piato",
-      "target": "https://openalex.org/A5111237216|oliveira",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003172677|chitolina",
-      "target": "https://openalex.org/A5009585091|portela",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003172677|chitolina",
-      "target": "https://openalex.org/A5092349084|buss",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003172677|chitolina",
-      "target": "https://openalex.org/A5063045675|gusso",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003172677|chitolina",
-      "target": "https://openalex.org/A5043340356|gomez",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5063045675|gusso",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5043340356|gomez",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5092349084|buss",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5063045675|gusso",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5043340356|gomez",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5019385803|herrmann",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5009585091|portela",
-      "target": "https://openalex.org/A5038381567|piato",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5063045675|gusso",
-      "target": "https://openalex.org/A5092349084|buss",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5043340356|gomez",
-      "target": "https://openalex.org/A5092349084|buss",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5092349084|buss",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5043340356|gomez",
-      "target": "https://openalex.org/A5063045675|gusso",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5063045675|gusso",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5038381567|piato",
-      "target": "https://openalex.org/A5063045675|gusso",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019385803|herrmann",
-      "target": "https://openalex.org/A5043340356|gomez",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5038381567|piato",
-      "target": "https://openalex.org/A5043340356|gomez",
       "works": 1
     },
     {
@@ -121692,6 +121552,146 @@
     {
       "source": "verified:angelo|piato",
       "target": "verified:querusche|zanona",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003172677|chitolina",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5063045675|gusso",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5043340356|gomez",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5038381567|piato",
+      "target": "https://openalex.org/A5111237216|oliveira",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003172677|chitolina",
+      "target": "https://openalex.org/A5009585091|portela",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003172677|chitolina",
+      "target": "https://openalex.org/A5092349084|buss",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003172677|chitolina",
+      "target": "https://openalex.org/A5063045675|gusso",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003172677|chitolina",
+      "target": "https://openalex.org/A5043340356|gomez",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5019870433|bastos",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5063045675|gusso",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5043340356|gomez",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5092349084|buss",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5063045675|gusso",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5043340356|gomez",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5019385803|herrmann",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5009585091|portela",
+      "target": "https://openalex.org/A5038381567|piato",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5063045675|gusso",
+      "target": "https://openalex.org/A5092349084|buss",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5043340356|gomez",
+      "target": "https://openalex.org/A5092349084|buss",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5092349084|buss",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5043340356|gomez",
+      "target": "https://openalex.org/A5063045675|gusso",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5063045675|gusso",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5038381567|piato",
+      "target": "https://openalex.org/A5063045675|gusso",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019385803|herrmann",
+      "target": "https://openalex.org/A5043340356|gomez",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5038381567|piato",
+      "target": "https://openalex.org/A5043340356|gomez",
       "works": 1
     },
     {
