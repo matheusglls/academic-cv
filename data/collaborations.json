@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-03T13:17:09.513Z",
+  "generated_at": "2026-11-04T13:29:33.621Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
       "name": "Ana Paula Herrmann",
-      "works": 33
+      "works": 34
     },
     {
       "id": "verified:angelo|piato",
       "name": "Angelo Piato",
-      "works": 29
+      "works": 30
     },
     {
       "id": "https://openalex.org/A5038381567|piato",
@@ -42,7 +42,7 @@
     {
       "id": "verified:leonardo|bastos",
       "name": "Leonardo Marensi Bastos",
-      "works": 12
+      "works": 13
     },
     {
       "id": "verified:greicy|conterato",
@@ -146,6 +146,11 @@
       "works": 4
     },
     {
+      "id": "verified:francisco|villarroel",
+      "name": "Francisco Fuentealba-Villarroel",
+      "works": 4
+    },
+    {
       "id": "https://openalex.org/A5092349084|buss",
       "openalex_id": "https://openalex.org/A5092349084",
       "name": "Thailana Stahlhofer-Buss",
@@ -154,11 +159,6 @@
     {
       "id": "verified:dirson|stein",
       "name": "Dirson J. Stein",
-      "works": 3
-    },
-    {
-      "id": "verified:francisco|villarroel",
-      "name": "Francisco Fuentealba-Villarroel",
       "works": 3
     },
     {
@@ -256,6 +256,11 @@
     {
       "id": "verified:david|henshall",
       "name": "David  C. Henshall",
+      "works": 2
+    },
+    {
+      "id": "verified:denise|zancan",
+      "name": "Denise M Zancan",
       "works": 2
     },
     {
@@ -842,11 +847,6 @@
     {
       "id": "verified:denis|rosemberg",
       "name": "Denis B. Rosemberg",
-      "works": 1
-    },
-    {
-      "id": "verified:denise|zancan",
-      "name": "Denise M Zancan",
       "works": 1
     },
     {
@@ -2047,7 +2047,7 @@
     {
       "source": "verified:ana|herrmann",
       "target": "verified:angelo|piato",
-      "works": 28
+      "works": 29
     },
     {
       "source": "https://openalex.org/A5019385803|herrmann",
@@ -2077,7 +2077,7 @@
     {
       "source": "verified:ana|herrmann",
       "target": "verified:leonardo|bastos",
-      "works": 11
+      "works": 12
     },
     {
       "source": "verified:adrieli|sachett",
@@ -2107,7 +2107,7 @@
     {
       "source": "verified:angelo|piato",
       "target": "verified:leonardo|bastos",
-      "works": 9
+      "works": 10
     },
     {
       "source": "verified:ana|herrmann",
@@ -2300,6 +2300,16 @@
       "works": 4
     },
     {
+      "source": "verified:ana|herrmann",
+      "target": "verified:francisco|villarroel",
+      "works": 4
+    },
+    {
+      "source": "verified:angelo|piato",
+      "target": "verified:francisco|villarroel",
+      "works": 4
+    },
+    {
       "source": "https://openalex.org/A5089351637|arbo",
       "target": "verified:daniela|muller",
       "works": 4
@@ -2395,13 +2405,8 @@
       "works": 3
     },
     {
-      "source": "verified:ana|herrmann",
-      "target": "verified:francisco|villarroel",
-      "works": 3
-    },
-    {
-      "source": "verified:angelo|piato",
-      "target": "verified:francisco|villarroel",
+      "source": "verified:francisco|villarroel",
+      "target": "verified:leonardo|bastos",
       "works": 3
     },
     {
@@ -4615,8 +4620,23 @@
       "works": 2
     },
     {
-      "source": "verified:francisco|villarroel",
+      "source": "verified:denise|zancan",
+      "target": "verified:francisco|villarroel",
+      "works": 2
+    },
+    {
+      "source": "verified:denise|zancan",
       "target": "verified:leonardo|bastos",
+      "works": 2
+    },
+    {
+      "source": "verified:ana|herrmann",
+      "target": "verified:denise|zancan",
+      "works": 2
+    },
+    {
+      "source": "verified:angelo|piato",
+      "target": "verified:denise|zancan",
       "works": 2
     },
     {
@@ -11370,26 +11390,6 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5007179372|sachett",
-      "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5031597903|benvenutti",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5090033511|reis",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
       "source": "https://openalex.org/A5120840035|neves",
       "target": "verified:daniela|muller",
       "works": 1
@@ -11437,6 +11437,26 @@
     {
       "source": "https://openalex.org/A5092349084|buss",
       "target": "https://openalex.org/A5130662721|herrmann",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5007179372|sachett",
+      "target": "https://openalex.org/A5019870433|bastos",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5031597903|benvenutti",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003434038|aguiar",
+      "target": "https://openalex.org/A5090033511|reis",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003434038|aguiar",
+      "target": "https://openalex.org/A5019870433|bastos",
       "works": 1
     },
     {
@@ -121810,11 +121830,6 @@
       "works": 1
     },
     {
-      "source": "verified:denise|zancan",
-      "target": "verified:francisco|villarroel",
-      "works": 1
-    },
-    {
       "source": "verified:amanda|alves",
       "target": "verified:gabriela|rosa",
       "works": 1
@@ -121831,21 +121846,6 @@
     },
     {
       "source": "verified:amanda|alves",
-      "target": "verified:denise|zancan",
-      "works": 1
-    },
-    {
-      "source": "verified:denise|zancan",
-      "target": "verified:leonardo|bastos",
-      "works": 1
-    },
-    {
-      "source": "verified:ana|herrmann",
-      "target": "verified:denise|zancan",
-      "works": 1
-    },
-    {
-      "source": "verified:angelo|piato",
       "target": "verified:denise|zancan",
       "works": 1
     },
@@ -124068,7 +124068,7 @@
   "countries": [
     {
       "code": "BR",
-      "works": 43
+      "works": 44
     },
     {
       "code": "IE",
