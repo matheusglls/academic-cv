@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:29:33.593Z",
+  "generated_at": "2026-11-05T13:44:19.641Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7225165364",
@@ -354,13 +354,13 @@
       "doi": ""
     },
     {
-      "id": "https://openalex.org/W4417447965",
+      "id": "crossref:10.64898/2025.12.15.694431",
       "date": "2025-12-17",
       "year": 2025,
       "type": "Preprint",
       "title": "Unpredictable chronic stress does not alter social behavior in zebrafish",
-      "authors": "Nathali A. Neves, Matheus Gallas‐Lopes, Amanda Patelli-Alves, Daniela V. Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana Paula Herrmann, Ângelo Piato",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": "Náthali A. Neves, Matheus Gallas-Lopes, Amanda Patelli-Alves, Daniela V. Müller, Leonardo M. Bastos, Thailana Stahlhofer-Buss, Ana P. Herrmann, Angelo Piato",
+      "venue": "",
       "url": "https://doi.org/10.64898/2025.12.15.694431",
       "doi": "10.64898/2025.12.15.694431"
     },
@@ -772,13 +772,13 @@
       "doi": "10.1101/2023.06.26.546569"
     },
     {
-      "id": "https://openalex.org/W4379792539",
+      "id": "crossref:10.1101/2023.06.06.543927",
       "date": "2023-06-08",
       "year": 2023,
       "type": "Preprint",
       "title": "Neurobehavioral effects of fungicides in zebrafish: a systematic review and meta-analysis",
-      "authors": "Carlos G. Reis, Leonardo M. Bastos, Rafael Chitolina, Matheus Gallas‐Lopes, Querusche Klippel Zanona, Sofia Z. Becker, Ana Paula Herrmann, Ângelo Piato",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": "Carlos G. Reis, Leonardo M. Bastos, Rafael Chitolina, Matheus Gallas-Lopes, Querusche K. Zanona, Sofia Z. Becker, Ana P. Herrmann, Angelo Piato",
+      "venue": "",
       "url": "https://doi.org/10.1101/2023.06.06.543927",
       "doi": "10.1101/2023.06.06.543927"
     },
@@ -827,37 +827,37 @@
       "doi": ""
     },
     {
-      "id": "https://openalex.org/W4319231486",
+      "id": "crossref:10.1101/2023.02.02.526810",
       "date": "2023-02-03",
       "year": 2023,
       "type": "Preprint",
       "title": "Is environmental enrichment beneficial for laboratory animals? A systematic review of studies in zebrafish",
-      "authors": "Matheus Gallas‐Lopes, Radharani Benvenutti, Nayne I. Z. Donzelli, Matheus Marcon",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": "Matheus Gallas-Lopes, Radharani Benvenutti, Nayne I. Z. Donzelli, Matheus Marcon",
+      "venue": "",
       "url": "https://doi.org/10.1101/2023.02.02.526810",
       "doi": "10.1101/2023.02.02.526810"
     },
     {
-      "id": "epmc:36239455",
-      "date": "2023-02-01",
-      "year": 2023,
-      "type": "Journal article",
-      "title": "Effects of Taurine in Mice and Zebrafish Behavioral Assays With Translational Relevance to Schizophrenia.",
-      "authors": "Giongo FK, Gallas-Lopes M, Benvenutti R, Sachett A, Bastos LM, Rosa AR, Herrmann AP.",
-      "venue": "Int J Neuropsychopharmacol",
-      "url": "https://doi.org/10.1093/ijnp/pyac073",
-      "doi": "10.1093/ijnp/pyac073"
-    },
-    {
-      "id": "https://openalex.org/W4311304923",
+      "id": "crossref:10.1101/2022.12.12.520151",
       "date": "2022-12-13",
       "year": 2022,
       "type": "Preprint",
       "title": "Ten years of unpredictable chronic stress in zebrafish: a systematic review and meta-analysis",
-      "authors": "Matheus Gallas‐Lopes, Leonardo M. Bastos, Radharani Benvenutti, Alana Castro Panzenhagen, Ângelo Piato, Ana Paula Herrmann",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": "Matheus Gallas-Lopes, Leonardo M. Bastos, Radharani Benvenutti, Alana C. Panzenhagen, Angelo Piato, Ana P. Herrmann",
+      "venue": "",
       "url": "https://doi.org/10.1101/2022.12.12.520151",
       "doi": "10.1101/2022.12.12.520151"
+    },
+    {
+      "id": "crossref:10.1093/ijnp/pyac073",
+      "date": "2022-10-14",
+      "year": 2022,
+      "type": "Journal article",
+      "title": "Effects of Taurine in Mice and Zebrafish Behavioral Assays With Translational Relevance to Schizophrenia",
+      "authors": "Franciele Kich Giongo, Matheus Gallas-Lopes, Radharani Benvenutti, Adrieli Sachett, Leonardo Marensi Bastos, Adriane Ribeiro Rosa, Ana Paula Herrmann",
+      "venue": "International Journal of Neuropsychopharmacology",
+      "url": "https://doi.org/10.1093/ijnp/pyac073",
+      "doi": "10.1093/ijnp/pyac073"
     },
     {
       "id": "https://openalex.org/W4286219984",
@@ -904,26 +904,15 @@
       "doi": "10.1101/2022.03.29.486302"
     },
     {
-      "id": "epmc:33588731",
-      "date": "2022-03-01",
-      "year": 2022,
-      "type": "Journal article",
-      "title": "Glutamate NMDA Receptor Antagonists with Relevance to Schizophrenia: A Review of Zebrafish Behavioral Studies.",
-      "authors": "Benvenutti R, Gallas-Lopes M, Marcon M, Reschke CR, Herrmann AP, Piato A.",
-      "venue": "Curr Neuropharmacol",
-      "url": "https://doi.org/10.2174/1570159x19666210215121428",
-      "doi": "10.2174/1570159x19666210215121428"
-    },
-    {
-      "id": "epmc:IND607616514",
-      "date": "2022-03-01",
+      "id": "https://openalex.org/W4225674183",
+      "date": "2022-01-04",
       "year": 2022,
       "type": "Journal article",
       "title": "Curcumin micronization by supercritical fluid: In vitro and in vivo biological relevance",
-      "authors": "Sachett A, Gallas-Lopes M, Benvenutti R, Marcon M, Aguiar GPS, Herrmann AP, Oliveira JV, Siebel AM, Piato A.",
-      "venue": "Industrial crops and products.",
-      "url": "https://europepmc.org/article/AGR/IND607616514",
-      "doi": ""
+      "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Radharani Benvenutti, Matheus Marcon, Gean Pablo S. Aguiar, Ana Paula Herrmann, José Vladimir de Oliveira, Anna Maria Siebel, Ângelo Piato",
+      "venue": "Industrial Crops and Products",
+      "url": "https://doi.org/10.1016/j.indcrop.2021.114501",
+      "doi": "10.1016/j.indcrop.2021.114501"
     },
     {
       "id": "crossref:10.1101/2021.12.22.473814",
@@ -1100,6 +1089,17 @@
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bsujneun",
       "doi": "10.17504/protocols.io.bsujneun"
+    },
+    {
+      "id": "https://openalex.org/W3132528234",
+      "date": "2021-02-16",
+      "year": 2021,
+      "type": "Journal article",
+      "title": "Glutamate NMDA Receptor Antagonists with Relevance to Schizophrenia: A Review of Zebrafish Behavioral Studies",
+      "authors": "Ângelo Piato, Radharani Benvenutti, Matheus Gallas‐Lopes, Matheus Marcon, Cristina Ruedell Reschke, Ana Paula Herrmann",
+      "venue": "Current Neuropharmacology",
+      "url": "https://doi.org/10.2174/1570159x19666210215121428",
+      "doi": "10.2174/1570159x19666210215121428"
     },
     {
       "id": "https://openalex.org/W3089229132",
