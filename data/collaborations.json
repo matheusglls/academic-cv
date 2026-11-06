@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:44:19.661Z",
+  "generated_at": "2026-11-06T13:28:13.383Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -2440,11 +2440,6 @@
       "works": 2
     },
     {
-      "source": "verified:leonardo|bastos",
-      "target": "verified:radharani|benvenutti",
-      "works": 2
-    },
-    {
       "source": "verified:dirson|stein",
       "target": "verified:mailton|vasconcelos",
       "works": 2
@@ -2502,6 +2497,11 @@
     {
       "source": "verified:maria|calcagnotto",
       "target": "verified:thailana|buss",
+      "works": 2
+    },
+    {
+      "source": "verified:leonardo|bastos",
+      "target": "verified:radharani|benvenutti",
       "works": 2
     },
     {
@@ -11110,26 +11110,6 @@
       "works": 1
     },
     {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:leonardo|bastos",
-      "works": 1
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:radharani|benvenutti",
-      "works": 1
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:angelo|piato",
-      "works": 1
-    },
-    {
-      "source": "verified:alana|panzenhagen",
-      "target": "verified:ana|herrmann",
-      "works": 1
-    },
-    {
       "source": "verified:nathan|strogulski",
       "target": "verified:radharani|benvenutti",
       "works": 1
@@ -11197,6 +11177,26 @@
     {
       "source": "verified:matheus|marcon",
       "target": "verified:nayne|donzelli",
+      "works": 1
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:leonardo|bastos",
+      "works": 1
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:radharani|benvenutti",
+      "works": 1
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:angelo|piato",
+      "works": 1
+    },
+    {
+      "source": "verified:alana|panzenhagen",
+      "target": "verified:ana|herrmann",
       "works": 1
     },
     {
