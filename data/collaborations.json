@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:28:13.383Z",
+  "generated_at": "2026-11-07T12:07:30.474Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -2095,6 +2095,11 @@
       "works": 9
     },
     {
+      "source": "verified:angelo|piato",
+      "target": "verified:leonardo|bastos",
+      "works": 7
+    },
+    {
       "source": "https://openalex.org/A5038381567|piato",
       "target": "https://openalex.org/A5046645039|marcon",
       "works": 7
@@ -2107,11 +2112,6 @@
     {
       "source": "https://openalex.org/A5019385803|herrmann",
       "target": "https://openalex.org/A5046645039|marcon",
-      "works": 7
-    },
-    {
-      "source": "verified:angelo|piato",
-      "target": "verified:leonardo|bastos",
       "works": 7
     },
     {
