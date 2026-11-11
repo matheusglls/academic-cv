@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T02:33:15.180Z",
+  "generated_at": "2026-11-11T13:14:43.014Z",
   "outputs": [
     {
-      "id": "crossref:10.1098/rsos.260257",
+      "id": "https://openalex.org/W4414283892",
       "date": "2026-11-04",
       "year": 2026,
       "type": "Journal article",
       "title": "Behavioural profiling of social and locomotor responses to repeated ketamine exposure in adult zebrafish",
-      "authors": "Matheus Gallas-Lopes, Daniela V. Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara M. Bruck, Angelo Piato, Ana P. Herrmann",
+      "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara Machado Bruck, Ângelo Piato, Ana Paula Herrmann",
       "venue": "Royal Society Open Science",
       "url": "https://doi.org/10.1098/rsos.260257",
       "doi": "10.1098/rsos.260257"
@@ -442,13 +442,13 @@
       "doi": "10.1016/j.jhazmat.2025.140271"
     },
     {
-      "id": "https://openalex.org/W4414283892",
+      "id": "crossref:10.1101/2025.09.16.676572",
       "date": "2025-09-17",
       "year": 2025,
       "type": "Preprint",
       "title": "Ketamine-induced NMDA receptor hypofunction alters social and locomotor behavior in adult zebrafish",
-      "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara Machado Bruck, Ângelo Piato, Ana Paula Herrmann",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": "Matheus Gallas-Lopes, Daniela V. Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara M. Bruck, Angelo Piato, Ana P. Herrmann",
+      "venue": "",
       "url": "https://doi.org/10.1101/2025.09.16.676572",
       "doi": "10.1101/2025.09.16.676572"
     },
