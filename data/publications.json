@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-11-10T13:58:31.316Z",
+  "generated_at": "2026-11-11T02:33:15.180Z",
   "outputs": [
+    {
+      "id": "crossref:10.1098/rsos.260257",
+      "date": "2026-11-04",
+      "year": 2026,
+      "type": "Journal article",
+      "title": "Behavioural profiling of social and locomotor responses to repeated ketamine exposure in adult zebrafish",
+      "authors": "Matheus Gallas-Lopes, Daniela V. Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara M. Bruck, Angelo Piato, Ana P. Herrmann",
+      "venue": "Royal Society Open Science",
+      "url": "https://doi.org/10.1098/rsos.260257",
+      "doi": "10.1098/rsos.260257"
+    },
     {
       "id": "https://openalex.org/W7225165364",
       "date": "2026-11-03",
