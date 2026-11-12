@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T13:14:43.014Z",
+  "generated_at": "2026-11-12T14:17:39.882Z",
   "outputs": [
     {
-      "id": "https://openalex.org/W4414283892",
-      "date": "2026-11-04",
+      "id": "epmc:43012078",
+      "date": "2026-11-11",
       "year": 2026,
       "type": "Journal article",
-      "title": "Behavioural profiling of social and locomotor responses to repeated ketamine exposure in adult zebrafish",
-      "authors": "Matheus Gallas‐Lopes, Dagobert Müller, Thailana Stahlhofer-Buss, Leonardo M. Bastos, Sofia Z. Becker, Samara Machado Bruck, Ângelo Piato, Ana Paula Herrmann",
-      "venue": "Royal Society Open Science",
+      "title": "Behavioural profiling of social and locomotor responses to repeated ketamine exposure in adult zebrafish.",
+      "authors": "Gallas-Lopes M, Müller DV, Stahlhofer-Buss T, Bastos LM, Becker SZ, Bruck SM, Piato A, Herrmann AP.",
+      "venue": "R Soc Open Sci",
       "url": "https://doi.org/10.1098/rsos.260257",
       "doi": "10.1098/rsos.260257"
     },
