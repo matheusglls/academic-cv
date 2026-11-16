@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:11:06.557Z",
+  "generated_at": "2026-11-16T14:19:59.310Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -127,7 +127,7 @@
     },
     {
       "id": "verified:amanda|alves",
-      "name": "Amanda Patelli-Alves",
+      "name": "Amanda Patelli Alves",
       "works": 4
     },
     {
@@ -2262,6 +2262,11 @@
       "works": 4
     },
     {
+      "source": "verified:amanda|alves",
+      "target": "verified:ana|herrmann",
+      "works": 4
+    },
+    {
       "source": "verified:bruno|arbo",
       "target": "verified:daniela|muller",
       "works": 4
@@ -2274,11 +2279,6 @@
     {
       "source": "verified:daniela|muller",
       "target": "verified:leonardo|bastos",
-      "works": 4
-    },
-    {
-      "source": "verified:amanda|alves",
-      "target": "verified:ana|herrmann",
       "works": 4
     },
     {
@@ -2383,17 +2383,17 @@
     },
     {
       "source": "verified:amanda|alves",
-      "target": "verified:leonardo|bastos",
-      "works": 3
-    },
-    {
-      "source": "verified:amanda|alves",
       "target": "verified:daniela|muller",
       "works": 3
     },
     {
       "source": "verified:amanda|alves",
       "target": "verified:angelo|piato",
+      "works": 3
+    },
+    {
+      "source": "verified:amanda|alves",
+      "target": "verified:leonardo|bastos",
       "works": 3
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:11:06.700Z",
+  "generated_at": "2026-11-16T14:19:59.547Z",
   "counts": {
     "Journal article": 19,
     "Preprint": 32,
@@ -8,7 +8,7 @@
     "Preregistration": 39
   },
   "h_index": 13,
-  "total_citations": 486,
+  "total_citations": 487,
   "by_year": {
     "2019": {
       "journals": 0,
