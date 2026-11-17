@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:19:59.275Z",
+  "generated_at": "2026-11-17T15:12:40.301Z",
   "outputs": [
     {
       "id": "epmc:43012078",
@@ -77,17 +77,6 @@
       "venue": "Open Science Framework",
       "url": "https://osf.io/gxskc/",
       "doi": ""
-    },
-    {
-      "id": "https://openalex.org/W7203446194",
-      "date": "2026-08-13",
-      "year": 2026,
-      "type": "Data / code",
-      "title": "Panorama of Preclinical Systematic Reviews Conducted by Researchers in Brazil – Data Extraction Materials Registration",
-      "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, A. Pimenta Alves, Ana P. Herrmann, Mariana Abreu",
-      "venue": "",
-      "url": "https://doi.org/10.17605/osf.io/gxskc",
-      "doi": "10.17605/osf.io/gxskc"
     },
     {
       "id": "osf:923rq",
@@ -594,6 +583,17 @@
       "venue": "Open Science Framework",
       "url": "https://osf.io/x95w6/",
       "doi": ""
+    },
+    {
+      "id": "https://openalex.org/W7203446194",
+      "date": "2025-01-01",
+      "year": 2025,
+      "type": "Data / code",
+      "title": "Panorama of Preclinical Systematic Reviews Conducted by Researchers in Brazil – Data Extraction Materials Registration",
+      "authors": "Matheus Gallas‐Lopes, Bruno Dutra Arbo, Daniel Alves Rosa, Dagobert Müller, Gabriel Zurchimitten, Giulia Scarcella Cancelliero, Matheus Marcon, Pedro Lucas Neves Iozzo Campos, A. Pimenta Alves, Ana P. Herrmann, Mariana Abreu",
+      "venue": "",
+      "url": "https://doi.org/10.17605/osf.io/gxskc",
+      "doi": "10.17605/osf.io/gxskc"
     },
     {
       "id": "crossref:10.21203/rs.3.rs-4849877/v1",
