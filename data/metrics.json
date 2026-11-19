@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T14:51:00.026Z",
+  "generated_at": "2026-11-19T14:56:04.330Z",
   "counts": {
+    "Data / code": 3,
     "Journal article": 19,
     "Preprint": 32,
-    "Data / code": 2,
     "Protocol": 16,
     "Preregistration": 39
   },
@@ -19,7 +19,7 @@
       "preprints": 1
     },
     "2021": {
-      "journals": 3,
+      "journals": 2,
       "preprints": 4
     },
     "2022": {
@@ -27,7 +27,7 @@
       "preprints": 2
     },
     "2023": {
-      "journals": 4,
+      "journals": 5,
       "preprints": 3
     },
     "2024": {
