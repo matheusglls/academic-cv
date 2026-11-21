@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:37:49.727Z",
+  "generated_at": "2026-11-21T13:55:35.575Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -2242,7 +2242,12 @@
       "works": 4
     },
     {
-      "source": "https://openalex.org/A5003172677|chitolina",
+      "source": "https://openalex.org/A5007179372|sachett",
+      "target": "https://openalex.org/A5090033511|reis",
+      "works": 4
+    },
+    {
+      "source": "https://openalex.org/A5031597903|benvenutti",
       "target": "https://openalex.org/A5090033511|reis",
       "works": 4
     },
@@ -2252,12 +2257,7 @@
       "works": 4
     },
     {
-      "source": "https://openalex.org/A5007179372|sachett",
-      "target": "https://openalex.org/A5090033511|reis",
-      "works": 4
-    },
-    {
-      "source": "https://openalex.org/A5031597903|benvenutti",
+      "source": "https://openalex.org/A5003172677|chitolina",
       "target": "https://openalex.org/A5090033511|reis",
       "works": 4
     },
@@ -11257,6 +11257,26 @@
       "works": 1
     },
     {
+      "source": "https://openalex.org/A5007179372|sachett",
+      "target": "https://openalex.org/A5019870433|bastos",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5031597903|benvenutti",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003434038|aguiar",
+      "target": "https://openalex.org/A5090033511|reis",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5003434038|aguiar",
+      "target": "https://openalex.org/A5019870433|bastos",
+      "works": 1
+    },
+    {
       "source": "https://openalex.org/A5040662413|zanona",
       "target": "https://openalex.org/A5090033511|reis",
       "works": 1
@@ -11299,26 +11319,6 @@
     {
       "source": "https://openalex.org/A5038381567|piato",
       "target": "https://openalex.org/A5103118926|becker",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5007179372|sachett",
-      "target": "https://openalex.org/A5019870433|bastos",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5031597903|benvenutti",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5090033511|reis",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5003434038|aguiar",
-      "target": "https://openalex.org/A5019870433|bastos",
       "works": 1
     },
     {

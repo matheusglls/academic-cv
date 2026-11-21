@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:37:49.690Z",
+  "generated_at": "2026-11-21T13:55:35.547Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7235698182",
@@ -893,12 +893,12 @@
       "doi": "10.1007/s43440-022-00389-6"
     },
     {
-      "id": "crossref:10.1111/ejn.15771",
+      "id": "https://openalex.org/W4285393234",
       "date": "2022-07-18",
       "year": 2022,
       "type": "Journal article",
       "title": "What do male and female zebrafish prefer? Directional and colour preference in maze tasks",
-      "authors": "Matheus Marcon, Radharani Benvenutti, Matheus Gallas‐Lopes, Ana Paula Herrmann, Angelo Piato",
+      "authors": "Matheus Marcon, Radharani Benvenutti, Matheus Gallas‐Lopes, Ana Paula Herrmann, Ângelo Piato",
       "venue": "European Journal of Neuroscience",
       "url": "https://doi.org/10.1111/ejn.15771",
       "doi": "10.1111/ejn.15771"
@@ -1188,6 +1188,17 @@
       "venue": "Trends in Psychiatry and Psychotherapy",
       "url": "https://doi.org/10.1590/2237-6089-2018-0027",
       "doi": "10.1590/2237-6089-2018-0027"
+    },
+    {
+      "id": "https://openalex.org/W3027634979",
+      "date": "2020-04-01",
+      "year": 2020,
+      "type": "Journal article",
+      "title": "SCHIZOPHRENIA IN A FISH: EFFECTS OF NMDA ANTAGONISM ON LOCOMOTOR BEHAVIOR AND SOCIAL INTERACTION IN ZEBRAFISH",
+      "authors": "Matheus Gallas‐Lopes, Radharani Benvenutti, Adrieli Sachett, Rafael Chitolina, Carlos G. Reis, Ana Paula Herrmann, Ângelo Piato",
+      "venue": "Schizophrenia Bulletin",
+      "url": "https://doi.org/10.1093/schbul/sbaa031.096",
+      "doi": "10.1093/schbul/sbaa031.096"
     },
     {
       "id": "https://openalex.org/W2979391241",
