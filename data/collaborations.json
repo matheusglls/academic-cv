@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:48:30.436Z",
+  "generated_at": "2026-11-23T16:53:00.632Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
@@ -157,6 +157,12 @@
       "works": 4
     },
     {
+      "id": "https://openalex.org/A5159767137|alves",
+      "openalex_id": "https://openalex.org/A5159767137",
+      "name": "Amanda Patelli-Alves",
+      "works": 3
+    },
+    {
       "id": "https://openalex.org/A5158740778|herrmann",
       "openalex_id": "https://openalex.org/A5158740778",
       "name": "Ana P. Herrmann",
@@ -210,12 +216,6 @@
     {
       "id": "verified:aditi|wadgaonkar",
       "name": "Aditi Wadgaonkar",
-      "works": 2
-    },
-    {
-      "id": "https://openalex.org/A5159767137|alves",
-      "openalex_id": "https://openalex.org/A5159767137",
-      "name": "Amanda Patelli-Alves",
       "works": 2
     },
     {
@@ -2589,6 +2589,16 @@
     {
       "source": "https://openalex.org/A5038381567|piato",
       "target": "https://openalex.org/A5040662413|zanona",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5159767137|alves",
+      "target": "verified:daniela|muller",
+      "works": 2
+    },
+    {
+      "source": "https://openalex.org/A5019870433|bastos",
+      "target": "https://openalex.org/A5159767137|alves",
       "works": 2
     },
     {
@@ -11383,6 +11393,11 @@
     },
     {
       "source": "https://openalex.org/A5120840035|neves",
+      "target": "https://openalex.org/A5159767137|alves",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5120840035|neves",
       "target": "verified:daniela|muller",
       "works": 1
     },
@@ -11404,6 +11419,21 @@
     {
       "source": "https://openalex.org/A5038381567|piato",
       "target": "https://openalex.org/A5120840035|neves",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5092349084|buss",
+      "target": "https://openalex.org/A5159767137|alves",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5130662721|herrmann",
+      "target": "https://openalex.org/A5159767137|alves",
+      "works": 1
+    },
+    {
+      "source": "https://openalex.org/A5038381567|piato",
+      "target": "https://openalex.org/A5159767137|alves",
       "works": 1
     },
     {
@@ -121962,11 +121992,6 @@
       "works": 1
     },
     {
-      "source": "https://openalex.org/A5159767137|alves",
-      "target": "verified:daniela|muller",
-      "works": 1
-    },
-    {
       "source": "https://openalex.org/A5135653932|piato",
       "target": "verified:daniela|muller",
       "works": 1
@@ -123109,11 +123134,6 @@
     {
       "source": "https://openalex.org/A5059560991|zanette",
       "target": "https://openalex.org/A5132829166|ramalho",
-      "works": 1
-    },
-    {
-      "source": "https://openalex.org/A5019870433|bastos",
-      "target": "https://openalex.org/A5159767137|alves",
       "works": 1
     },
     {
