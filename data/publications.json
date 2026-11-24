@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:53:00.595Z",
+  "generated_at": "2026-11-24T16:44:17.221Z",
   "outputs": [
     {
       "id": "https://openalex.org/W7235698182",
@@ -992,12 +992,12 @@
       "doi": "10.1101/2021.10.11.463974"
     },
     {
-      "id": "https://openalex.org/W4200169639",
+      "id": "crossref:10.17504/protocols.io.bx8tprwn",
       "date": "2021-09-14",
       "year": 2021,
       "type": "Protocol",
       "title": "Quantification of nonprotein sulfhydryl groups (NPSH) optimized for zebrafish brain tissue v2",
-      "authors": "Adrieli Sachett, Matheus Gallas‐Lopes, Greicy M. M. Conterato, Radharani Benvenutti, Ana Paula Herrmann, Ângelo Piato",
+      "authors": "Adrieli Sachett, Matheus Gallas-Lopes, Greicy M M Conterato, Radharani Benvenutti, Ana P Herrmann, Angelo Piato",
       "venue": "",
       "url": "https://doi.org/10.17504/protocols.io.bx8tprwn",
       "doi": "10.17504/protocols.io.bx8tprwn"
