@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-24T16:44:17.250Z",
+  "generated_at": "2026-11-25T16:29:29.123Z",
   "coauthors": [
     {
       "id": "verified:ana|herrmann",
       "name": "Ana Paula Herrmann",
-      "works": 31
+      "works": 29
     },
     {
       "id": "verified:angelo|piato",
       "name": "Angelo Piato",
-      "works": 27
+      "works": 25
     },
     {
       "id": "https://openalex.org/A5038381567|piato",
@@ -18,20 +18,15 @@
       "works": 17
     },
     {
-      "id": "verified:radharani|benvenutti",
-      "name": "Radharani Benvenutti",
-      "works": 15
-    },
-    {
       "id": "https://openalex.org/A5019385803|herrmann",
       "openalex_id": "https://openalex.org/A5019385803",
       "name": "Ana Paula Herrmann",
       "works": 14
     },
     {
-      "id": "verified:adrieli|sachett",
-      "name": "Adrieli Sachett",
-      "works": 13
+      "id": "verified:radharani|benvenutti",
+      "name": "Radharani Benvenutti",
+      "works": 14
     },
     {
       "id": "verified:daniela|muller",
@@ -40,9 +35,9 @@
       "works": 13
     },
     {
-      "id": "verified:greicy|conterato",
-      "name": "Greicy M M Conterato",
-      "works": 11
+      "id": "verified:adrieli|sachett",
+      "name": "Adrieli Sachett",
+      "works": 12
     },
     {
       "id": "https://openalex.org/A5031597903|benvenutti",
@@ -51,20 +46,25 @@
       "works": 11
     },
     {
+      "id": "verified:greicy|conterato",
+      "name": "Greicy M M Conterato",
+      "works": 10
+    },
+    {
       "id": "https://openalex.org/A5019870433|bastos",
       "openalex_id": "https://openalex.org/A5019870433",
       "name": "Leonardo M. Bastos",
       "works": 10
     },
     {
-      "id": "verified:leonardo|bastos",
-      "name": "Leonardo Marensi Bastos",
-      "works": 10
-    },
-    {
       "id": "https://openalex.org/A5144224471|herrmann",
       "openalex_id": "https://openalex.org/A5144224471",
       "name": "Ana P. Herrmann",
+      "works": 9
+    },
+    {
+      "id": "verified:leonardo|bastos",
+      "name": "Leonardo Marensi Bastos",
       "works": 9
     },
     {
@@ -147,11 +147,6 @@
       "works": 4
     },
     {
-      "id": "verified:francisco|villarroel",
-      "name": "Francisco Fuentealba-Villarroel",
-      "works": 4
-    },
-    {
       "id": "verified:thailana|buss",
       "name": "Thailana Stahlhofer-Buss",
       "works": 4
@@ -177,6 +172,11 @@
     {
       "id": "verified:dirson|stein",
       "name": "Dirson J. Stein",
+      "works": 3
+    },
+    {
+      "id": "verified:francisco|villarroel",
+      "name": "Francisco Fuentealba-Villarroel",
       "works": 3
     },
     {
@@ -257,11 +257,6 @@
     {
       "id": "verified:david|henshall",
       "name": "David  C. Henshall",
-      "works": 2
-    },
-    {
-      "id": "verified:denise|zancan",
-      "name": "Denise M Zancan",
       "works": 2
     },
     {
@@ -409,6 +404,16 @@
       "id": "verified:yiyue|jiang",
       "name": "Yiyue Jiang",
       "works": 2
+    },
+    {
+      "id": "verified:a|piato",
+      "name": "A. Piato",
+      "works": 1
+    },
+    {
+      "id": "verified:a|herrmann",
+      "name": "A.P. Herrmann",
+      "works": 1
     },
     {
       "id": "verified:adele|leggieri",
@@ -768,6 +773,11 @@
       "works": 1
     },
     {
+      "id": "verified:d|zancan",
+      "name": "D. Zancan",
+      "works": 1
+    },
+    {
       "id": "verified:daniel|rosa",
       "name": "Daniel A. Rosa",
       "works": 1
@@ -840,6 +850,11 @@
       "works": 1
     },
     {
+      "id": "verified:denise|zancan",
+      "name": "Denise M Zancan",
+      "works": 1
+    },
+    {
       "id": "verified:deoclecio|junior",
       "name": "Deoclécio Alves Chianca Júnior",
       "works": 1
@@ -902,6 +917,11 @@
     {
       "id": "verified:ewan|gerken",
       "name": "Ewan Gerken",
+      "works": 1
+    },
+    {
+      "id": "verified:f|villarroel",
+      "name": "F. Fuentealba-Villarroel",
       "works": 1
     },
     {
@@ -1321,6 +1341,11 @@
       "works": 1
     },
     {
+      "id": "verified:l|bastos",
+      "name": "L.M. Bastos",
+      "works": 1
+    },
+    {
       "id": "verified:lays|silva",
       "name": "Lays Adrianne Mendonça Trajano-Silva",
       "works": 1
@@ -1425,6 +1450,11 @@
     {
       "id": "verified:luiz|chuffa",
       "name": "Luiz Gustavo de Almeida Chuffa",
+      "works": 1
+    },
+    {
+      "id": "verified:m|lopes",
+      "name": "M. Gallas-Lopes",
       "works": 1
     },
     {
@@ -2049,7 +2079,7 @@
     {
       "source": "verified:ana|herrmann",
       "target": "verified:angelo|piato",
-      "works": 26
+      "works": 24
     },
     {
       "source": "https://openalex.org/A5019385803|herrmann",
@@ -2059,37 +2089,22 @@
     {
       "source": "verified:adrieli|sachett",
       "target": "verified:ana|herrmann",
-      "works": 13
+      "works": 12
     },
     {
       "source": "verified:ana|herrmann",
-      "target": "verified:radharani|benvenutti",
-      "works": 12
-    },
-    {
-      "source": "verified:adrieli|sachett",
-      "target": "verified:angelo|piato",
-      "works": 12
-    },
-    {
-      "source": "verified:angelo|piato",
       "target": "verified:radharani|benvenutti",
       "works": 11
     },
     {
       "source": "verified:adrieli|sachett",
-      "target": "verified:greicy|conterato",
-      "works": 11
-    },
-    {
-      "source": "verified:ana|herrmann",
-      "target": "verified:greicy|conterato",
+      "target": "verified:angelo|piato",
       "works": 11
     },
     {
       "source": "verified:angelo|piato",
-      "target": "verified:greicy|conterato",
-      "works": 11
+      "target": "verified:radharani|benvenutti",
+      "works": 10
     },
     {
       "source": "https://openalex.org/A5031597903|benvenutti",
@@ -2102,14 +2117,24 @@
       "works": 10
     },
     {
+      "source": "verified:adrieli|sachett",
+      "target": "verified:greicy|conterato",
+      "works": 10
+    },
+    {
       "source": "verified:ana|herrmann",
-      "target": "verified:leonardo|bastos",
-      "works": 9
+      "target": "verified:greicy|conterato",
+      "works": 10
     },
     {
       "source": "verified:angelo|piato",
+      "target": "verified:greicy|conterato",
+      "works": 10
+    },
+    {
+      "source": "verified:ana|herrmann",
       "target": "verified:leonardo|bastos",
-      "works": 7
+      "works": 8
     },
     {
       "source": "https://openalex.org/A5038381567|piato",
@@ -2142,14 +2167,19 @@
       "works": 7
     },
     {
-      "source": "verified:adrieli|sachett",
-      "target": "verified:radharani|benvenutti",
-      "works": 7
-    },
-    {
       "source": "verified:ana|herrmann",
       "target": "verified:daniela|muller",
       "works": 7
+    },
+    {
+      "source": "verified:angelo|piato",
+      "target": "verified:leonardo|bastos",
+      "works": 6
+    },
+    {
+      "source": "verified:adrieli|sachett",
+      "target": "verified:radharani|benvenutti",
+      "works": 6
     },
     {
       "source": "https://openalex.org/A5019870433|bastos",
@@ -2179,11 +2209,6 @@
     {
       "source": "https://openalex.org/A5003172677|chitolina",
       "target": "https://openalex.org/A5038381567|piato",
-      "works": 5
-    },
-    {
-      "source": "verified:greicy|conterato",
-      "target": "verified:radharani|benvenutti",
       "works": 5
     },
     {
@@ -2262,6 +2287,11 @@
       "works": 4
     },
     {
+      "source": "verified:greicy|conterato",
+      "target": "verified:radharani|benvenutti",
+      "works": 4
+    },
+    {
       "source": "verified:amanda|alves",
       "target": "verified:ana|herrmann",
       "works": 4
@@ -2279,16 +2309,6 @@
     {
       "source": "verified:daniela|muller",
       "target": "verified:leonardo|bastos",
-      "works": 4
-    },
-    {
-      "source": "verified:ana|herrmann",
-      "target": "verified:francisco|villarroel",
-      "works": 4
-    },
-    {
-      "source": "verified:angelo|piato",
-      "target": "verified:francisco|villarroel",
       "works": 4
     },
     {
@@ -2397,8 +2417,13 @@
       "works": 3
     },
     {
-      "source": "verified:francisco|villarroel",
-      "target": "verified:leonardo|bastos",
+      "source": "verified:ana|herrmann",
+      "target": "verified:francisco|villarroel",
+      "works": 3
+    },
+    {
+      "source": "verified:angelo|piato",
+      "target": "verified:francisco|villarroel",
       "works": 3
     },
     {
@@ -4622,23 +4647,8 @@
       "works": 2
     },
     {
-      "source": "verified:denise|zancan",
-      "target": "verified:francisco|villarroel",
-      "works": 2
-    },
-    {
-      "source": "verified:denise|zancan",
+      "source": "verified:francisco|villarroel",
       "target": "verified:leonardo|bastos",
-      "works": 2
-    },
-    {
-      "source": "verified:ana|herrmann",
-      "target": "verified:denise|zancan",
-      "works": 2
-    },
-    {
-      "source": "verified:angelo|piato",
-      "target": "verified:denise|zancan",
       "works": 2
     },
     {
@@ -121787,6 +121797,11 @@
       "works": 1
     },
     {
+      "source": "verified:denise|zancan",
+      "target": "verified:francisco|villarroel",
+      "works": 1
+    },
+    {
       "source": "verified:amanda|alves",
       "target": "verified:gabriela|rosa",
       "works": 1
@@ -121803,6 +121818,21 @@
     },
     {
       "source": "verified:amanda|alves",
+      "target": "verified:denise|zancan",
+      "works": 1
+    },
+    {
+      "source": "verified:denise|zancan",
+      "target": "verified:leonardo|bastos",
+      "works": 1
+    },
+    {
+      "source": "verified:ana|herrmann",
+      "target": "verified:denise|zancan",
+      "works": 1
+    },
+    {
+      "source": "verified:angelo|piato",
       "target": "verified:denise|zancan",
       "works": 1
     },
@@ -124012,6 +124042,81 @@
       "works": 1
     },
     {
+      "source": "verified:f|villarroel",
+      "target": "verified:l|bastos",
+      "works": 1
+    },
+    {
+      "source": "verified:f|villarroel",
+      "target": "verified:m|lopes",
+      "works": 1
+    },
+    {
+      "source": "verified:a|herrmann",
+      "target": "verified:f|villarroel",
+      "works": 1
+    },
+    {
+      "source": "verified:d|zancan",
+      "target": "verified:f|villarroel",
+      "works": 1
+    },
+    {
+      "source": "verified:a|piato",
+      "target": "verified:f|villarroel",
+      "works": 1
+    },
+    {
+      "source": "verified:l|bastos",
+      "target": "verified:m|lopes",
+      "works": 1
+    },
+    {
+      "source": "verified:a|herrmann",
+      "target": "verified:l|bastos",
+      "works": 1
+    },
+    {
+      "source": "verified:d|zancan",
+      "target": "verified:l|bastos",
+      "works": 1
+    },
+    {
+      "source": "verified:a|piato",
+      "target": "verified:l|bastos",
+      "works": 1
+    },
+    {
+      "source": "verified:a|herrmann",
+      "target": "verified:m|lopes",
+      "works": 1
+    },
+    {
+      "source": "verified:d|zancan",
+      "target": "verified:m|lopes",
+      "works": 1
+    },
+    {
+      "source": "verified:a|piato",
+      "target": "verified:m|lopes",
+      "works": 1
+    },
+    {
+      "source": "verified:a|herrmann",
+      "target": "verified:d|zancan",
+      "works": 1
+    },
+    {
+      "source": "verified:a|herrmann",
+      "target": "verified:a|piato",
+      "works": 1
+    },
+    {
+      "source": "verified:a|piato",
+      "target": "verified:d|zancan",
+      "works": 1
+    },
+    {
       "source": "https://openalex.org/A5158680512|muller",
       "target": "https://openalex.org/A5161431998|bastos",
       "works": 1
@@ -124070,7 +124175,7 @@
   "countries": [
     {
       "code": "BR",
-      "works": 40
+      "works": 39
     },
     {
       "code": "IE",
@@ -124078,7 +124183,7 @@
     },
     {
       "code": "US",
-      "works": 4
+      "works": 5
     },
     {
       "code": "GB",
